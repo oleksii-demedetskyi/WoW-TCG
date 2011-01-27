@@ -17,5 +17,13 @@ namespace WoWTCG
 		}
 
 		#endregion
+
+		internal void ReadyAll()
+		{
+			foreach (IExhaustble item in _cards)
+			{
+				item.Ready();
+			}
+		}
 	}
 }

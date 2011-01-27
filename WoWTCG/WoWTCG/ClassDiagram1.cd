@@ -33,6 +33,13 @@
         <Position X="0.124" Y="0.032" />
       </MemberNameLabel>
     </AssociationLine>
+    <AssociationLine Name="_rfg" Type="WoWTCG.RemovedFromGame" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="3" />
+        <Point X="19" Y="3" />
+        <Point X="19" Y="4.75" />
+      </Path>
+    </AssociationLine>
     <AssociationLine Name="_inPlay" Type="WoWTCG.InPlayZone" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="10.25" Y="3.881" />
@@ -43,31 +50,24 @@
         <Position X="-0.758" Y="0.377" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="_rfg" Type="WoWTCG.RemovedFromGame" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="10.25" Y="3" />
-        <Point X="19" Y="3" />
-        <Point X="19" Y="4.75" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAgAACAASAAAABAAAgBAEAgAAAAAAAAAAgAAAJAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
+      <FileName>Entities\Player.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="_deck" />
       <Field Name="_hero" />
       <Field Name="_graveyard" />
       <Field Name="_hand" />
-      <Field Name="_inPlay" />
       <Field Name="_rfg" />
+      <Field Name="_inPlay" />
     </ShowAsAssociation>
   </Class>
   <Class Name="WoWTCG.Deck">
     <Position X="11.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAABAAAAAIAAAAAAACAAAEAA=</HashCode>
-      <FileName>Deck.cs</FileName>
+      <FileName>Entities\Zones\Deck.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_cards" />
@@ -77,8 +77,10 @@
     <Position X="14.75" Y="7.25" Width="1.5" />
     <AssociationLine Name="_powers" Type="WoWTCG.Power" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="16.25" Y="8.438" />
-        <Point X="22.625" Y="8.438" />
+        <Point X="16.25" Y="9.443" />
+        <Point X="22" Y="9.443" />
+        <Point X="22" Y="8.75" />
+        <Point X="22.625" Y="8.75" />
         <Point X="22.625" Y="9" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
@@ -86,12 +88,13 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <HashCode>CAAAIAAAACAAAAEAAAAAAAAAAAAAAAAAAABAAABAAAA=</HashCode>
       <FileName>Entities\Cards\Card.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_powers" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.971" />
   </Class>
   <Class Name="WoWTCG.Board">
     <Position X="6.75" Y="0.5" Width="1.5" />
@@ -114,7 +117,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAgAAAAACIAAAAAAAAAAAAAAABAAACAAAAAgAAAAAA=</HashCode>
-      <FileName>Board.cs</FileName>
+      <FileName>Entities\Board.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="_player1" />
@@ -126,13 +129,13 @@
     <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="13.75" Y="6.305" />
-        <Point X="13.75" Y="7.437" />
-        <Point X="14.75" Y="7.437" />
+        <Point X="13.75" Y="7.595" />
+        <Point X="14.75" Y="7.595" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>HandZone.cs</FileName>
+      <FileName>Entities\Zones\HandZone.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_cards" />
@@ -144,13 +147,13 @@
     <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="17.25" Y="5.853" />
-        <Point X="17.25" Y="7.53" />
-        <Point X="16.25" Y="7.53" />
+        <Point X="17.25" Y="7.767" />
+        <Point X="16.25" Y="7.767" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Graveyard.cs</FileName>
+      <FileName>Entities\Zones\Graveyard.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_cards" />
@@ -161,13 +164,16 @@
     <Position X="14.75" Y="4.75" Width="1.5" />
     <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedToPoint="true">
       <Path>
-        <Point X="15.25" Y="5.853" />
+        <Point X="15.25" Y="6.305" />
         <Point X="15.25" Y="7.25" />
       </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.12" Y="0.091" />
+      </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>InPlayZone.cs</FileName>
+      <HashCode>AAAAAAAAAAEAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Zones\InPlayZone.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_cards" />
@@ -179,8 +185,8 @@
     <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="19" Y="5.853" />
-        <Point X="19" Y="7.996" />
-        <Point X="16.25" Y="7.996" />
+        <Point X="19" Y="8.627" />
+        <Point X="16.25" Y="8.627" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.11" Y="0.102" />
@@ -188,7 +194,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>RemovedFromGame.cs</FileName>
+      <FileName>Entities\Zones\RemovedFromGame.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="_cards" />
@@ -197,14 +203,6 @@
   </Class>
   <Class Name="WoWTCG.Hero">
     <Position X="10" Y="11" Width="1.5" />
-    <InheritanceLine Type="WoWTCG.Card" ManuallyRouted="true">
-      <Path>
-        <Point X="15.5" Y="8.546" />
-        <Point X="15.5" Y="9.563" />
-        <Point X="11.25" Y="9.563" />
-        <Point X="11.25" Y="11" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAACAAAAAEAAAAAIAAAAAQAAAAAAAAAACAACAAAABA=</HashCode>
       <FileName>Entities\Cards\Equip\Hero.cs</FileName>
@@ -213,14 +211,6 @@
   </Class>
   <Class Name="WoWTCG.Ally">
     <Position X="12.75" Y="11" Width="1.5" />
-    <InheritanceLine Type="WoWTCG.Card" ManuallyRouted="true">
-      <Path>
-        <Point X="15.5" Y="8.546" />
-        <Point X="15.5" Y="9.576" />
-        <Point X="13.5" Y="9.576" />
-        <Point X="13.5" Y="11" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAACAAEAAEAAAAAIAAAAAQgAAAAAAAAACAACAAAAFg=</HashCode>
       <FileName>Entities\Cards\Ally.cs</FileName>
@@ -236,14 +226,6 @@
   </Class>
   <Class Name="WoWTCG.Ability">
     <Position X="16.75" Y="11" Width="1.5" />
-    <InheritanceLine Type="WoWTCG.Card" ManuallyRouted="true">
-      <Path>
-        <Point X="15.5" Y="8.546" />
-        <Point X="15.5" Y="9.557" />
-        <Point X="17.5" Y="9.557" />
-        <Point X="17.5" Y="11" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Ability.cs</FileName>
@@ -274,14 +256,6 @@
   </Class>
   <Class Name="WoWTCG.Token">
     <Position X="19" Y="11" Width="1.5" />
-    <InheritanceLine Type="WoWTCG.Card" ManuallyRouted="true">
-      <Path>
-        <Point X="15.5" Y="8.546" />
-        <Point X="15.5" Y="9.549" />
-        <Point X="19.75" Y="9.549" />
-        <Point X="19.75" Y="11" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAACAAAAAEAAAAAIAAAAAQgAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Entities\Cards\Token.cs</FileName>
@@ -297,14 +271,6 @@
   </Class>
   <Class Name="WoWTCG.Quest">
     <Position X="21" Y="11" Width="1.5" />
-    <InheritanceLine Type="WoWTCG.Card" ManuallyRouted="true">
-      <Path>
-        <Point X="15.5" Y="8.546" />
-        <Point X="15.5" Y="9.562" />
-        <Point X="21.75" Y="9.562" />
-        <Point X="21.75" Y="11" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Quest.cs</FileName>
@@ -332,28 +298,35 @@
     <Position X="20" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IDamageDealer.cs</FileName>
+      <FileName>Entities\Cards\IDamageDealer.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WoWTCG.ICharacter">
     <Position X="21.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>ICharacter.cs</FileName>
+      <FileName>Entities\Cards\ICharacter.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WoWTCG.iGameZone">
     <Position X="23.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>iGameZone.cs</FileName>
+      <FileName>Entities\Zones\iGameZone.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WoWTCG.IExhaustble">
+    <Position X="25.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>IExhaustble.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="WoWTCG.Class" Collapsed="true">
     <Position X="18" Y="0.5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>ACAAAgAAAAAAAAAAADAAEAAAgECAAAAQAAAAAAIAABA=</HashCode>
-      <FileName>Class.cs</FileName>
+      <FileName>Props\Class.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="WoWTCG.Race" Collapsed="true">

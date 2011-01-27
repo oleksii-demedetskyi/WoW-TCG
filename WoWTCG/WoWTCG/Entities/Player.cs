@@ -72,7 +72,12 @@ namespace WoWTCG
 
 		internal void MakeTurn()
 		{
-			// TODO: Get turn sequence
+			// Start step
+			_inPlay.ReadyAll();
+			_hand.Add(_deck.Draw());
+			
+
+
 			throw new NotImplementedException("Need to determine turn sequence");
 		}
 	}
