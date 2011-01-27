@@ -48,6 +48,7 @@
     <Compile Include="Game.cs" />
     <Compile Include="Entities\Cards\ICharacter.cs" />
     <Compile Include="Entities\Zones\iGameZone.cs" />
+    <Compile Include="IExhaustble.cs" />
     <Compile Include="Props\AtkType.cs" />
     <Compile Include="Entities\Board.cs" />
     <Compile Include="Entities\Cards\Card.cs" />

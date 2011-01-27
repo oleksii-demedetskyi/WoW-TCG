@@ -10,6 +10,7 @@ namespace WoWTCG
 		private int _cost;
 		private List<Power> _powers;
 		private string _name;
+		private bool _exhausted;
 
 		#region IExhaustble Members
 
@@ -17,22 +18,18 @@ namespace WoWTCG
 		{
 			get
 			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
+				return _exhausted;
 			}
 		}
 
 		public void Ready()
 		{
-			throw new NotImplementedException();
+			_exhausted = false;
 		}
 
 		public void Exhaust()
 		{
-			throw new NotImplementedException();
+			_exhausted = true;
 		}
 
 		#endregion

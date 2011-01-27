@@ -10,7 +10,6 @@ namespace WoWTCG
 		bool Exhausted
 		{
 			get;
-			set;
 		}
 	
 		void Ready();
