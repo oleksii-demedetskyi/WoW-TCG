@@ -72,13 +72,40 @@ namespace WoWTCG
 
 		internal void MakeTurn()
 		{
-			// Start step
-			_inPlay.ReadyAll();
-			_hand.Add(_deck.Draw());
+			/* START phase */
+			_inPlay.ReadyAll(); // Ready step
+			// TODO: Triggered effects. Player has priority
+
+			_hand.Add(_deck.Draw()); // Draw step
 			
+			/* ACTION phase */
+			Act(); // play-non instant; place a resource; propose a combat;
 
+			/*END pahse*/
+			// TODO: Triggered events add to the chain. Player has priority
+			if (_hand.Cards.Count() > 7) // Wrap-Up
+			{
+				Discard();
+			}
+			// Expire modifiers (until end of turn...)
+		}
 
-			throw new NotImplementedException("Need to determine turn sequence");
+		private void Discard()
+		{
+			var card = SelectDiscardCard();
+			_hand.Discard(card);
+			_graveyard.Add(card);
+		}
+
+		private object SelectDiscardCard()
+		{
+			// TODO: implenet #AI;
+			return _hand.Cards.Any();
+		}
+
+		private void Act()
+		{
+			throw new NotImplementedException();
 		}
 	}
 }
