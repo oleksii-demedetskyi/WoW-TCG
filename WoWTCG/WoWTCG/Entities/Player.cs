@@ -97,10 +97,10 @@ namespace WoWTCG
 			_graveyard.Add(card);
 		}
 
-		private object SelectDiscardCard()
+		private Card SelectDiscardCard()
 		{
 			// TODO: implenet #AI;
-			return _hand.Cards.Any();
+			return _hand.Cards.FirstOrDefault();
 		}
 
 		private void Act()

@@ -22,5 +22,10 @@ namespace WoWTCG
 		}
 
 		#endregion
+
+		internal void Discard(Card card)
+		{
+			_cards.Remove(card);
+		}
 	}
 }

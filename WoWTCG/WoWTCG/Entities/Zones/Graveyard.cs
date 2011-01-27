@@ -17,5 +17,10 @@ namespace WoWTCG
 		}
 
 		#endregion
+
+		internal void Add(Card card)
+		{
+			_cards.Add(card);
+		}
 	}
 }
