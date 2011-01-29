@@ -7,6 +7,11 @@
 #load "Web.fs"
 #load "Parser.fs"
 
-open Web
 open Parser
+open HtmlAgilityPack
 
+let GetCard =
+    let html = Web.LoadCard "Bloodsoul"
+    let doc = new HtmlAgilityPack.HtmlDocument()
+    doc.LoadHtml(html)
+    Parser.ParseCard(doc.DocumentNode)

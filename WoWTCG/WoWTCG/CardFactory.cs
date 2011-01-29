@@ -18,6 +18,8 @@ namespace WoWTCG
 		{
 			var lib = new Dictionary<Hero, Deck>();
 
+			var cards = Parser.Parser.GetDeck(4906);
+
 			return lib;
 		}
 

@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FSharp.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\HAP\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,6 +81,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="libriary.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBParser\DBParser.fsproj">
+      <Project>{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}</Project>
+      <Name>DBParser</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
