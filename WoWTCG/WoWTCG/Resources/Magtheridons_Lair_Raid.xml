@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Magtheridons Lair Raid" id="c5e3796d-2634-944e-4c92-ab8891736781" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+    <card id="84a29bc4-694d-7b2a-75b9-13855573d450" name="Abyssal Reinforcements">
+      <property name="Card Number" value="Raid - 3/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="Put an Abyssal ally token with 6 ATK / 6 health into play. Ongoing: Destroy two Bloods Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="db2dd288-c8bd-b292-81cc-73b43c265a97" name="Bathe in Blood">
+      <property name="Card Number" value="Raid - 4/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="0" />
+      <property name="Rules" value="Magtheridon deals 2 melee damage to target hero or ally.; If Magtheridon is Unleashed, gain a Blood." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6411da0d-dcbf-5124-7601-2dea6abb3dac" name="Blast Nova">
+      <property name="Card Number" value="Raid - 5/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Flip Magtheridon's Lair." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="5b1a6f2d-4abd-0074-0e3c-6cfdcf7a5736" name="Blindside">
+      <property name="Card Number" value="Raid - 2/43" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Each raiding player removes his hand from the game. At the end of your next turn, put each card removed this way into its owner's hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c6a7ed89-7d0b-7f4d-1816-708468400e8c" name="Blood Siphon">
+      <property name="Card Number" value="Raid - 7/43" />
+      <property name="Rules" value="Ongoing: Destroy Blood Siphon &gt; Draw three cards." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="17a11cb4-1a6a-abf3-1d97-9b5c9291396b" name="Broken Hopes">
+      <property name="Card Number" value="Raid - 8/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Ongoing: Destroy Broken Hopes &gt; Destroy target ability or equipment." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="bc64caee-cc25-f330-e1e3-3574a8d835d8" name="Brush Aside">
+      <property name="Card Number" value="Raid - 9/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="Interrupt target ability, ally, or equipment card.; Magtheridon deals 1 melee damage to its controller's hero for each Blood in play." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="79f406c1-ea37-6e32-3e4e-a48b2f3ea15f" name="Cleave Apart">
+      <property name="Card Number" value="Raid - 10/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Destroy an ability, ready ally, and equipment controlled by target raiding player." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="fc219195-c91b-926e-b420-4cbe85bd7614" name="Dark Mending Channeler">
+      <property name="Card Number" value="Raid - 36/43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Rules" value="Dark Mending Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.; [Activate] &gt; Dark Mending Channeler heals all damage from target friendly ally. Use only on your turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7313d957-61f4-0dbf-c780-3aaecac5b815" name="Deadly Sweep">
+      <property name="Card Number" value="Raid - 11/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="For each raiding player, destroy up to one target ability, ally, or equipment he controls." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a6cca51d-b15d-381e-1bc4-a51b42338442" name="Demonic Fury">
+      <property name="Card Number" value="Raid - 12/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Demonic Fury enters play exhausted.; Ongoing: [Activate] &gt; You pay 2 less to play your next card this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="832598f0-e4c3-6ce6-9c28-c26f572757aa" name="Fel Ruination">
+      <property name="Card Number" value="Raid - 13/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Play only of seven or more Bloods are in play.; Raiding players destroy an ability, ally, or equipment they control for each Blood in play." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="cd87d5b7-86d8-e1da-396b-935c827b952c" name="Fiery Pits">
+      <property name="Card Number" value="Raid - 14/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Raiding players put 15 damage divided as they choose on any number of heroes and/or allies in their parties, putting no more than fatal damage on each character." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="cc6febfd-cf3c-a169-a2db-3857d3c2c765" name="Magtheridon">
+      <property name="Card Number" value="Raid - 1/43" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="100" />
+      <property name="Rules" value="FRONT: Untargetable; Magtheridon can't attack or be dealt damage.; When the last Channeler leaves your party or you place your fifth resource, flip Magtheridon.; BACK: When Magtheridon flips to this side, put five cubes into play, gain a Blood, and say, &quot;I am UNLEASHED!&quot; Put Magtheridon's Lair into play on the Coolsown side and swap this card with Unleashed Magtheridon." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8551bbe1-7372-c277-21cc-150c7cbada78" name="Magtheridon">
+      <property name="Card Number" value="Raid - 2/43" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="100" />
+      <property name="Rules" value="FRONT: Magtheridon has +1 ATK while attacking for each Blood in play.; When the tenth Blood enters play, flip Magtheridon.; BACK: Magtheridon has +2 ATK while attacking for each Blood in play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="13fc958e-5e3c-80d3-2b01-be787725178f" name="Magtheridon's Blood">
+      <property name="Card Number" value="Raid - 41/43" />
+      <property name="Type" value="Token" />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="581255d7-883e-345a-8156-58951d59f878" name="Magtheridon's Lair">
+      <property name="Card Number" value="Raid - 43/43" />
+      <property name="Type" value="Lair" />
+      <property name="Rules" value="FRONT: When Magtheridon's Lair flips to this side, put 2 damage on each hero and ally with an attached Cube, then detach all Cubes.; At the end of your turn, flip Magtheridon's Lair.; BACK: At the start of your turn, if one or more Cubes are unattached, Magtheridon deals 10 fire damage to each opposing hero and ally. At the end of your turn, flip Magtheridon's Lair." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ccbc04e4-2dde-3d48-3996-77bb059dd18c" name="Magtheridon's Rage">
+      <property name="Card Number" value="Raid - 15/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="X" />
+      <property name="Rules" value="Target an ally. You may target an additional ally for each Blood in play. Magtheridon deals X melee damage to each of those allies." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="46a53c81-5a82-7586-e7c0-1839faee6ca2" name="Manticron Cube">
+      <property name="Card Number" value="Raid - 42/43" />
+      <property name="Type" value="Cube" />
+      <property name="Rules" value="Exhaust a hero or ally in your party &gt; Attach this Cube to that character while that character remains exhausted. Only a raiding player can use this power, and only on his turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c9306163-e229-b215-e122-2d153d6cddba" name="Mind Exhaustion">
+      <property name="Card Number" value="Raid - 16/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Attach to target hero or ally, and Magtheridon deals 4 fire damage to it." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="7edac5a3-9fa6-288a-471e-a83fc4baa7aa" name="One Fell Swoop">
+      <property name="Card Number" value="Raid - 17/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="6" />
+      <property name="Rules" value="Play only if fifteen or more Bloods are in play.As an additional cost to play, exhaust Magtheridon.One Fel Swoop can't be interrupted.Magtheridon deals 30 melee damage to each opposing hero and ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="51bd8d41-a08b-38a9-8acf-6dcebeccaeba" name="Path of Ruin">
+      <property name="Card Number" value="Raid - 18/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Rules" value="Choose a number. Destroy all opposing abilities, allies, and equipment with cost equal to that number." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="6ecb57aa-eab7-4be2-2243-edec8e38311f" name="Pit Lord's Armor">
+      <property name="Card Number" value="Raid - 39/43" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Play only if Magtheridon is Unleashed.Destroy a Blood This turn, Magtheridon can't be targeted by raiding players, and your cards can't be interrupted." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="fa3e19ed-272d-d916-b882-e7c6ec2e5df3" name="Pit Lord's Glaive">
+      <property name="Card Number" value="Raid - 40/43" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Rules" value="Play only if Magtheridon is Unleashed.When Magtheridon deals combat damage to a hero or ally, he also deals that much damage to a second target hero or ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="26d813b3-adc2-02e9-c1ca-e61191627da2" name="Power Returns">
+      <property name="Card Number" value="Raid - 19/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Rules" value="Draw a card for each Blood in play.Destroy a Blood Put Power Returns into your hand. Use only if Power Returns is in your graveyard." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="4521eaac-63f2-6880-646a-25a8d0cb97f7" name="Rampant Destruction">
+      <property name="Card Number" value="Raid - 20/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="Destroy an opposing ability or equipment for each Blood in play.When an opposing card or effect causes you to discard Rampant Destruction, you may put it from your graveyard into your hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="007da219-9c3c-3b91-73fa-97641fd97aee" name="Redouble Effort">
+      <property name="Card Number" value="Raid - 21/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="Ongoing: Ready Magtheridon. He can't attack the same hero more than once this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="5a0ea5b1-4178-15b6-d734-55ed7e2e5ac1" name="Sadistic Choice">
+      <property name="Card Number" value="Raid - 22/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Reveal the top two cards of your deck. Target raiding player chooses whether you put them into your hand or graveyard. If he chooses the graveyard, draw two cards." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a5e36891-8e97-0d91-5748-3f4e254b0dad" name="Shadow Channeler">
+      <property name="Card Number" value="Raid - 37/43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Class" value="Warlock" />
+      <property name="Rules" value="Shadow Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.3, Shadow Channeler deals 1 shadow damage to each hero and ally in target raiding player's party. Use only on your turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7dda7168-5edd-2d64-54dc-0326642f1c7a" name="Shadow Channeler">
+      <property name="Card Number" value="Raid - 38/43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Class" value="Warlock" />
+      <property name="Rules" value="Shadow Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.3, Shadow Channeler deals 1 shadow damage to each hero and ally in target raiding player's party. Use only on your turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    
+    <card id="77d4dc2b-b936-ebea-3eb6-869d51f17933" name="Sow Destruction">
+      <property name="Card Number" value="Raid - 23/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Sow Destruction enters play with a curse counter for each Blood in play.Ongoing: At the start of your turn, put a curse counter on Sow Destruction, and then Magtheridon deals fire damage equal to the number of curse counters to the opposing hero with the least damage. You settle ties." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="9c44a508-6dfb-1953-62b1-c7355c70e41b" name="Spirit Wrench">
+      <property name="Card Number" value="Raid - 24/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Rules" value="Play only if seven or more Bloods are in play.Remove all damage from target opposing hero and put it on a second target hero." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="398993e1-7855-a228-9bc4-d31b45d19919" name="Squish Together">
+      <property name="Card Number" value="Raid - 25/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Exhaust twp target opposing allies. Each deals melee damage equal to its ATK to the other ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="7a3d9d54-c366-fb44-d9f2-a42e16d4bbe5" name="Summoner Channeler">
+      <property name="Card Number" value="Raid - 34/43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Class" value="Warlock" />
+      <property name="Rules" value="Summoner Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.3, Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="92655de9-79a7-6df9-eb4a-2040e0b005f9" name="Summoner Channeler">
+      <property name="Card Number" value="Raid - 35/43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Class" value="Warlock" />
+      <property name="Rules" value="Shadow Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.3, Shadow Channeler deals 1 shadow damage to each hero and ally in target raiding player's party. Use only on your turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    
+    <card id="21d62c63-6b5f-531a-f4f4-5d113e3ac8eb" name="Swath of Destruction">
+      <property name="Card Number" value="Raid - 26/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Play only if one or more Bloods are in play. Destroy target opposing ally, and its controller chooses a second raiding player. That player destroys one of his resources and chooses a third raiding player. That player discards a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="0797433c-4a44-b62a-a69b-3ea22a776a36" name="Terrifying Presence">
+      <property name="Card Number" value="Raid - 27/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Ongoing: Opposing allies enter play exhausted.Exhaust target ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    
+    <card id="2eb682e1-1dcd-fba4-f319-6e1dea97125a" name="Toss About">
+      <property name="Card Number" value="Raid - 28/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Play only if one or more Bloods are in play." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="25b5c764-608d-d6a6-2880-f88c5d7a2ba6" name="Trample Underfoot">
+      <property name="Card Number" value="Raid - 29/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Magtheridon deals 2 melee damage to target hero or ally.Ongoing: When Magtheridon becomes exhausted, he deals 2 melee damage to target hero or ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="1afa959a-4f62-bcab-7fe8-723c879d87ed" name="Violent Reflex">
+      <property name="Card Number" value="Raid - 30/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Ongoing: When Magtheridon is dealt damage, he deals 1 melee damage to the source of that damage." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="76f7e4fb-abf4-adbf-c318-5378582f3314" name="Whiplash">
+      <property name="Card Number" value="Raid - 31/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Rules" value="Exhaust an opposing ally for each card above seven in your hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="26b3fb1e-e366-f8c7-6782-55a53e45bd81" name="Will of the Legion">
+      <property name="Card Number" value="Raid - 32/43" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Rules" value="Interrupt target ability, ally, or equipment card." />
+      <property name="Rarity" value="U" />
+    </card>
+  </cards>
+</set>

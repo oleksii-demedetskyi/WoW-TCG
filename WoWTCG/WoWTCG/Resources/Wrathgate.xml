@@ -1,0 +1,2069 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Wrathgate" id="f4d285f6-e63a-75ce-41d5-2d0a8ad4d74a" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+   <packaging>
+    <pack name="Booster" id="e58803d5-c12c-49ca-abef-975f5e94b517">
+  	<options>
+   	 <option probability="0.125">
+      <pick qty="1" key="Rarity" value="E" />
+  	 </option>
+  	 <option probability="0.875">
+      <pick qty="1" key="Rarity" value="R" />
+  	 </option>
+  	</options>
+     <pick qty="4" key="Rarity" value="U" />
+     <pick qty="13" key="Rarity" value="C" />
+     <pick qty="1" key="Type" value="Hero" />
+    </pack>
+	<pack name="Heroes" id="df69f4a9-e3a3-4775-bf98-a58bc94a73c3">
+      <pick qty="unlimited" key="Type" value="Hero" />
+    </pack>
+  </packaging>
+  <cards>
+    <card id="4a80d711-9425-587b-822b-513a1a8451e0" name="A tale of Valor">
+      <property name="Card Number" value="1" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 4 to complete this quest. Reward: Reveal the top card of your deck and put it into your hand. Your hero heals damage from itself equal to that card's cost." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="32cfe606-d467-2b81-42c0-8735527cb26d" name="Ancestral Awakening">
+      <property name="Card Number" value="2" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Restoration Hero Required Search your deck for an ally with cost less than or equal to the number of resources you control. Put it into play with damage equal to its [HEALTH] -1." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="27bd056f-809e-31cc-989b-6b1c66acb7bf" name="Angrathar the Wrathgate">
+      <property name="Card Number" value="3" />
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When a card enters an opposing graveyard from anywhere, add a rattle counter. On your turn: 2, [Exhaust], Remove three rattle counters --&gt; Put a 3 [Melee] / 3 [Health] Scourge ally token into play." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="f828bbe8-26c7-b82d-968b-a2deafcf83c1" name="Angry Dread">
+      <property name="Card Number" value="4" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Rogue, Shaman, Warrior" />    <property name="Rules" value="When this weapon enters play, you may draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4cde0c86-96b2-5e57-9c85-3c54a1281d52" name="Annihilate">
+      <property name="Card Number" value="4" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Destroy target exhausted ally or equipment." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="018493de-d948-66da-4502-4dc519811149" name="Anti-Magic Shell">
+      <property name="Card Number" value="6" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: [Exhaust] --&gt; Prevent the next non-melee damage that would be dealt to your hero this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="7798cc8c-3d76-894a-7d05-997519d39806" name="Antyr">
+      <property name="Card Number" value="7" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="8" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, you may destroy target ability that's not attached to a friendly card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="8c2bd5a5-2349-484b-8545-bad083f2bd64" name="Apply This Twice a Day">
+      <property name="Card Number" value="8" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 3 to complete this quest. Reward: Draw a card. If a hero or ally you controlled healed damage this turn, draw another card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="228f16b1-9222-fc28-991e-2f213a449106" name="Archmage Barstow">
+      <property name="Card Number" value="9" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="25" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Barstow, discard a Mage --&gt; Opposing heroes and allies lose and can't have powers this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="cedcda44-fadb-8298-263b-e3b67a67832b" name="Arlen the Untamed">
+      <property name="Card Number" value="10" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Allies you control have Assault 1 while you control a Form." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c0841e66-c966-55c6-7511-763d463d6a46" name="Armored Blue Wind Rider">
+      <property name="Card Number" value="11" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="[Exhaust] --&gt; Ready a location you control. When you place a resource face up, you may remove a counter from target location. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="5a60d2b5-4760-da4c-041d-0429a5c1b3af" name="Armored Snowy Gryphon">
+      <property name="Card Number" value="12" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="[Exhaust] --&gt; Ready a location you control. When you play a resource face up, you may choose a counter on target location and add another of those counters to it. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="5771cd24-b376-3e78-83a9-783ce01d266f" name="Astani Dawngrace">
+      <property name="Card Number" value="13" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector, Assault 1, Mend 1" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e614930e-6ee4-6154-537d-447a841b8582" name="Astral Recall">
+      <property name="Card Number" value="15" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Remove this ability from the game. Put up to one target ability, up to one target ally, and up to one target equipment from your graveyard into your hand." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="c5ea6b6f-1edf-b5b6-90a6-be6e1e92078a" name="Aurius">
+      <property name="Card Number" value="16" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When a friendly Paladin is destroyed, it may deal 3 unpreventable holy damage to target hero or ally." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="53b6898b-6bb7-4913-ef37-fc457cdcaa3e" name="Ayluro Nightwind">
+      <property name="Card Number" value="17" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Mend 5 This ally can't heal heroes." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="a795f31c-778b-70a6-439c-a13c9b51c77d" name="Azjol-anak Champion">
+      <property name="Card Number" value="18" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Nerubian Reputation This ally has +3 / +3 while an ability, ally, and equipment are in your graveyard." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="1751bcf3-ac77-35f9-757c-18b6aebc2ca1" name="Bantham, Jadefist Apprentice">
+      <property name="Card Number" value="19" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector This ally has -2/-2 while attacking." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="58be51a1-e9fd-793f-4d76-f85252bfc6d1" name="Banzai">
+      <property name="Card Number" value="19" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="This ally has +1 ATK for each card in opposing graveyards." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="43a9da4a-59ce-3877-5a93-15179aa523bb" name="Bestial Rage">
+      <property name="Card Number" value="20" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Warrior" />    <property name="Rules" value="Ongoing: Your hero has Assault 1 for each Hunter and Warrior you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="76b1e258-2908-7351-8836-5b6b134ecd7d" name="Blazemistress Lindsey">
+      <property name="Card Number" value="21" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="[Exhaust], Discard an ability --&gt; This ally deals 4 fire damage to target hero or ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="1aeaf625-617c-5b34-1d2c-7faa9b6282e5" name="Blazing Hippogryph">
+      <property name="Card Number" value="22" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation [Exhaust] --&gt; Ready a location you control. When you play a resource face up, your hero may heal all damage from target Unique ally you control. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="42413210-8c84-ce58-4dda-1ca0e6838808" name="Blood Rune">
+      <property name="Card Number" value="23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="As an additional cost to play, remove an equipment in your graveyard from the game. Ongoing: [Exhaust] --&gt; You pay 1 less to play your next card this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="5c861b46-c7c9-f9b0-a52b-ea6c9acc1702" name="Bluffstalker Honovi">
+      <property name="Card Number" value="24" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Assault 2 Allies have -2 ATK while defending this ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7a59903a-1d8c-f399-2493-869617f1e874" name="Blustering Winds">
+      <property name="Card Number" value="25" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Target up to three heroes and/or allies. They can't attack or protect this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="08bdc156-c928-ee52-dfc4-c45aa656237e" name="Bolvar, Highlord of Fordragon Hold">
+      <property name="Card Number" value="26" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Untargetable When this ally enters play, you may search your deck for a card named Fordragon Hold and put it into your resource row face up and exhausted. Death Rattle. Put each location you control into it's owner's hand." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="297fed56-d799-4744-d767-1fa6a453e296" name="Boots of the Renewed Flight">
+      <property name="Card Number" value="27" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="When this armor prevents damage, you may pay 4. If you do, draw a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ab87bd4a-48a9-5c49-345c-1be8b2a9a3c2" name="Bronthea the Resolute">
+      <property name="Card Number" value="28" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="You can strike with [Paladin] weapons you control while this ally is in combat. [Paladin] armor you control can prevent damage that would be dealt to this ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="81ccb541-f674-225e-17db-79fc5b2102e9" name="Brother Keltan">
+      <property name="Card Number" value="29" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation When this or another Unique ally enters play under your control, it may deal 2 unpreventable holy damage to target ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="02e8d722-8ac2-b4b1-d478-8a1c8a159372" name="Burly Berta">
+      <property name="Card Number" value="30" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Assault 2 When this ally deals damage to a hero, you may draw a card. Death Rattle: Target ally you control has Assault 2 this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="18a33c61-dd3d-6e15-147a-d30dfb2d6b0c" name="Cedric Darwin">
+      <property name="Card Number" value="31" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, you may search target player's deck for a card and remove it from the game." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="58d666da-d314-7dce-467b-a96ad1b7cecf" name="Charger">
+      <property name="Card Number" value="32" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="You pay 1 less to complete quests. When you place a resource face up, your hero may deal 1 unpreventable holy damage to target hero or ally. Prevent the next 1 damage that would be dealt to a second target hero or ally this turn. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a266924d-bafb-ac18-c3d1-3633c89e455a" name="Cloak of the Shadowed Sun">
+      <property name="Card Number" value="33" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Warrior" />    <property name="Rules" value="Your hero has Protector Hero: Opposing allies have -1 ATK. Hero: Opposing allies have -1 [Health]" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="48842411-afc9-8df7-9e6c-7edb74e7d587" name="Colossal Skull-Clad Clever">
+      <property name="Card Number" value="34" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Shaman, Warrior" />    <property name="Rules" value="When an opposing ally is destroyed, add a skull counter. This weapon has Assault 1 for each skull counter." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="40836dd9-17ed-7c8a-8b74-d9772b3daa1b" name="Commander Falstaav">
+      <property name="Card Number" value="35" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation Protector Once per turn: 2 --&gt; Target Unique ally has +X ATK this turn, where X is its ATK." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="25de8394-7dd0-2717-ee25-9a892e218f6c" name="Conqueror Hashkon">
+      <property name="Card Number" value="36" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, he deals 3 nature damage divided as you choose to any number of target opposing Priests." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6eac8186-9430-40b4-160d-4aea8dbbc5db" name="Conqueror Vun'jin">
+      <property name="Card Number" value="37" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="6" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, target an opposing Paladin ally. You control it and it has Protector while this ally remains under your control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="d1e4bb86-39ba-e5eb-c62f-352c7e54757c" name="Conqueror Zaala">
+      <property name="Card Number" value="38" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="At the start of your turn, you may remove another ally you control from the game. F you do, remove target Druid all, [Druid] ability, or [Druid] equipment from the game." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a6c12aa8-08c9-7876-8c8b-d8b80c9183bc" name="Conversing With the Depths">
+      <property name="Card Number" value="39" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 3 to complete this quest. Reward: Draw a card for each five cards in your graveyard." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="b89b62a7-ea58-e227-e09b-ec2e6d516b60" name="Crusade Commander Entari">
+      <property name="Card Number" value="40" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation At the end of your turn, this ally deals 1 unpreventable holy damage to each opposing hero and ally for each Unique ally you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8ad93b37-88d7-1294-c905-c3b7d9137fab" name="Crusade Engineer Spitzpatrick">
+      <property name="Card Number" value="41" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Engineer" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation Protector When this or another Unique ally enters play under your control, you may draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="113c337c-576e-4816-e48b-171140ce6086" name="Crusader Farisa">
+      <property name="Card Number" value="42" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Farisa, discard a Paladin --&gt; Farisa heals 3 damage from target ally. Draw a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="5145859a-678d-9e3d-b2ac-295f9c4f38c5" name="Crusader Lord Dalfors">
+      <property name="Card Number" value="43" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation If a Unique ally you control would be dealt damage, prevent 1 of it." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="cdc94e9e-778e-e867-99d4-250556fee2ae" name="Curse of Doom">
+      <property name="Card Number" value="44" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Attach to target opposing ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="28048d34-9d96-29b0-46b9-8cb5173bd1fd" name="Cycle of Life">
+      <property name="Card Number" value="45" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="If an ally entered play and an ally left play this turn: Pay 2 to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e6b438dc-cc4a-d858-3c31-848ea2975c48" name="Daralis the Sanctifier">
+      <property name="Card Number" value="46" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When you play an Ongoing [Priest] ability, this ally may deal 3 unpreventable holy damage to target hero or ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="3fc3e76c-dce3-e546-f3cc-45968cdcd49a" name="Dark Command">
+      <property name="Card Number" value="47" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Attach to target ally. Ongoing: Attached ally has -3 ATK, must attack if able, and can attack only your hero if able." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="1d88ee74-a214-4b63-8526-e88e7e513b84" name="Dementia">
+      <property name="Card Number" value="48" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Target player puts the top two cards of his deck into is graveyard. If they're both abilities, both allies, or both equipment, that player discards two cards." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a5acc491-7d12-cb99-a4df-449c67ecbdb7" name="Devastation">
+      <property name="Card Number" value="49" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Destruction Hero Required As an additional cost to play, choose &quot;ability&quot;, &quot;ally&quot;, or &quot;equipment&quot; and destroy a card you control of that kind. Destroy all opposing cards of that kind." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="964ec4b2-42b1-8b2b-52c4-ebe9f1a3d1ed" name="Devona Berkshire">
+      <property name="Card Number" value="50" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="While you control a Death Knight or Warrior, this ally has Protector. While you control a Hunter or Shaman, this ally has Assault 2. While you control a Priest or Druid, this ally has Mend 2." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="66f44bce-834d-b7bb-ac89-1c1714143e1e" name="Dhoros Ravestrike">
+      <property name="Card Number" value="51" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3 --&gt; This ally has Assault 3 this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d1dc61ff-449a-8daf-8a5b-18f8736e5fbb" name="Dire Bear Form">
+      <property name="Card Number" value="52" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Ongoing: Your hero has Bear Form. (Has Protector. Destroy this card when you strike with a weapon or play a non-Feral ability.) Your hero has +5 [Health] for each all you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ec864b40-9bd7-2281-eefa-842f5158b142" name="Dorzok Shadowhand">
+      <property name="Card Number" value="53" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this all deals combat damage, if you have no cards in your hand, draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4e1d81a1-5d45-ce28-8994-89d24730c0a1" name="Drain Essence">
+      <property name="Card Number" value="54" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="You’re hero deals 3 shadow damage to target hero or ally and heals 1 damage from itself for each damage dealt this way." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="258e9fe8-436d-eb95-f935-c78c20984972" name="Dread Doomguard">
+      <property name="Card Number" value="55" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="At the start of your turn, choose at random &quot;ability&quot;, &quot;equipment&quot; or &quot;resource&quot;. When this ally deals damage while attacking, you may destroy target card of that kind chosen this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="e54c94aa-3498-e9d3-4779-94563308daab" name="Durzion, Champion of A'dal">
+      <property name="Card Number" value="56" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="26" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Durzion, discard a Priest --&gt; Durzion heals 2 damage from each friendly hero and ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="18cd0b8a-8886-7cb9-ceac-041a53b88a8b" name="Earthmender Vaaki">
+      <property name="Card Number" value="57" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Vaaki, discard a Shaman --&gt; Target up to three heroes and/or allies. Vaaki heals 3, 2, 1 damage from them respectively." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="1334ab54-3d27-528e-16a4-8ab8461790eb" name="Eitrigg">
+      <property name="Card Number" value="58" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="8" />
+      <property name="Health" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation Protector Cards everywhere are Unique." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="839f8e77-4ab7-5c23-e0d7-957b262fb5d7" name="Eris Havenfire">
+      <property name="Card Number" value="59" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Spirit Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this or another Priest ally enters play under your control, the next time target hero or ally would be dealt damage this turn, prevent it." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="9831a912-d2a6-a4a6-977a-8ee511c0e9a5" name="Esonea">
+      <property name="Card Number" value="60" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="30" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Esonea, discard a Warrior --&gt; Weapons you control have +3 ATK this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="2a4d2b0d-c149-1d11-9138-98b93485c415" name="Expertise of Steel">
+      <property name="Card Number" value="61" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Ongoing: Your hero has Dual Wield. Axes you control have +2 ATK. You pay 2 less to strike with Swords." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d192ae6a-a69f-aed0-9c6b-74976c446175" name="Explosive Flames">
+      <property name="Card Number" value="62" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Ongoing: If an opposing ally was destroyed this turn: 1, [Exhaust] --&gt; Your hero deals 1 fire damage to each opposing hero and ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="821c65b4-5e31-7de1-6791-7b79366495c7" name="Explosive Shot">
+      <property name="Card Number" value="63" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Survival Hero Required. Destroy target opposing ally. If you do, your hero deals fire damage equal to that ally's cost to a second target hero or ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="26c73e8e-7526-d55b-4d95-9119417db08a" name="Eyes of the Beast">
+      <property name="Card Number" value="64" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Ongoing: 1, Exhaust your hero --&gt; Ready target Pet you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="28d1415b-8892-f028-8d29-687c4ab195e1" name="Fading Glow">
+      <property name="Card Number" value="65" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="When combat damage is dealt with this weapon, your hero heals 2 damage from itself." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="21649946-9b7f-4311-8899-3e00ab33df82" name="Father Gustav">
+      <property name="Card Number" value="66" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation You pay 1 less to play Unique allies, to a minimum of 1." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="66be6308-ad5e-d7b1-58c9-25d169663ada" name="Feast of Flame">
+      <property name="Card Number" value="67" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Warlock" />    <property name="Rules" value="Attach to target hero or ally. Ongoing: At the start of your turn, your hero deals 1 fire damage to attached character for each Mage and Warlock you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c0d81e99-36cc-cf83-5a84-832194f29992" name="Final Voyage">
+      <property name="Card Number" value="68" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you strike with this weapon, your hero has Long-Range this combat. This weapon has Assault 1 for each card in opposing hands." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="683d398c-a9a8-cc18-edb6-2ce367c4f893" name="Fist of the Deity">
+      <property name="Card Number" value="69" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue, Shaman" />    <property name="Rules" value="Your hero has Dual Wield. When this weapon enters play, it has +2 ATK this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="060bf3d5-949c-cd63-1b56-4d3c7b6d1c1a" name="Flash of Brilliance">
+      <property name="Card Number" value="70" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Ongoing: At the start of your turn, you may destroy this ability. If you do, search your collection for an Ongoing [Mage] ability, reveal it, and put it into your hand." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="1055b694-e637-38dc-b583-cbf2dd7d9255" name="Flawless Defense">
+      <property name="Card Number" value="71" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Ongoing: Your hero has Protector. Your hero has +1 ATK while defending." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="7783828a-5eb7-adb6-9a8b-b88a72427416" name="Flesh Eating Poison">
+      <property name="Card Number" value="72" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Attach to target hero or ally that was dealt combat damage by your hero this turn. Ongoing: At the start of your turn, your hero deals 5 nature damage to attached character." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="746e3f29-ee86-ea40-b233-bc8e02919f2a" name="Fordragon Hold">
+      <property name="Card Number" value="73" />
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="[Exhaust] --&gt; Target [Alliance] hero or ally you control has Assault 1 this turn. If you control an ally with Bolvar in its name: [Exhaust] --&gt; [Alliance] heroes and allies you control have Assault 1 this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="b4de6960-9de4-87e9-ebf5-d5f19c7cd614" name="Fright">
+      <property name="Card Number" value="74" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Target opponent puts an ally he controls into his owner's hand." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="0aa27ae7-0898-c4d9-1131-7bdf120528bb" name="Frost Fever">
+      <property name="Card Number" value="75" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Attach to target hero. Ongoing: At the start of your turn, your hero deals 1 frost damage to attached hero. Allies in attached hero's party lose and can't have Assault and Mend." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="363cdef4-e44a-482d-5f3a-bc12b2829452" name="Frozen Solid">
+      <property name="Card Number" value="76" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="The next time target opponent would draw a card this turn, you draw one instead." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="3fa0be83-e8ae-ead0-dc87-28cfea5a2629" name="Fusion Totem">
+      <property name="Card Number" value="77" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Ongoing: 1, Exhaust a totem you control --&gt; Air: Exhaust target ally. Earth: Target ally has Assault 2 this turn. Fire: It deals 2 fire damage to target ally. Water: Target player draws a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e332a8b5-3b0c-331b-45a5-b79ee7d112ce" name="Gift of the Earthmother">
+      <property name="Card Number" value="78" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Restoration Hero Required Attach to target ally. Ongoing: Attached ally has +6/+6. When attached ally is destroyed, draw two cards." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="691dd5e7-bcd1-52a1-6317-c23ec1ccd6be" name="Gift of the Pious">
+      <property name="Card Number" value="79" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Paladin" />    <property name="Rules" value="Ongoing: Allies you control have +1 / +1 for each Druid and Paladin you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="dd8a32a1-4ced-9ba8-0135-7742ba116690" name="Gigantique Bag">
+      <property name="Card Number" value="80" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="You have no maximum hand size. [Exhaust], Pay 1 for each card in your hand --&gt; Draw a card." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a5de2ad2-c5b7-56b7-6722-93012523c924" name="Gloves of Token Respect">
+      <property name="Card Number" value="81" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="On your turn: 2 --&gt; Put a 1 [Nature] / 1 [Health] Spider ally token into play. [Exhaust], Destroy this armor --&gt; Put a copy of target ally token into play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="493d93c7-dfcc-0864-89aa-cadba81174df" name="Goru Thornmane">
+      <property name="Card Number" value="82" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Assault 2 When this ally deals damage while attacking, you may destroy target equipment." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="29ac24b6-46ea-1b7e-7d50-e259709df8a2" name="Gramm Thunderjaw">
+      <property name="Card Number" value="83" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Gramm, discard a Hunter --&gt; This turn, taget ally has +2 ATK, and a second target ally has -2 ATK." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c5c9cb98-a381-41c2-aaf4-4daa5ec7184b" name="Grumdur Bladebane">
+      <property name="Card Number" value="84" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector Each opposing ally has -1 ATK during its controllor's turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="57498968-a8bf-ea57-47e7-b33e3ea43f91" name="Gushing Totem">
+      <property name="Card Number" value="85" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Ongoing: When an opposing ability, ally or equipment enters play, you may draw a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="335493da-ed78-c2e0-63a4-37d63487d74b" name="Hail of Arrows">
+      <property name="Card Number" value="86" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Your hero deals ranged damage to each of up to three target heroes and/or allies equal to the ATK of a Ranged weapon you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="7957954d-3b22-8427-d589-e20cc490616b" name="Hanthal Lightward">
+      <property name="Card Number" value="87" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector Prevent all combat damage that would be dealt to this ally by attackers with Assault." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7692d4bf-e58d-55ea-bc9a-88813f7d52c4" name="Harona Proudmane">
+      <property name="Card Number" value="88" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Harona, discard a Druid --&gt; Harona heals 6 damage from target hero." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="8be91ac8-2d22-d2da-4fc1-fab638b8b823" name="Haunting Call">
+      <property name="Card Number" value="89" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="2, Exhaust your hero --&gt; Remove three target cards in one opposing graveyard from the game. Add a spirit counter for each ally removed this way. At the start of your urn, your hero deals 1 shadow damage to each opposing hero for each spirit counter." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8ca4e8e1-9062-8655-422d-4b43d5e6859b" name="Helm of Vital Protection">
+      <property name="Card Number" value="90" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Warrior" />    <property name="Rules" value="Weapons you control have +1 ATK. Other armor you control have +1 [Def]." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d762e2c6-e18e-318d-02ae-9ab0dca8de5d" name="High Commander Halford Wyrmbane">
+      <property name="Card Number" value="91" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector This ally has Assault 1 and Mend 1 for each other ally you control." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="22569b61-7256-9e35-44ce-d06f361a1458" name="Highlord Tirion Fordring">
+      <property name="Card Number" value="92" />
+      <property name="Type" value="Master Hero" />
+      <property name="Cost" value="10" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="37" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="[Druid], [Paladin], [Priest] or [Shaman] Hero Required Argent Crusade Reputation Unique allies you own everywhere can't be targeted by opponents. On your turn, [Exhaust] --&gt; Put target Unique ally from your graveyard into play." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="56239ef9-d9b6-95d6-fbce-e7842d784836" name="Hit and Run">
+      <property name="Card Number" value="93" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue, Shaman" />    <property name="Rules" value="Exhaust up to X target opposing cards, where X is the number of Rogues and Shamans you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="cceb47ec-1c56-caf8-f08b-7b7664be542d" name="Holy Barrier">
+      <property name="Card Number" value="94" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Priest" />    <property name="Rules" value="Ongoing: [Exhaust] --&gt; Prevent the next X damage that would be dealt to target ally this turn, where X is the number of Paladins and Priests you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="65dbd964-9d99-5997-d3b4-38ac26122746" name="Holy Fury">
+      <property name="Card Number" value="95" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Your hero deals 3 unpreventable holy damage to target ally. If that ally has fatal damage, destroy any number of abilities attached to a card you control." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="6af25e8c-a0c8-a68d-1768-3af6e88b4239" name="Holy Guardian">
+      <property name="Card Number" value="96" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Protector Damage that this ally would deal is unpreventable. If shadow ([Shadow]) damage would be dealt, prevent all but 1 of it." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="052a4e02-c691-9ce5-cd19-165a5db606fa" name="Hood of the Exodus">
+      <property name="Card Number" value="97" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="When an ally you control with Assault deals combat damage to an opponent's hero, he discards a card." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="4efedf8d-0ab9-d6a3-6fb0-e6a3914bec33" name="Hurdan the Everlasting">
+      <property name="Card Number" value="98" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When you play a non-Ongoing [Priest] ability, if this ally is in your graveyard, you my pay 2. If you do, put him into play." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="8ec3fb5e-3bfa-725b-577b-1e821fb423e2" name="Hysteria">
+      <property name="Card Number" value="99" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Blood Hero Required Ongoing: [Exhaust], Put 1 damage on a hero or ally you control --&gt; It has Assault 4 this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="c97418b2-c8a6-bf06-d500-c6d11a8b9da6" name="Ice Nova">
+      <property name="Card Number" value="100" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Play only on an opponent's turn. His abilities, allies, equipment and hero can't attack or exhaust this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e24ce2e6-07c3-4e65-fdf4-317efb02fa57" name="Idol of the Shooting Star">
+      <property name="Card Number" value="101" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="2, [Exhaust] --&gt;Your hero heals 2 damage from target hero or ally. When you play an ally, ready this item." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="337a088e-3adb-8acc-eb11-2ec29468bd76" name="I'm Not Dead Yet!">
+      <property name="Card Number" value="102" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Pay 3 to complete this quest. Reward: Put a 1 [Holy] / 1 [Health] Unique Priest ally token named Father Kamaros into play with Mend 4." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="cf893701-e530-27a7-893a-24a59b534dc5" name="Impede">
+      <property name="Card Number" value="103" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Put a target [Shadow], [Holy] or [Nature] ally or weapon on top of its owner's deck." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="065096bb-b20d-0768-1208-4d5ae49d55e5" name="Infusion of Earth">
+      <property name="Card Number" value="104" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Attach to target ally or weapon you control. Ongoing: Attached card has Assault 3." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="029be8ea-07fe-f0ff-2b03-f35b174b6ece" name="Ixiya the Attuned">
+      <property name="Card Number" value="105" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector, Mend 1" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="2636acca-662b-5ca1-7c49-553352458de7" name="Jeremiah Karvok">
+      <property name="Card Number" value="106" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Jeremiah, discard a Warlock --&gt; When you next play an ability this turn, exhaust all opposing heroes and allies." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="155131f3-011d-ca98-eb4b-295b6e2d1178" name="Justicar Drathnea">
+      <property name="Card Number" value="107" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="8" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally deals damage to a Paladin, that Paladin's controller discards a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="2159b74b-c45a-cb62-338d-e9494877ee1b" name="Justicar Nimzi Banedrizzle">
+      <property name="Card Number" value="108" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally leaves play, you may remove target Druid ally, [Druid] ability, or [Druid] equipment from the game." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6ea3ed15-6dbb-29d8-a052-0e30e2a846c6" name="Justicar Ullaru">
+      <property name="Card Number" value="109" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters combat for the first time on each of your turns, ready him if a Priest is defending." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="db2d5e01-ee18-8b9e-0c35-c8956fefc9a7" name="Kaelyn Vineminder">
+      <property name="Card Number" value="110" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, target opposing ally can't ready during its controller's ready step while this ally remains under your control." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e1a77780-1b67-63be-c887-db82a564f2ab" name="Katoka Dreadblade">
+      <property name="Card Number" value="111" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, you may exhaust target hero or ally. If it's not your turn, this ally deals 1 melee damage to that character. If it's your turn, draw a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="d312ebaa-6969-8ca9-499b-8dea75f2f14a" name="Keeper Remulos">
+      <property name="Card Number" value="112" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="Health" value="6" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When a Druid you control deals combat to a hero, put two 1 [Melee] / 1 [Health] Treant ally tokens into play." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="e31db322-e338-8be6-bae4-16ee1ab57659" name="Kick Thinking">
+      <property name="Card Number" value="113" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Rogue" />    <property name="Rules" value="Interrupt target ability with cost less than or equal to the number of Mages and Rogues you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="13e996b9-48d3-c6b8-49b0-2d9b28f938ee" name="Kor'kron Vanguard">
+      <property name="Card Number" value="114" />
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="[Exhaust] --&gt; Target [Horde] hero or ally you control has Assault 1 this turn. If you control an ally with Saurfang in its name: [Exhaust] --&gt; [Horde] heroes and allies you control have Assault 3 this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="84ec856e-6fb1-9a68-1d11-2da5379d60ed" name="Krog the Deathfist">
+      <property name="Card Number" value="115" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Krog, discard a Death Knight --&gt; Put target equipment on the bottom of owner's deck." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="d983c63d-8419-297b-6a65-f581dd01c503" name="Krunkle Deadspark">
+      <property name="Card Number" value="116" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Krunkle, discard a Death Knight --&gt; Krunkle heals 2 damage from himself and has Assault 2 this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6963d642-281e-355e-0516-a7ed329ba360" name="Kungen the Thunderer">
+      <property name="Card Number" value="117" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="31" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Kungen, discard a Warrior --&gt; Opposing cards can't exhaust this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="7c6f1271-072a-a1b2-362e-bad8739464d6" name="Lady Bancroft">
+      <property name="Card Number" value="118" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Prevent all damage that opposing heroes would deal to this ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4706852e-d510-321b-97f2-8bf6495eb8d3" name="Landro's Gift">
+      <property name="Card Number" value="119" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="Search your deck for a Loot card, reveal it, and put it on top of your deck. Then, if an opponent controls more resources than you, draw a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="15a51550-1910-84b2-7ed1-d327cd1ce575" name="Leggings of the Honored">
+      <property name="Card Number" value="120" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="This armor has +4 [Def] if an ally entered a graveyard this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="383789c1-91ab-2ba8-aadf-de7a14ddc561" name="Lesson of the Arcane">
+      <property name="Card Number" value="121" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="You may exhaust a non-hero Mage you control rather than pay this ability's cost. If a Mage you control is defending, remove it from combat and draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="baf477f8-7178-5224-c2e1-d8f9e237a835" name="Lesson of the Beast">
+      <property name="Card Number" value="122" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="You may exhaust a non-hero Hunter you control rather than pay this ability's cost. Target Pet you control deals melee damage equal to its ATK to a second target ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d677552a-472c-964d-325f-43549e9782b1" name="Lesson of the Call">
+      <property name="Card Number" value="123" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="You may exhaust a non-hero Warrior you control rather than pay this ability's cost. Put target ally on top of it's owner's deck." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="18ec4055-6074-ad76-9f39-e64c930d1ce8" name="Lesson of the Divine">
+      <property name="Card Number" value="124" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="You may exhaust a non-hero Paladin you control rather than pay this ability's cost. Exhaust target hero or ally. It can't ready during it's controller's next ready strop. Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="871a6bba-7311-b244-4396-547689cbe32b" name="Lesson of the Elements">
+      <property name="Card Number" value="125" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="You may exhaust a non-hero Shaman you control rather than pay this ability's cost. You hero deals 3 nature damage divided as you choose to any number of target heroes and/or allies." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7524c5e8-b54f-c84f-d865-f4b3ee3b5c5c" name="Lesson of the Grave">
+      <property name="Card Number" value="126" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="You may exhaust a non-hero Death Knight you control rather than pay this ability's cost. Remove target ally in a graveyard from the game. If you do, put a 3 [Melee] / 3 [Health] Ghoul ally token into play." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="5e3bc518-f603-eb58-10b5-e957a92adacc" name="Lesson of the Light">
+      <property name="Card Number" value="127" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="You may exhaust a non-hero Priest you control rather than pay this ability's cost. Your hero deals 2 unpreventable holy damage to target hero or ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="40de3d98-b7f4-ddc6-d31a-c21aaad0316d" name="Lesson of the Nether">
+      <property name="Card Number" value="128" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="You may exhaust a non-hero Warlock you control rather than pay this ability's cost. Look at target opponent's hand and choose a card. Remove that card from the game." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="84c45560-2349-5a73-2d7d-a80322c6984c" name="Lesson of the Shadow">
+      <property name="Card Number" value="129" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="You may exhaust a non-hero Rogue you control rather than pay this ability's cost. Target hero or ally has Assault 3 or Stealth this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="80212a13-6615-bad1-be6e-7c53a301ed1d" name="Lesson of the Wild">
+      <property name="Card Number" value="130" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="You may exhaust a non-hero Druid you control rather than pay this ability's cost. Put target non-token ally into its owner's resource row face down, then exhaust it." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="ac39b87c-511e-7390-32c8-178e6b689736" name="Libram of Radiance">
+      <property name="Card Number" value="131" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="1, [Exhaust] --&gt; Your hero deals 1 unpreventable holy damage to target hero or ally. When you play a [Paladin] armor, ready this item." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8c342e45-c718-323c-2298-e15ab8e0793a" name="Life and Death">
+      <property name="Card Number" value="132" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Paladin, Warlock" />    <property name="Rules" value="When you play an ally, your may draw a card. When al ally you control leaves play, discard a card." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d62a75da-bc11-0a58-b32e-12e0e7a7155a" name="Life-Binder's Locket">
+      <property name="Card Number" value="133" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Priest" />    <property name="Rules" value="[Paladin] Hero: [Exhaust], Discard a card --&gt; If a friendly hero or ally would be dealt damage this turn, prevent 1 of it. [Priest] Hero: [Exhaust], Discard a card --&gt; The next time target hero or ally would be dealt damage this turn, prevent it." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="b6127d6a-36a3-c9cc-7ab2-34996e674846" name="Lifeblade of Belgaristrasz">
+      <property name="Card Number" value="134" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Finishing Move: Rogue (To play, remove X Rogues in your graveyard from the game, where X is 5 or less.) When this weapon enters play, your hero deals X damage to target hero or ally and heals X damage from itself." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="ee40c4ac-36c2-69df-55ad-5b961b2dc33b" name="Light Within the Darkness">
+      <property name="Card Number" value="135" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="If a hero or ally you controlled dealt holy ([Holy]) damage this turn: Pay 1 to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="36236fe6-689d-2567-fb39-d4db4119858b" name="Lunira Swiftbreath">
+      <property name="Card Number" value="136" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="27" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Lunira, discard a Druid --&gt; You pay 1 less to play your next ally this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="0d85beb9-3b52-26ba-666a-a0112d0589c8" name="Lynxia">
+      <property name="Card Number" value="137" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="t the start of each turn, you may exhaust target ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="4a7c3d87-67d1-dd46-1b73-111772c48856" name="Lyshala Ravenshot">
+      <property name="Card Number" value="138" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally has Long-Range while an opponent controls an ally with cost 4 or more." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4b1f83ce-1e1a-4162-844a-a7e0e6fa0976" name="Master Poisoner">
+      <property name="Card Number" value="139" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Assassination Hero Required Ongoing: You pay 1 less to play poisons. At the start of your turn, your hero deals 1 nature damage to each opposing hero or ally for each Poison attached to it. " />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="4327c662-ba59-9466-e7ff-9ac40a1e234e" name="Master's Stable">
+      <property name="Card Number" value="140" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Warlock" />    <property name="Rules" value="Ongoing: You can control an additional Pet. Pets you control have +1 / + 1 for each Hunter and Warlock you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="755dbc84-789e-8744-84ad-63264c5c2fd5" name="Mithran the Sniper">
+      <property name="Card Number" value="141" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When an opposing ally, or equipment enters play, destroy this ally. If you do, destroy that opposing card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="adf140e0-5513-5e4f-449b-a5e19589a297" name="Mojo Master Zandum">
+      <property name="Card Number" value="142" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="26" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Zandum, discard a Priest --&gt; Zandum heals 4 damage divided as you choose from any number of target heroes and/or allies." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="f3c70cab-1793-6c9b-b68c-89bafa87252b" name="Mongoose Bite">
+      <property name="Card Number" value="143" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Your hero deals 2 melee damage to target attacker, and that attacker has -2 ATK this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="0fba823d-aa89-70d0-ca94-7cae34d83cb4" name="Mortal Slash">
+      <property name="Card Number" value="144" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Attach to target hero or ally. Ongoing: Attached character can't be healed. At the start of your turn, your hero deals 1 melee damage to attached character." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e75639ac-d82c-845d-f961-62cc411912e1" name="Mothra">
+      <property name="Card Number" value="145" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="Health" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Protector When this ally exhausts, ready up to three resources you control." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="3c8669db-0a90-31fb-a945-2c21db79779c" name="Murphy Watson">
+      <property name="Card Number" value="146" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally has Assault 3 while an ally is in your graveyard." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4a27d483-696c-26d4-336d-71378291cbb4" name="Muruna the Savage">
+      <property name="Card Number" value="147" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector Allies you control have +2 [Health] while you control a Form." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e61131b8-b770-6b76-acc1-1b07590d4740" name="Nature's Vengeance">
+      <property name="Card Number" value="148" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Destroy all resources you control. Put two 1 [ATK] / 1 [HEALTH] Treant ally tokens into play for each resource destroyed this way." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="437b2ed8-dd8c-2bf9-7b1d-b5b4616e7933" name="Nerubian Conqueror">
+      <property name="Card Number" value="149" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you strike with this weapon, your hero has Long-Range this combat. If a card would enter an opposing graveyard, remove it from the game instead." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="380ec693-3c21-5116-3626-60f969453de6" name="Nethermaven Donna Chastain">
+      <property name="Card Number" value="150" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="6" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Assault 3" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="be2c747e-a749-ebac-7128-d547149c2bd1" name="Netherwind Presence">
+      <property name="Card Number" value="151" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Arcane Hero Required. Draw seven cards." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="896a83dc-b9a4-21e4-5cca-066723036952" name="No Mere Dream">
+      <property name="Card Number" value="152" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="On your turn: Pay 3 to complete this quest. Reward: Reveal a top card of your deck and put it into your resource row face down and exhausted. If it was a location or quest, you may turn it face up." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6c87cbc8-23c4-b2bb-84b3-72d1b929519b" name="No One to Save You">
+      <property name="Card Number" value="153" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="If you hero was dealt 5 or more damage this turn: Pay 2 to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4bd66a3a-38dc-3d3d-bb4e-e54e3c54a385" name="Nurgle Tinkfrost">
+      <property name="Card Number" value="154" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Opposing heroes and allies can't attack unless their controller pays 1 for each character." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="abb14242-5308-aece-b344-8511f4975d1d" name="Nurturing Spirit">
+      <property name="Card Number" value="155" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Priest" />    <property name="Rules" value="Attach to your hero. Ongoing: Attached hero has Mend 1 for each Druid and Priest you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ddb72dd2-33ec-2d6c-861e-338a0e2fc7f1" name="Nuvon Dawnfury">
+      <property name="Card Number" value="156" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="25" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Nuvon, discard a Mage --&gt; When you draw a card this turn, Nuvon may deal 1 arcane damage to target ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e33a8348-a157-2528-b0a2-d187a7b4d4b7" name="On Ruby Wings">
+      <property name="Card Number" value="157" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Pay 3 to complete this quest. Reward: Put a 0 [Fire] / 3 [Health] Wyrmrest Vanquisher ally token into play with Mount (1) and &quot;When you place a resource face up, you may draw a card.&quot;" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="db4f3957-4cc6-9d3e-44c4-15dde819ed52" name="Paladin Training">
+      <property name="Card Number" value="158" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Pay 2 to complete this quest. Reward: Target hero or ally you control has Protector this turn. Prevent all damage that it would be dealt while protecting this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c7d09caf-d8d5-f13d-744c-635a6298aca4" name="Pestilence">
+      <property name="Card Number" value="159" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: At the start of your turn, your hero deals 2 shadow damage to each exhausted opposing hero and ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="37dc9684-2160-9962-6ab5-d84aee27be60" name="Pick Lock">
+      <property name="Card Number" value="160" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Look at target player's hand and choose a location or quest. He discards that card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="a21aa2e2-ddcb-80c0-e8aa-99559acc41ec" name="Planning for the Future">
+      <property name="Card Number" value="161" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 2 to complete this quest. Reward: Reveal the top two cards of your deck. Target opponent chooses one: Put that card into your hand and the other into your graveyard." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d0ce744f-c17c-171e-d88f-0c0b422255c0" name="Platinum Disks of Swiftness">
+      <property name="Card Number" value="162" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="[Exhaust] --&gt; You pay 1 less to play your nest ally that shares a class with your hero this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="59c62294-b386-2854-c479-8046c9ba7757" name="Power Word: Faith">
+      <property name="Card Number" value="163" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Attach to target ally. Ongoing: Attached ally has Mend 3. When attached ally heals damage, you may destroy target ability." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="49404d6a-28ce-4a51-e469-e169e63443fc" name="Presence of the Divine">
+      <property name="Card Number" value="164" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Ongoing: When an attacking ally deals damage to an ally you control, you may destroy that attacker." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="58b24b27-b192-d276-338a-0277cba9b7a0" name="Protective Barricade of the Light">
+      <property name="Card Number" value="165" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Shaman" />    <property name="Rules" value="[Paladin] Hero: This armor has +2 [Def] [Shaman] Hero: You pas 2 less to play this armor." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="4e2f42b9-71e4-e315-8e19-a63ac935d1d6" name="Raze">
+      <property name="Card Number" value="166" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.) Destroy each opposing ally and equipment with cost X." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="192c127d-e8d6-69c2-99d2-2a9c6c95d96c" name="Really Big Worm">
+      <property name="Card Number" value="167" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Exhaust ten cards you control to complete this quest. Reward: Draw three cards." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4473486a-bfd8-920b-7fcc-8db7825676e9" name="Requite">
+      <property name="Card Number" value="168" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Your hero deals 4 melee damage to target damaged hero or ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="3ec6e975-a2c5-74b6-365c-251252fcdfed" name="Return to Angrathar">
+      <property name="Card Number" value="169" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="You pay 1 less to complete this quest for each Scourge ally you control. Pay 3 to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="55dd4ea3-57c3-6667-fdf9-7fccdf347e3b" name="Rinni Gloomtrik">
+      <property name="Card Number" value="170" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Rinni Gloomtrik, discard a Warlock --&gt; Rinni deals 1 shadow damage to target hero or ally. When that character is destroyed this turn, it's controller discards a card." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="2c4141d0-aeb5-bf33-c6da-b7e7e96d67db" name="Roanauk Icemist">
+      <property name="Card Number" value="171" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="High Chieftain" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="At the end of your turn, put a 1 [Nature] / 1 [Health] Taunka ally token into play. Taunka you control have Assault 1." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="9163b6b4-7bb5-0111-7476-2eddb8814642" name="Roshen the Oathsworn">
+      <property name="Card Number" value="172" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="5" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector You pay 1 less to play Auras, Blessings, and Seals." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="7e57b05b-15d2-6045-5d86-c9c67010618a" name="Sacred Circle">
+      <property name="Card Number" value="173" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Put target [Holy] ally from your graveyard into play if it costs less than or equal to the number of resources you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="566e177c-54c9-f193-40b1-2fccd9132253" name="Sarina the Immaculate">
+      <property name="Card Number" value="174" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Sarina, discard a Paladin --&gt; Sarina heals 5 damage from target hero or ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="3777cd01-97b8-ed3c-42b2-a12596e79ca6" name="Saurfang the Younger, Kor'kron Warlord">
+      <property name="Card Number" value="175" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Ferocity When this ally enters play, you may search your deck for a card named Kor'kron Vanguard, reveal it, and put it into your hand. Death Rattle: Turn all locations you control face down." />
+      <property name="Rarity" value="E" />
+    </card>
+    <card id="3e06b522-9ad9-d23b-4ca4-e4decb0ac581" name="Scald">
+      <property name="Card Number" value="176" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Attach to target equipment. Ongoing: Attached equipment loses and can't have powers. At the start of your turn, your hero deals 2 fire damage to attached equipment's controller's hero." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="c9d6e03b-36d6-51e3-d053-42763d13c46e" name="Scent of Nature">
+      <property name="Card Number" value="177" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Your hero heals 2 damage from target hero or ally, or 6 if you completed a quest this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e0c74841-65db-0003-e4bb-19effe2a6315" name="Seal of Sanctity">
+      <property name="Card Number" value="178" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Ongoing: When your hero deals combat damage when a weapon, add a purity counter. You hero has Mend 1 for each purity counter." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="8d16f7b3-eda7-4de1-eb6d-23025ea23724" name="Seeds of the Lashers">
+      <property name="Card Number" value="179" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Exhaust seven cards you control to complete this quest. Reward: Draw two cards." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="72d7190a-ecde-64c4-2e72-276844f949d6" name="Shelter">
+      <property name="Card Number" value="180" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="This turn, target non-hero card can't be destroyed, and if it's an ally, prevent all damage that would be dealt to it." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="aa922e64-e5e2-66ba-8fed-b3d6caed74ee" name="Silent Crusader">
+      <property name="Card Number" value="181" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Rogue, Warrior" />    <property name="Rules" value="When an opponent's hero is dealt combat damage with this weapon, exhaust all cards he controls." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="38db34b4-972e-cbbc-dddd-b79ef6c39553" name="Sister Colleen Tulley">
+      <property name="Card Number" value="182" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation This ally has Mend 1 for each Unique ally you control." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="9d53bd44-88ac-aebf-625a-16439d15c4fb" name="Soram Wildbark">
+      <property name="Card Number" value="183" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Mend 1 When this ally heals damage from a hero or ally, that character as Assault 1 this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d1433757-2ea5-b5eb-48b5-aee519e8b848" name="Spire of Sunset">
+      <property name="Card Number" value="184" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="On your turn: 2, Exhaust your hero --&gt; Your hero deals fire damage to target hero or ally equal to the number of different classes among heroes and allies you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="771138b8-9774-cce9-44a1-f725e64cca8a" name="Spirit of Redemption">
+      <property name="Card Number" value="185" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="25" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Holy Hero Required You pay 1 less to play Spirit of Redemption for each damage on your hero. Spirit of Redemption can't be destroyed while you control an ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d0e35fbc-2a6a-afce-6894-24a7284798a2" name="Spiritwalker Kavi'je">
+      <property name="Card Number" value="186" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Kavi'je, discard a Shaman --&gt; You pay 2 less to play your next totem this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6f8427ed-7a7a-9cca-9f36-f09cd5d73c83" name="Staff of Trickery">
+      <property name="Card Number" value="187" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter" />    <property name="Rules" value="Exhaust your hero, discard a card --&gt; Ready or exhaust target card if it shares a type with the card you discarded." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="6080bbbb-971f-cadc-37ad-1794feedb79b" name="Statue Generator">
+      <property name="Card Number" value="188" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="When this item enters play, remove target ally from the game. If you do, add three marble counters, and that ally's owner puts it into play under his control when this item leaves play. At the start of your turn, remove a marble counter. If none remain, destroy this item." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a5e76c3d-9dbc-7e18-7c94-8ef47367c9ac" name="Stranglevine">
+      <property name="Card Number" value="189" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Attach to target opposing ability, ally, or equipment. Ongoing: Attached card can't ready during it's controller's ready step. On your turn: 2 --&gt; Attach this ability to target opposing ability, ally, or equipment." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ab9cb408-7135-a2b0-9088-5a64aa129fb4" name="Strenght of Battle">
+      <property name="Card Number" value="190" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman, Warrior" />    <property name="Rules" value="This turn, weapons you control have Assault 1 for each Shaman and Warrior you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="eb99aa29-e6c0-dbde-a927-d5541ad059c5" name="Sullivan Holmes">
+      <property name="Card Number" value="191" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally has Mend 3 while an ally is in your graveyard." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="11641fc9-758b-d376-2e80-7d56b448654d" name="Sun-Emblazoned Chestplate">
+      <property name="Card Number" value="192" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Warrior" />    <property name="Rules" value="When this armor prevents damage that would be dealt by an attacker, your hero deals that much unpreventable holy damage to that attacker." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="9298e061-cd25-9b96-5609-23748b14b6da" name="Sunguard Cersie">
+      <property name="Card Number" value="193" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector Once per turn: 1 --&gt; Prevent the next 1 damage that would be dealt to target hero or ally this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="744ce879-7cf9-ceea-c1b4-22f9ebc8ccb9" name="Sunstalker Andora">
+      <property name="Card Number" value="194" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="27" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Andora, discard a Rogue --&gt; When target ally is dealt damage this turn, destroy it." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="b2ad7383-b23b-c51e-ac7a-7d35e22a136d" name="Surge of Blood">
+      <property name="Card Number" value="195" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Your hero deal 2 melee damage to target hero or ally. Weapons you control have Assault 2 this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="a9bc4b29-59b3-b5c2-79c3-91cd7571d5e4" name="Surge of Life">
+      <property name="Card Number" value="196" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Your hero heals 3 damage from target ally. You may ready that ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="96ab8e81-950b-73d1-c52f-f91e4c36b4e7" name="Swift Hawkstrider">
+      <property name="Card Number" value="197" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Blood Elf Hero Required You pay 1 less to complete quests. When you place a resource face up, your hero may deal 1 unpreventable holy damage to target hero or ally. Prevent the next 1 damage that would be dealt to a second target hero or ally this turn. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="260d08a0-813b-be05-59ca-a0dbaea3a4ed" name="Swift Mechanostrider">
+      <property name="Card Number" value="198" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Gnome Hero Required You pay 1 less to complete quests. When you place a resource face up, you may ready an equipment you control. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="3aa8eb1d-3bb2-4c9b-dc95-85de297caea7" name="Swift Timber Wolf">
+      <property name="Card Number" value="199" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Orc Hero Required You pay 1 less to complete quests. When you play a resource face up, your hero has Assault 2 this turn. (Mounts can't attack or be attacked.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="788b2e95-1459-10db-2b09-4cc61b870bb7" name="Sword of Justice">
+      <property name="Card Number" value="200" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Warrior" />    <property name="Rules" value="This weapon enters play with a +1 ATK counter for each card in your hand. Remove a +1 ATK counter --&gt; Exhaust target ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a93094c0-9c2c-14db-c212-2aa2c72c1148" name="Sympathy">
+      <property name="Card Number" value="201" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="If an ally you control would be dealt damage, 1 of it is dealt to your hero instead." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="bfdddd2d-5968-8957-8e75-a733eac133b7" name="Thaka Deadeye">
+      <property name="Card Number" value="202" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Flip Thaka, discard a Hunter --&gt; Ready up to two resources you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="bbe304ef-6d4c-19e5-c636-01664903b872" name="The Call of the Crusade">
+      <property name="Card Number" value="203" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation For each Unique ally you control, you may pay 2 to complete this quest. Reward: Draw a card for each 2 paid this way." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="799044c7-96c8-5262-2eb1-acdd5c742d6d" name="The Ichor of Undeath">
+      <property name="Card Number" value="204" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Pay 2 to complete this quest. Reward: Put target ally from your graveyard into your hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="dc5b7d28-31ea-dc4a-3dcc-9e7de5374996" name="Torch of Holy Fire">
+      <property name="Card Number" value="205" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="1, Exhaust your hero --&gt; Reveal a random card from your hand. If it's a [Holy] card, your hero deals 2 unpreventable holy damage to target hero or ally and heals 2 damage from itself." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="c667db65-9369-83d6-a126-e9841d10a321" name="Tubs Klankbopple">
+      <property name="Card Number" value="206" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="6" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally enters play, he may deal 4 melee damage to target ally with a cost or 4 less." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="b2a175a6-999e-8c1f-ba06-dab23ca17d1e" name="Tuskmender Jan'zu">
+      <property name="Card Number" value="207" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally has Mend 2 while she's damaged." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="b94dc1e5-8ed8-2854-9149-4d4e6c0d29da" name="Tysandri Duskstrike">
+      <property name="Card Number" value="208" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="27" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: Flip Tysandri, discard a Rogue --&gt; Tysandri deals 3 melee damage to target exhausted hero or ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c3c52e96-08dd-ce43-6a52-9b1ab589143c" name="Unyielding Faith">
+      <property name="Card Number" value="209" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Holy Hero Required Prevent all damage that would be dealt this turn" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a7667468-5aca-d64b-3cd0-881a2545bc82" name="Upstanding Spaulders">
+      <property name="Card Number" value="210" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="0" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="Each player can't ready more than three resources during his ready step." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="b85c9281-d9a3-fdbf-4bce-2db234a5271a" name="Uruka the Cutthroat">
+      <property name="Card Number" value="211" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this ally is dealt damage, target opponent reveals his hand. Death Rattle: You may choose &quot;ability,&quot; &quot;ally,&quot; or &quot;equipment.&quot; If you do, target opponent reveals his hand, and this ally deals 1 melee damage to his hero for each revealed card of that kind." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d193fb46-c4b0-7799-d347-8feca8570eb5" name="Veteran Crusader Aliocha Segard">
+      <property name="Card Number" value="212" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Argent Crusade Reputation Protector This ally has +1 / +1 for each other Unique ally you control" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="32e5e9c1-43aa-38ce-4484-6dc4ae144e89" name="Void Pact">
+      <property name="Card Number" value="213" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Draw a card for each opposing ally that left play this turn." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="1ba6f92b-d967-48cb-5622-7b14197643d4" name="Vuz'din">
+      <property name="Card Number" value="214" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Opposing Ongoing abilities lose and can't have powers." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="174cea88-5cec-e0cc-26f2-17dcb0aaa281" name="Wanton Warlord">
+      <property name="Card Number" value="215" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Exhaust four cards you control to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="951fa887-c3cb-0eab-a5c1-86cebab10e1d" name="Weakening Poison">
+      <property name="Card Number" value="216" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Attach to target hero or ally that was dealt combat damage by your hero this turn. Ongoing: Attached character has -4 ATK." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="ee134ab0-1443-0c72-5e88-7159d87c9b3e" name="Wraith Spear">
+      <property name="Card Number" value="217" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="0" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Hunter, Paladin" />    <property name="Rules" value="When you strike with this weapon while your hero is defending, it hels 4 damage from itself." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="9beb7d8d-0bcb-be69-ed9d-151b9c3a4cd3" name="Wrecking Crew">
+      <property name="Card Number" value="218" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Arms Hero Required Interrupt target equipment. If you do, put three 0 [Melee] / 1 [Health] Warrior ally tokens into play with Assault 2." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="aa1c1f89-b1ca-c1de-4247-bce47b01c4e7" name="Wyndarr Shadefist">
+      <property name="Card Number" value="219" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally has Stealth while an opponent controls an ally with cost 4 or less." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e686ce8a-2d49-18cb-592a-aac6122bf372" name="Zugna, Windseer Apprentice">
+      <property name="Card Number" value="220" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Assault 1 When this ally exhausts for the first time ach turn, you may pay 1. If you do, ready her." />
+      <property name="Rarity" value="C" />
+    </card>
+	
+	<card id="007591a4-0ccf-465f-8c01-336e3c6de4d3" name="Belt of the Black Eagle">
+      <property name="Card Number" value="Crafted 1/3" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="1, [Exhaust] Turn a resource you control face down --> Look at the top two cards of your deck. Put one into your hand and the other into your graveyard." />
+      
+    </card>
+	
+	<card id="4d35f3dc-02be-4abc-9d0a-b137d1cb98fc" name="Deathchill Cloak">
+      <property name="Card Number" value="Crafted 2/3" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When this armor prevents damage that would be dealt by an attacking ally, that ally can't ready while this armor remains in your control." />
+      
+    </card>
+	<card id="a7f547a3-5f1e-4be5-afdb-c8eda879227c" name="Magnificent Flying Carpet">
+      <property name="Card Number" value="Crafted 3/3" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Tailoring Hero Required You can control any number of locations. When you place a resource face up, you may ready all locations you control. (Mounts can't attack or be attacked.)" />
+      
+    </card>
+	
+  </cards>
+</set>

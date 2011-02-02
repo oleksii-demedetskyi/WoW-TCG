@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Molten Core Treasure" id="f4bf118a-3636-4caa-b4f2-ea931776156e"
+     gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+<cards>
+<card id="f1ffe6ad-b824-da9b-8c9f-b791504bbded" name="Eskhandar's Right Claw">
+<property name="Card Number" value="Treasure - 21/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Rogue, Shaman, Warrior" />    <property name="Rules" value="You may remove an equipment card in your hand from the game rather than pay Eskhandar's Right Claw's cost." />
+<property name="Rarity" value="R" />
+</card><card id="6ab8fc4d-9aa8-4883-dc18-bc496e60e76f" name="Core Hound Tooth">
+<property name="Card Number" value="Treasure - 20/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="0" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Rogue, Shaman, Warrior" />    <property name="Rules" value="At the start of your turn, put a +1 ATK counter on Core Hound Tooth.; When your hero deals combat damage with Core Hound Tooth, remove all +1 ATK counters from Core Hound Tooth." />
+<property name="Rarity" value="R" />
+</card><card id="bfb86776-62a9-e066-5196-a1e9f9b3dc9f" name="Blastershot Launcher">
+<property name="Card Number" value="Treasure - 17/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Rogue, Warrior" />    <property name="Rules" value="When you strike with Blastershot Launcher, your hero has long-range this combat.; Hunter: When Blastershot Launcher enters play, your hero deals 3 ranged damage to target hero or ally." />
+<property name="Rarity" value="R" />
+</card><card id="ae8bc15e-43f1-d3bf-e2f6-3be65c54bf99" name="Obsidian Edged Blade">
+<property name="Card Number" value="Treasure - 24/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="4" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="1, Discard Obsidian Edged Blade from your hand > Put a +1 ATK counter on target Two-Handed Sword." />
+<property name="Rarity" value="R" />
+</card><card id="87458572-f7b7-ffe8-e524-874b8baf0d07" name="Azuresong Mageblade">
+<property name="Card Number" value="Treasure - 15/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Paladin, Warlock" />    <property name="Rules" value="When you draw a card, put a verse counter on Azuresong Mageblade.; 1, Remove three verse counters > Draw a card." />
+<property name="Rarity" value="R" />
+</card><card id="91d70353-3946-e25f-19aa-11b487c6c82e" name="Legplates of Ten Storms">
+<property name="Card Number" value="Treasure - 6/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="6" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="When you play a Shaman ability, you may pay 1.; If you do, your hero deals 2 nature damage divided as you choose to up to two target heroes and/or allies." />
+<property name="Rarity" value="R" />
+</card><card id="6e0e3ea6-d60e-7f8a-1e14-7256fc070e30" name="Nemesis Leggings">
+<property name="Card Number" value="Treasure - 8/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="When you play a Warlock ability, you may pay 1.; If you do, your hero deals 1 shadow damage to target opposing hero for each ability attached to that hero." />
+<property name="Rarity" value="R" />
+</card><card id="ee69e7d1-9f11-ca58-843e-c2e9e77ddb38" name="Benediction">
+<property name="Card Number" value="Treasure - 16/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="When your hero heals damage with an ability, draw a card.; Exhaust your hero > Put a card named Anathema from your graveyard into play." />
+<property name="Rarity" value="R" />
+</card><card id="dbbf2299-f935-ebcf-9fbd-aa5d9c502e4e" name="Shadowstrike">
+<property name="Card Number" value="Treasure - 27/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Paladin, Warrior" />    <property name="Rules" value="1, Destroy Shadowstrike > If your hero has Enchanting, draw two cards." />
+<property name="Rarity" value="R" />
+</card><card id="ebf7bb46-88e2-41af-9b66-f400997808b9" name="Bloodfang Pants">
+<property name="Card Number" value="Treasure - 1/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="When you play a Rogue ability, you may pay 1.; If you do, your hero deals 1 melee damage to target exhausted hero or ally." />
+<property name="Rarity" value="R" />
+</card><card id="14d26bbc-2866-ebf6-d74d-7473c9987bc7" name="Dragonstalker's Legguards">
+<property name="Card Number" value="Treasure - 2/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you play a Hunter ability, you may pay 1.; If you do, target Ranged weapon has +2 ATK this turn." />
+<property name="Rarity" value="R" />
+</card><card id="773b8881-4308-bd58-73f2-8b824a3084ef" name="Drillborer Disk">
+<property name="Card Number" value="Treasure - 3/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman, Warrior" />    <property name="Rules" value="When Drillborer Disk prevents damage, your hero deals 1 arcane damage to the source of that damage." />
+<property name="Rarity" value="R" />
+</card><card id="aae5b0a2-74ed-7d4c-6590-c17b0b251a39" name="Judgement Legplates">
+<property name="Card Number" value="Treasure - 4/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="When you play a Paladin ability, you may pay 1.; If you do, prevent all damage that would be dealt to and dealt by target friendly ally this turn." />
+<property name="Rarity" value="R" />
+</card><card id="dec98caa-621d-28ad-684b-4e2cd79a0597" name="Leggings of Transcendence">
+<property name="Card Number" value="Treasure - 5/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="When you play a Priest ability, you may pay 1.; If you do, your hero heals 2 damage from each friendly ally." />
+<property name="Rarity" value="R" />
+</card><card id="345292c2-308a-e47f-a195-02b3b37d9aaa" name="Legplates of Wrath">
+<property name="Card Number" value="Treasure - 7/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="When you play a Warrior ability, you may pay 1.; If you do, ready target armor." />
+<property name="Rarity" value="R" />
+</card><card id="697b5311-90b4-035c-6a94-9a81814a4239" name="Netherwind Pants">
+<property name="Card Number" value="Treasure - 9/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="When you play a Mage ability, you may pay 1.; If you do, you and target opponent each draw a card." />
+<property name="Rarity" value="R" />
+</card><card id="081221db-29cf-f7aa-3402-2989121710c8" name="Stormrage Legguards">
+<property name="Card Number" value="Treasure - 10/30" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="When you play a Druid ability, you may pay 1.; If you do, target ally has +1 ATK this turn." />
+<property name="Rarity" value="R" />
+</card><card id="1c0764e2-2f88-f9a2-96ed-cf4ea3fd1331" name="Band of Sulfuras">
+<property name="Card Number" value="Treasure - 11/30" />
+<property name="Type" value="Item" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="If a friendly hero or ally would deal damage to an Elemental, it deals that much damage +1 instead." />
+<property name="Rarity" value="R" />
+</card><card id="62a6ebab-ed72-39ea-d6da-db6c496e8d65" name="Shard of the Flame">
+<property name="Card Number" value="Treasure - 12/30" />
+<property name="Type" value="Item" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="When a resource enters play under your control, your hero heals 2 damage from itself." />
+<property name="Rarity" value="R" />
+</card><card id="0fce1671-730c-094e-f1ac-d839515f924b" name="Talisman of Ephemeral Power">
+<property name="Card Number" value="Treasure - 13/30" />
+<property name="Type" value="Item" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="When you play an ability, you may pay 1 and put Talisman of Ephemeral Power into its owner's hand. If you do and your hero would deal damage with that ability this turn, it deals that much damage +1 instead." />
+<property name="Rarity" value="R" />
+</card><card id="bae3e4b2-8454-c7dd-b213-e9f1eaab75a5" name="Aurastone Hammer">
+<property name="Card Number" value="Treasure - 14/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="2, [Activate] > Put target ally from your party into its owner's hand. Use only on your turn." />
+<property name="Rarity" value="R" />
+</card><card id="03e27d2b-8b5b-afab-769e-43e5d705736e" name="Bonereaver's Edge">
+<property name="Card Number" value="Treasure - 18/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="When Bonereaver's Edge enters play, you may destroy target armor." />
+<property name="Rarity" value="R" />
+</card><card id="a0523da1-bc05-dc26-dda6-f03031ae8601" name="Brutality Blade">
+<property name="Card Number" value="Treasure - 19/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Paladin, Rogue, Warrior" />    <property name="Rules" value="Destroy Brutality Blade > Opposing heroes and allies can't be healed this turn." />
+<property name="Rarity" value="R" />
+</card><card id="47bcd91e-20f9-cb8d-3e19-4434c452873e" name="Finkle's Lava Dredger">
+<property name="Card Number" value="Treasure - 22/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Paladin" />    <property name="Rules" value="At the end of your turn, if an opponent has more resources than you, you may put the top card of your deck into your resource row face down and exhausted." />
+<property name="Rarity" value="R" />
+</card><card id="a67f410d-b946-8bf0-7941-4d53ca49ce29" name="Gutgore Ripper">
+<property name="Card Number" value="Treasure - 23/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue, Shaman, Warrior" />    <property name="Rules" value="When you strike with Gutgore Ripper, target opposing ally has -1 health this turn." />
+<property name="Rarity" value="R" />
+</card><card id="4fb25e1a-770d-3157-1979-a5ed394b773a" name="Perdition's Blade">
+<property name="Card Number" value="Treasure - 25/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="2" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue, Shaman, Warrior" />    <property name="Rules" value="When Perdition's Blade enters play, your hero deals 1 fire damage to target hero or ally." />
+<property name="Rarity" value="R" />
+</card><card id="ce490da9-3e7c-87ed-7c3d-1e473abd747c" name="Rhok'delar, Longbow of the Ancient Keepers">
+<property name="Card Number" value="Treasure - 26/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="7" />
+<property name="ATK" value="5" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you strike with Rhok'delar, your hero has long-range this combat." />
+<property name="Rarity" value="R" />
+</card><card id="9f39beaf-d1cd-5883-5da6-5cf3621abf6f" name="Spinal Reaper">
+<property name="Card Number" value="Treasure - 28/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="When your hero deals fatal combat damage with Spinal Reaper, draw a card." />
+<property name="Rarity" value="R" />
+</card><card id="f171ce1d-89db-0397-7499-3199ea4eafdc" name="Striker's Mark">
+<property name="Card Number" value="Treasure - 29/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Rogue, Warrior" />    <property name="Rules" value="Your Melee weapons have +1 ATK.; When you strike with Striker's Mark, your hero has long-range this combat." />
+<property name="Rarity" value="R" />
+</card><card id="02641878-d9d5-cc7c-f349-58184515241c" name="Sulfuras, Hand of Ragnaros">
+<property name="Card Number" value="Treasure - 30/30" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="8" />
+<property name="ATK" value="7" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="When your hero is dealt combat damage, it deals 1 fire damage to the source of that damage.; When you strike with Sulfuras, your hero deals 7 fire damage to target hero or ally." />
+<property name="Rarity" value="R" />
+</card>
+</cards>
+</set>
+

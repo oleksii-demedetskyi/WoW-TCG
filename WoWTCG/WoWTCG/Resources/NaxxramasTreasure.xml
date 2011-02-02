@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Naxxramas Treasure" id="5c48d39e-049b-ccc7-75df-e858848c3b11" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+    <card id="a6e22a4e-98b4-c258-0b14-4b231172cd49" name="Andarius the Damned">
+      <property name="Card Number" value="Treasure - 6/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warlock" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Andarius Put an attached ability you control into its owner's hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="07dd54ac-eddd-615f-9913-7539e5539271" name="Arrowsong">
+      <property name="Card Number" value="Treasure - 28/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you strike with this weapon, your hero has Long-Range this combat.When you draw a card, add a verse counter.Remove three verse counters You pay 3 less the next time you strike with this weapon this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="838d2717-bc9c-2231-6748-ca4c7c9be6de" name="Bandit's Insignia">
+      <property name="Card Number" value="Treasure - 22/40" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="On your turn: Target opponent puts a card from his hand into his resource row face down and exhausted." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="dae6abd8-3ea2-ae58-bb87-bc32e18591db" name="Betrayer of Humanity">
+      <property name="Card Number" value="Treasure - 29/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="10" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Shaman, Warrior" />    <property name="Rules" value="As an additional cost to play this weapon, destroy a Human or Orc you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="cd1183dc-d377-85ab-b746-9a11a6c5458e" name="Boarguts the Impaler">
+      <property name="Card Number" value="Treasure - 7/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="30" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Boarguts Boarguts has +1 ATK this turn for each weapon you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="51a6614c-5f9b-89b5-4825-3f1baae823c1" name="Calamity's Grasp">
+      <property name="Card Number" value="Treasure - 30/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue, Shaman" />    <property name="Rules" value="	When this weapon enters play, choose &quot;ability,&quot; &quot;ally,&quot; or &quot;equipment.&quot; You may discard a card of that kind. If you do, destroy target card if it shares that kind." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a9b5ed47-4535-34bc-0786-fda73e5a28d2" name="Cincture of Polarity">
+      <property name="Card Number" value="Treasure - 11/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="Heroes and allies you control have +2 [Health] while you control an even number of heroes and allies." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="5e2c39e4-ad65-ca56-c249-5bde9e6b3ea8" name="Cover of Silence">
+      <property name="Card Number" value="Treasure - 12/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="Your hero has Stealth. Opponents can't play cards on your turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d8eb8bb5-56df-ea3e-0143-d285131ccca9" name="Cryptfiend's Bite">
+      <property name="Card Number" value="Treasure - 31/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Hunter, Paladin" />    <property name="Rules" value="When you strike with this weapon on an opponent's turn, put two 1 [Melee] / 1 [Health] Scarab ally tokens into play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d9e6194e-6563-c7ef-089a-cbd31363e3e4" name="Damnation">
+      <property name="Card Number" value="Treasure - 32/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="Opposing cards everywhere have &quot;Death Rattle: Your hero deals 1 shadow damage to itself.&quot;" />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="471f0d10-80d6-e8a9-f3d1-aa1599c776b7" name="Debacle">
+      <property name="Card Number" value="Event 5" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="The raid leader turns three raiding resources face down." />
+    </card>
+    <card id="a47d7cf1-9827-48b4-8bb7-eefc5e62b998" name="Dying Curse">
+      <property name="Card Number" value="Dying Curse" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Priest, Warlock" />    <property name="Rules" value="1, Destroy target attachment. If you do, its controller draws a card." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="98a26a22-94dd-2646-57d5-a20c7f633a8e" name="Envoy of Mortality">
+      <property name="Card Number" value="Treasure - 33/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="When you strike with this weapon, your hero has Long-Range this combat.When your hero deals damage with this weapon, it also deals that much ranged damage to target friendly hero or ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="1434cebb-eb59-1f40-c5ec-74b8deac09d4" name="Faerlina's Madness">
+      <property name="Card Number" value="Treasure - 13/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="On your turn: , Turn a resrouce you control face down Turn target opposing resource face down." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="e613e7dd-4e6e-c0d8-e0d2-0889c6557509" name="Footwraps of Vile Deceit">
+      <property name="Card Number" value="Treasure - 14/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="When this armor enters play, target an opposing equipment. You control it while this armor remains under your control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8725dc72-862e-db96-5d8a-5931d85ccaec" name="Fortuitous Gift">
+      <property name="Card Number" value="Event 7" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="The raid leader chooses one: He draws three cards; or each raider draws a card." />
+    </card>
+    <card id="6439c12b-5f73-bd5b-ada9-5025c9713c6e" name="Girdle of Razuvious">
+      <property name="Card Number" value="Treasure - 15/40" />
+      <property name="Type" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Warrior" />    <property name="Rules" value="When this armor enters play, search your deck for a weapon with cost less than or equal to the number of resourcs you control, put damage on your hero equal to its cost, and put it into play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="fe74ad9c-1237-dec5-6bbe-c2724f494975" name="Gloves of Calculated Risk">
+      <property name="Card Number" value="Treasure - 16/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="You pay 1 less to play equipment, to a minimum of 1.Weapons you control have +1 ATK, and other armor you control have +1 [DEF].When this armor is destroyed, destroy all equipment you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="671286f8-1a63-4625-25b4-875b67448f69" name="Gyro of the Ring">
+      <property name="Card Number" value="Treasure - 1/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="27" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: 2, Flip Gyro If Gyro has Stealth, destroy target exhausted ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="bf5ba18f-361a-013b-e3d8-2457269678eb" name="Icy Blast Amulet">
+      <property name="Card Number" value="Treasure - 24/40" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Hunter, Paladin, Rogue, Shaman, Warrior" />    <property name="Rules" value="When your hero is dealt damage on an opponent's turn, you may pay 1. If you do, it deals 1 frost damage to target hero or ally." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="690b0a9b-e16e-e312-c3ae-36d2c10ee442" name="Justice Blindburn">
+      <property name="Card Number" value="Treasure - 8/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Blindburn When the next ally you control is destroyed this turn, each opponent destroys an ally he controls." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="64beed99-6d05-8b17-d77d-678ca3cd9ae8" name="Last Laugh">
+      <property name="Card Number" value="Treasure - 34/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="8" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Warrior" />    <property name="Rules" value="When this weapon enters play, target opponent gains control of it until the start of your next turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8d392258-3a15-7eb1-9188-c479455c4be4" name="Loraala the Frigid">
+      <property name="Card Number" value="Treasure - 2/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="25" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Mage" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Loraala Loraala deals 3 frost damage to target hero. A hero dealt damage this way can't attack this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6971fc77-17e3-6f57-6313-f8d1a16206f1" name="Martiana the Mindwrench">
+      <property name="Card Number" value="Treasure - 3/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="26" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Martiana Target player discards a card if he already discarded a card this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e9e6072f-42cb-a7d6-8d91-3bc2ad786e53" name="Mr. Bigglesworth">
+      <property name="Card Number" value="Raid 66/66" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="0" />
+      <property name="Health" value="1" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="This ally can't attack" />
+    </card>
+    <card id="2c9b6a81-d5c4-6337-4146-e5ac6800ec53" name="Oakenclaw">
+      <property name="Card Number" value="Treasure - 4/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="27" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Druid" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Oakenclaw This turn, Oakenclaw is in bear form and has Form(1) until you strike with a weapon or play a non-Feral ability. (Is a protector while in bear form.)" />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e22bc5aa-d5d2-d13c-da69-8db205cca5eb" name="Plague Igniter">
+      <property name="Card Number" value="Treasure - 35/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="	When your hero deals shadow ([Shadow]) damage to a hero, allies in its party have -1 [Health] this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="8e789f2b-bed1-a849-52c8-53caa4dc9aa3" name="Punish the Greedy">
+      <property name="Card Number" value="Event 14" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5" />
+    </card>
+    <card id="9af224ac-6312-069c-9de9-c61d4bb96616" name="Randolphe Mortimer">
+      <property name="Card Number" value="Treasure - 5/40" />
+      <property name="Type" value="Alliance" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Randolphe This turn, opposing heroes and allies have &quot;This character has -1 ATK for each damage on it.&quot;" />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a7cd10f7-dbfd-9215-6b65-b389ce77378a" name="Riveted Abomination Leggings">
+      <property name="Card Number" value="Treasure - 17/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Warrior" />    <property name="Rules" value="	Heroes you allies you control have Assault 2 and Conspicuous." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="5b4c3612-a244-6c9f-7890-5e98993e1c76" name="Ruthless Precision">
+      <property name="Card Number" value="Event 15" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5" />
+    </card>
+    <card id="e81fd315-2b1a-819d-7ca0-96577b51f1b3" name="Scourgeborne Battlegear">
+      <property name="Card Number" value="Treasure - 18/40" />
+      <property name="Type" value="Armor Set" />
+      <property name="Cost" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="At the end of your turn, you may remove target ally in a graveyard from the game. If you do, put a 3 [Melee] / 3 [Health] Ghoul ally token into play.Your hero deals 3 shadow damage to target hero or ally. Ready a Ghoul you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="0cb49759-88ee-9b8f-38d8-60388bf062ed" name="Signet of Manifested Pain">
+      <property name="Card Number" value="Treasure - 25/40" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="At the start of your turn, you may put 2 damage on your hero. If you do, put a 2 [Melee] / 2 [Health] ally token into play with the same class and race as your hero." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="03225679-b07c-6be1-90c5-1b7c7bd3c2e1" name="Sinister Revenge">
+      <property name="Card Number" value="Treasure - 36/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Your hero has Dual Wield.When this weapon enters play, put X +1 ATK counters on it, where X is the ATK of another Melee weapon you control." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="7dae2fba-c198-6aea-9b80-7a620279f16e" name="Split Greathammer">
+      <property name="Card Number" value="Treasure - 37/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Paladin, Rogue, Shaman" />    <property name="Rules" value="If your hero would deal combat damage to a hero with this weapon, it may deal that much divided as you choose among any number of opposing heroes and/or allies instead." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="13410162-7767-f588-c80d-5b22dca46875" name="Strong-Handed Ring">
+      <property name="Card Number" value="Treasure - 26/40" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Hunter, Paladin, Rogue, Warrior" />    <property name="Rules" value="Your hero has Assault 5 while you have five or more cards in your hand." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="5046d780-8c2b-92da-4a7a-50355d813628" name="The Longeye">
+      <property name="Card Number" value="Treasure - 9/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="28" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Hunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="	On your turn: 5, Flip The Longeye Destroy target opposing ally if it has or shares the highest cost among opposing allies." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e0254c93-abd4-d7b3-a635-e18f77b922c9" name="The Turning Tide">
+      <property name="Card Number" value="Treasure - 38/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Paladin, Warlock" />    <property name="Rules" value="You pay 2 less to play allies while you control fewer allies than an opponent." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="9bae4d28-eaa3-45d6-63e1-4d2aaeb23856" name="The Undeath Carrier">
+      <property name="Card Number" value="Treasure - 39/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter" />    <property name="Rules" value="When a non-Undead ally you control is destroyed, put it into play, and it's also an Undead." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d17b5a3b-49fd-7470-d36e-64e7fab3794f" name="Torn Web Wrapping">
+      <property name="Card Number" value="Treasure - 19/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="1, Reveal a random face-down resource you control. If it's a location or quest, turn it face up. Otherwise, put it into its owner's hand." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="37c84344-47d1-d965-1657-5a49561f6d8b" name="Tribemother Torra">
+      <property name="Card Number" value="Treasure - 10/40" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Shaman" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Torra Target up to three heroes and/or allies. Torra heals 3, 2, and 1 damage from them, respectively." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="16858616-2265-fa7f-ef17-c89a201c6abf" name="Urn of Lost Memories">
+      <property name="Card Number" value="Treasure - 27/40" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="On your turn: , Destroy an ability or equipment you control with cost X Put target ally with cost X or less from your graveyard into play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="a1edafd7-a136-72cb-0063-91d3a40c7441" name="Voice of Reason">
+      <property name="Card Number" value="Treasure - 20/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Shaman" />    <property name="Rules" value="Your hero has Mend 2 for each 5 damage on it.Your hero has Protector while you control no damaged allies." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="ac89c2df-3b6d-82d7-19be-f7873629ea3e" name="Wall of Terror">
+      <property name="Card Number" value="Treasure - 21/40" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="When this armor enters play, put each other ability, ally, and equipment into its owner's hand." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="3293b89d-f532-238a-7629-62d0c3ece248" name="Widow's Fury">
+      <property name="Card Number" value="Treasure - 40/40" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight, Rogue, Warrior" />    <property name="Rules" value="This weapon has +3 ATK if an ally you controlled was destroyed this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+  </cards>
+</set>

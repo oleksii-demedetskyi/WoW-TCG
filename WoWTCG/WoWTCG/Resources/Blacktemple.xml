@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Black Temple" id="2dc7e633-fa8f-72d9-bd39-db294eac1443" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+    <card id="e82e21c5-cecb-8cce-556b-86d3706775a5" name="Arcing Smash">
+      <property name="Card Number" value="Raid - 19/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Traitor Hero Required Destroy target opposing equipment and all opposing equipment with the same cost as that equipment." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="9852bf84-c66f-5e4d-7469-4c722307e6f5" name="Ashtongue Battlelord">
+      <property name="Card Number" value="Raid - 29/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero: When Ashtongue Battlelord enters play, destroy target undamaged opposing ally. Loyal Hero: When Ashtongue Battlelord enters play, destroy all damaged opposing allies." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="9580a7f8-dc8b-d991-93ba-d90a2d2cc75b" name="Ashtongue Rogue">
+      <property name="Card Number" value="Raid - 30/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Rogue" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero: Elusive, Ferocity Loyal Hero: Long-Range, Stealth" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="02af127b-e567-e118-6adc-79ace96e51fa" name="Aura of Anger">
+      <property name="Card Number" value="Raid - 14/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Traitor Hero Required Ongoing: Heroes and allies in your party have +1 ATK while attacking damaged heroes and allies." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="9fbc355f-c3c2-16fa-68d4-5d75b256626e" name="Black Bow of the Betrayer">
+      <property name="Card Number" value="Treasure - 7/12 " />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Rogue, Warrior" />    <property name="Rules" value="When you strike with Black Bow of the Betrayer, your hero has long-range this combat. [Hunter]: When an ally is dealt combat damage with Black Bow of the Betrayer, ready up to four of your resources." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="2387489b-19ef-cce8-46ee-5c94d2a31b67" name="Blessed Medallion of Karabor">
+      <property name="Card Number" value="Treasure - 3/12" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="8" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="Remove Blessed Medallion of Karabor from the game --&gt; Move to the right of another friendly player. Use only on your turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="59887d43-5ddd-db2a-428b-69374958e542" name="Bonechewer Shield Disciple">
+      <property name="Card Number" value="Raid - 32/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required Protector" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="1d2aacf1-a535-b50c-3807-66ac20a618c8" name="Bonechewer Shield Disciple">
+      <property name="Card Number" value="Raid - 32/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="6" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required Protector" />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="c994c558-aa1b-59e1-79d8-bbd232241b37" name="Charming Courtesan">
+      <property name="Card Number" value="Raid - 33/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required If Charming Courtesan would be dealt 2 or less damage, prevent it." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="e43a7d4a-4b38-9a58-afb6-bd8ae5af76a9" name="Coilskar General">
+      <property name="Card Number" value="Raid - 34/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Warrior" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required When Coilskar General enters play, put three Naga ally tokens into play 1 [Melee] ATK / 1 health." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="14b5ee44-c642-bf0a-5737-d8661b7b1333" name="Coilskar Wrangler">
+      <property name="Card Number" value="Raid - 35/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required 2, Destroy an ally in your party --&gt; Each opponent destroys an ally in his party." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="a9a7f4ca-c764-9f67-9233-4939153c8266" name="Crushing Shadows">
+      <property name="Card Number" value="Raid - 15/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest" />    <property name="Rules" value="Traitor Hero Required Each opponent discards a random card, and your hero deals shadow damage to his hero equal to that card's cost." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="e15d3833-7585-9461-6cd6-a77c57a35df6" name="Cursed Vision of Sargeras">
+      <property name="Card Number" value="Treasure - 2/12" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="Exhaust --&gt; If you completed a quest this turn, turn target resource face down." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="7eee8ad8-220f-8145-7ec2-9aa71329eac6" name="Doom Blossom">
+      <property name="Card Number" value="Raid - 18/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Traitor Hero Required Attach to target hero or ally, and put three blossom counters on Doom Blossom. Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached character for each blossom counter, and then you remove one. If none remain, destroy Doom Blossom." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="5b5cf541-44ce-1539-baf5-373a5af5afe8" name="Entry into the Black Temple">
+      <property name="Card Number" value="Treasure - 11/12" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 5 to complete this quest. Reward: Draw a card for each different class among allies in your party." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="bdc3f5d2-d115-9b15-86d3-2e81ca498568" name="Fel-Acid Breath">
+      <property name="Card Number" value="Raid - 17/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Traitor Hero Required Target opponent chooses three allies in his party, in order. Your hero deals 3, 2, and 1 nature damage to them, respectively." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="c13b44ab-a4d5-8cf9-e875-e2db9cc5370d" name="Fel Geyser">
+      <property name="Card Number" value="Raid - 11/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid" />    <property name="Rules" value="Traitor Hero Required Ongoing: Opposing quests have &quot;As an additional cost to complete, turn another one of your quests face down.&quot;" />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="5282126d-3a3c-6bdd-2ce0-df1241a52cdd" name="Hateful Strike">
+      <property name="Card Number" value="Raid - 16/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Traitor Hero Required If target player has exactly one ally in his party, destroy it." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="77cba5a8-b507-7314-dc65-28375ddedf82" name="Illidan Stormrage">
+      <property name="Card Number" value="Treasure - 1/12" />
+      <property name="Type" value="Master Hero" />
+      <property name="Cost" value="11" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="35" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon Demonhunter" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required At the start of your turn, you may put a Traitor ally card from your collection into play." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="b17a1c12-f838-bc13-8e9e-a85bf214b72a" name="Illidari Archon">
+      <property name="Card Number" value="Raid 36/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Priest" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required When Illidari Archon attacks, you may ready one of your resources." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="0ec7fa95-1913-a7dd-b286-b4deb2e8569e" name="Illidari Blood Lord">
+      <property name="Card Number" value="Raid 37/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Paladin" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required When Illidari Blood Lord enters play, each player turns one of his face-up resources face down." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="68507673-b643-2539-4de9-0e53ef8cde46" name="Memento of Tyrande">
+      <property name="Card Number" value="Treasure - 4/12" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="When a non-token ally is destroyed, its controller may put a Spirit ally token into play wit 1 [Holy] ATK / 1 health." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="d47f0cd3-35f6-75e8-9c2b-80a59bc8ef19" name="Needle Spine">
+      <property name="Card Number" value="Raid - 12/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Traitor Hero Required When target hero or ally deals combat damage to your defending hero this turn, your hero also deals that much ranged damage to it." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="9c83471e-c367-51ba-ffbe-d2dadace8972" name="Priestess of Dementia">
+      <property name="Card Number" value="Raid - 38/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required 2, Destroy an ally in your party --&gt; Each opponent destroys an ability or equipment he controls." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="27f97b5b-48ee-571a-6a5a-7376969065f5" name="Promenade Sentinel">
+      <property name="Card Number" value="Raid - 39/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="5" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required When Promenade Sentinel enters play, it deals 2 arcane damage to each of up to three target heroes and/or allies." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="2a1b82c6-f46a-7b57-3037-6c5d4179b3b4" name="Sister of Pain">
+      <property name="Card Number" value="Raid - 40/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required When Sister of Pain attacks, she deals 1 shadow damage to target opposing hero." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="4ddaad0a-5477-ae92-a08a-11563bdee655" name="Sister of Pleasure">
+      <property name="Card Number" value="Raid - 41/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Demon" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required Protector When Sister of Pleasure defends, she heals 1 damage from target hero or ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d6ba98c2-9b18-ccb7-91a4-d4ab4444ec31" name="Stormrage Signet Ring">
+      <property name="Card Number" value="Treasure - 6/12" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Paladin, Rogue, Shaman, Warrior" />    <property name="Rules" value="Exhaust --&gt; Put target equipment into its owner's hand. Use only on your turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="9d86d4c0-5aa9-34eb-c783-c9fe9d1cb962" name="Temple Concubine">
+      <property name="Card Number" value="42/23" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Traitor Hero Required If Temple Concubine would be dealt 3 or more damage, prevent it." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="39048885-53bb-b2c0-35e6-a132c4ed7ef1" name="The Fall of the Betrayer">
+      <property name="Card Number" value="Treasure - 12/12" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 2 to complete this quest. Reward: If target opposing hero's printed health is more than your hero's, draw a card." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="9df8d64c-4e7e-857d-0eee-94b7c5a82a41" name="The Skull of Gul'dan">
+      <property name="Card Number" value="Treasure - 5/12" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="Exhaust --&gt; You pay 2 less the next time you pay a cost with X in it this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="eea357ab-38b9-0614-e2b6-3b41cc6d5b1a" name="Tidal Burst">
+      <property name="Card Number" value="Raid - 13/23" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage" />    <property name="Rules" value="Traitor Hero Required Your hero deals 3 frost damage to target opposing ally and each other opposing ally with the same cost as that ally." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="8a776cb1-424a-8211-ecdd-48860b27658d" name="Warglaive of Azzinoth, Left Hand of the Betrayer">
+      <property name="Card Number" value="Treasure - 8/12" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue, Warrior" />    <property name="Rules" value="Your hero has dual wield while you have another Warglaive. When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 [Fire] ATK / 3 health and ferocity." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="7b37576a-d42e-6437-63fd-d3e5a35e1b84" name="Warglaive of Azzinoth, Right Hand of the Betrayer">
+      <property name="Card Number" value="Treasure - 8/12" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Rogue, Warrior" />    <property name="Rules" value="Your hero has dual wield while you have another Warglaive. When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 [Fire] ATK / 3 health and ferocity." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="16b73493-9d10-3b91-e77e-7912bc7a4df4" name="Zhar'doom, Greatstaff of the Devourer">
+      <property name="Card Number" value="Treasure - 10/12" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="1, Exhaust your hero, remove three ability cards in your graveyard from the game --&gt; Your hero deals 3 shadow damage to target hero or ally and heals 3 damage from itself." />
+      <property name="Rarity" value="R" />
+    </card>
+  </cards>
+</set>

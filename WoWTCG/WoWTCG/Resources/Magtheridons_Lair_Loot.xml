@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Magtheridons Lair Loot" id="3ec04da7-bbca-4d33-8b08-f97e50e82664" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+<card id="b029d492-bc8b-7291-cacd-c017a73202fb" name="A'dal's Signet of Defense">
+      <property name="Card Number" value="Loot - 8/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="[Activate] &gt; Target armor has +3 DEF this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="7d9cbae2-6084-2225-d9ae-6d5da4d317a2" name="Aegis of the Vindicator">
+      <property name="Card Number" value="Loot - 1/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Shaman" />    <property name="Rules" value="When an opposing hero or ally becomes exhausted, your hero heals 2 damage from itself." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="81cdc90b-3e2e-f50d-e99b-bc4468a8912c" name="Band of Crimson Fury">
+      <property name="Card Number" value="Loot - 9/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="3, Discard a card &gt; The next time damage would be dealt with an ability you control this turn, that much +3 is dealt instead." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="7dda6150-e6f3-5afd-923d-5d30793aadb7" name="Cloak of the Pit Stalker">
+      <property name="Card Number" value="Loot - 2/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter, Rogue, Shaman, Warrior" />    <property name="Rules" value="[Activate] &gt; Target attacker has -1 health this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="31293cbe-a829-6c34-247d-b404831d362d" name="Crystalheart Pulse-Staff">
+      <property name="Card Number" value="Loot - 18/20" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Priest" />    <property name="Rules" value="2, [Activate] &gt; Remove a friendly ally fom the game. If you do, its owner puts it into play at the end of your turn." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="b234c589-c6d8-259d-a121-53b66132c71b" name="Eredar Wand of Obliteration">
+      <property name="Card Number" value="Loot - 19/20" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Priest, Warlock" />    <property name="Rules" value="When your hero deals shadow damage to an opponent's hero, you may destroy an ability, ally, or equipment you control. If you do, that opponent destroys an ability, ally, or equipment he controls." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="2ab361aa-ad46-471e-991d-b2a8f09c9546" name="Eye of Magtheridon">
+      <property name="Card Number" value="Loot - 10/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="If 1 would be rolled on a die, you may change it to any value on that die instead." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="e6b153aa-9615-edec-b35a-3bbb95179625" name="Girdle of the Endless Pit">
+      <property name="Card Number" value="Loot - 3/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="At the start of your turn, put 1 damage on your hero." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="eb65b855-ba92-10c7-57b3-b513c3896b09" name="Glaive of the Pit">
+      <property name="Card Number" value="Loot - 20/20" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Paladin, Warrior" />    <property name="Rules" value="Opposing heroes have -5 health." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="14ed92eb-a84a-386b-14ed-d326be57473e" name="Heavy Netherweave Bandage">
+      <property name="Card Number" value="Loot - 11/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="1, Put Heavy Netherweave Bandage on the bottom of its owners deck &gt; Your hero heals 6 damage from target hero or ally. Use only on your turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="aabb6546-7b45-05b2-ae79-a253351ceaa4" name="Karaborian Talisman">
+      <property name="Card Number" value="Loot - 12/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="When you complete a quest, you may destroy Karaborian Talisman. If you do, turn that quest face up." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="683ee056-7d96-43cb-bd8f-b1ef8a7d9191" name="Liar's Tongue Gloves">
+      <property name="Card Number" value="Loot - 4/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="1, [Activate] &gt; Name a card type and remove a card in your hand from the game face down. Target opponent guesses whether that card has that type, then reveals it. If he's right, put it into your graveyard. Otherwise, put it into your hand and draw two cards." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="a9e0d182-8e6e-837c-7321-961c8a46baa3" name="Naaru Lightwarden's Band">
+      <property name="Card Number" value="Loot - 13/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="Friendly heroes have +5 health." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="3e2b5698-2e53-872a-77a8-05a48cbd1a79" name="Phoenix-fire Band">
+      <property name="Card Number" value="Loot - 14/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="1, Destroy Phoenix-fire Band &gt; Prevent all fire damage tht would be dealt to target hero or ally this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="4e373e6e-351c-8ba3-8d12-4504215a3a11" name="Ring of the Recalcitrant">
+      <property name="Card Number" value="Loot - 15/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter, Rogue, Warrior" />    <property name="Rules" value="Friendly heroes have +1 ATK while attacking." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="3bb6d683-b289-7fe8-3b4a-1089676f1492" name="Soul-Eater's Handwraps">
+      <property name="Card Number" value="Loot - 5/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="When an ability, ally, equipment, or hero readies, its controller puts the top card of his deck into his graveyard." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="163f4f61-db97-3a37-54b5-680c45b22e6b" name="Superior Mana Oil">
+      <property name="Card Number" value="Loot - 17/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="Superior Mana Oil enters play attached to one of your weapons.; At the start of your turn, you may reveal the top card of your deck. If it's an ability card, put it into your hand. Otherwise, put it into your graveyard." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="fcda74be-daa3-5df3-bdab-ccbc188d83b1" name="Super Mana Potion">
+      <property name="Card Number" value="Loot - 16/20" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter, Mage, Paladin, Priest, Shaman, Warlock" />    <property name="Rules" value="4, Destroy Super Mana Potion &gt; Draw four cards." />
+      <property name="Rarity" value="R" />
+    </card>
+	<card id="5bf2c874-399c-37ae-c451-e7b62361a8b4" name="Terror Pit Girdle">
+      <property name="Card Number" value="Loot - 6/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="Your hero is untargetable while an ally is in your party." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="418aa2cf-2529-50d5-3119-76e953d2397c" name="Thundering Greathelm">
+      <property name="Card Number" value="Loot - 7/20" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="When you play an ally, your weapons have +1 ATK this turn." />
+      <property name="Rarity" value="R" />
+    </card>
+	</cards>
+</set>

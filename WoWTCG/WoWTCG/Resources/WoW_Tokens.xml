@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Tokens" id="23227063-0d27-4396-b63f-340d0fa8b975"
+     gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+	 <packaging>
+	 <pack name="Tokens" id="f2fb36d8-c4de-4443-b12a-723f3e48fff5">
+      <pick qty="unlimited" key="Faction" value="Token" />
+    </pack>
+	</packaging>
+<cards>
+<card id="fc341db4-efc6-46c3-9f86-99370535a9e7" name="Alliance Dwarf Warrior">
+<property name="Card Number" value="Tokens - 1/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="Warrior" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="4b897e0d-1713-4f4b-b543-091a2adce71c" name="Arena Gladiator">
+<property name="Card Number" value="Tokens - 2/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="8ec6ab89-6b21-45a1-90a4-8143f2106fad" name="Bear (Protector)">
+<property name="Card Number" value="Tokens - 3/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector" />
+<property name="Rarity" value="T" />
+</card>
+<card id="ed30b424-b571-4039-9435-fd81e6d1c5b0" name="Bear (Pet)">
+<property name="Card Number" value="Tokens - 4/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="4" />
+<property name="Health" value="4" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="This ally can protect your hero." />
+<property name="Rarity" value="T" />
+</card>
+<card id="1d3888ad-452b-4677-86f8-02b85dc45c90" name="Bear (Unique)">
+<property name="Card Number" value="Tokens - 5/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="4935d04e-d18b-40ec-836a-8471c5af8873" name="Bessie">
+<property name="Card Number" value="Tokens - 6/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="At the start of your turn, remove this ally from the game to remove target ally from the game." />
+<property name="Rarity" value="T" />
+</card>
+<card id="bd3bf054-d250-40bd-a7c3-4b7d4b82a355" name="Boar">
+<property name="Card Number" value="Tokens - 7/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="68331724-02aa-415b-bc8e-dedfc82467e6" name="Broken Arena">
+<property name="Card Number" value="Tokens - 8/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="c70c5a44-a577-423d-b9c7-3df98d4229d4" name="Charlotte">
+<property name="Card Number" value="Tokens - 9/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a1510978-e77b-49cc-a157-1385a403be47" name="Chicken">
+<property name="Card Number" value="Tokens - 10/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="f28c577c-f459-4b31-b94c-6b3bdf795e30" name="Cryo-Engineer Sha'Heen">
+<property name="Card Number" value="Tokens - 11/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="At the start of your turn, remove this token from the game to gain control of target ability or equipment." />
+<property name="Rarity" value="T" />
+</card>
+<card id="5b605f17-ae93-421d-811b-49478146a158" name="Drainei Survivor">
+<property name="Card Number" value="Tokens - 12/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Exhaust your hero, remove this ally from the game - Draw a card." />
+<property name="Rarity" value="T" />
+</card>
+<card id="89a8fe24-98dc-416b-ba35-96a6e66b7fae" name="Earth Elemental">
+<property name="Card Number" value="Tokens - 13/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector" />
+<property name="Rarity" value="T" />
+</card>
+<card id="998d6f7c-fa60-404c-acc9-7c0705bf4094" name="Fel Reaver">
+<property name="Card Number" value="Tokens - 14/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="10" />
+<property name="Health" value="10" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="efa0d2f6-e15c-4a95-96eb-c377d77a5b79" name="Felhunter">
+<property name="Card Number" value="Tokens - 15/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="f4f1bee0-ad24-4810-bc81-b6eef277ea88" name="Fire Elemental">
+<property name="Card Number" value="Tokens - 16/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity" />
+<property name="Rarity" value="T" />
+</card>
+<card id="6807698e-db3e-4f84-acc8-7f7056142d8f" name="Halaani">
+<property name="Card Number" value="Tokens - 17/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a7384dbd-cffc-4ae4-9278-b0d8c41478e0" name="Hogger">
+<property name="Card Number" value="Tokens - 18/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="When Hogger leaves play, opponent who gave control of Hogger to you draws two cards." />
+<property name="Rarity" value="T" />
+</card>
+<card id="ff8d8afc-9c82-4492-85ed-3371e79d2d27" name="Mark V">
+<property name="Card Number" value="Tokens - 19/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="At the start of your turn, Mark V deals 5 melee damage to target hero or ally." />
+<property name="Rarity" value="T" />
+</card>
+<card id="b98ce2ee-4197-41af-bcb4-d193f137e14e" name="Mechanical Chicken">
+<property name="Card Number" value="Tokens - 20/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="3cd31300-beb3-40fc-9929-2d4fd14354e9" name="Mechanical Dragonling">
+<property name="Card Number" value="Tokens - 21/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="0f0ff1b7-051d-4658-ba98-3f2c8eb57c8b" name="Mechanical Yeti">
+<property name="Card Number" value="Tokens - 22/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="2e4fa5da-a10e-4ca7-a7a3-b38a72bfde66" name="Misha">
+<property name="Card Number" value="Tokens - 23/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity" />
+<property name="Rarity" value="T" />
+</card>
+<card id="62ddaaad-2139-41c5-a049-4d7d8f409730" name="Naga">
+<property name="Card Number" value="Tokens - 24/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="49a29510-354b-4b9e-b9dc-10dde4e4dee1" name="Naga Distiller">
+<property name="Card Number" value="Tokens - 25/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="db6cb8c6-3dd9-4ccd-aabc-11b75738c523" name="Pandaren">
+<property name="Card Number" value="Tokens - 26/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="This token has +1 ATK/ +1 health for each other Pandaren in your party." />
+<property name="Rarity" value="T" />
+</card>
+<card id="8ed202c6-a494-4071-9525-b0bbb6dfb3af" name="Pandaren">
+<property name="Card Number" value="Tokens - 27/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="This token has +1 ATK/ +1 health for each other Pandaren in your party." />
+<property name="Rarity" value="T" />
+</card>
+<card id="71329cc1-348b-4079-805d-7e43e6450987" name="Pandaren">
+<property name="Card Number" value="Tokens - 28/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="This token has +1 ATK/ +1 health for each other Pandaren in your party." />
+<property name="Rarity" value="T" />
+</card>
+<card id="669bf7e6-0610-4800-b12c-653c6b94fe38" name="Peasant (Ferocity)">
+<property name="Card Number" value="Tokens - 29/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity" />
+<property name="Rarity" value="T" />
+</card>
+<card id="8bb9a217-c518-4087-9b95-bf825055754d" name="Peasant (Protector)">
+<property name="Card Number" value="Tokens - 30/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector" />
+<property name="Rarity" value="T" />
+</card>
+<card id="402ec1de-6e1b-4ebe-8a58-b34bcbafeeed" name="Ringo">
+<property name="Card Number" value="Tokens - 31/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="At the start of your turn, draw a card." />
+<property name="Rarity" value="T" />
+</card>
+<card id="9916dd87-6146-4bd3-9b9a-c6d92f0f0b1a" name="Shield Wall">
+<property name="Card Number" value="Tokens - 32/41" />
+<property name="Type" value="Token Armor" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a2104100-47f3-4d9c-9d13-0f9d59d1686c" name="Skeleton">
+<property name="Card Number" value="Tokens - 33/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity, Protector  At end of turn, destroy this token." />
+<property name="Rarity" value="T" />
+</card>
+<card id="1fd22ab9-02fe-44d3-918c-3b2c307c9eb0" name="Skywing">
+<property name="Card Number" value="Tokens - 34/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="If Skywing has been in play since your last turn, it has +3 ATK/ +3 health and is an Arakkoa." />
+<property name="Rarity" value="T" />
+</card>
+<card id="84815385-b1a1-49d6-8706-2ff18a531a61" name="Snake">
+<property name="Card Number" value="Tokens - 35/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="5fce425c-9f74-4121-8983-a6faa87ec1a4" name="Spirit Guide">
+<property name="Card Number" value="Tokens - 36/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="9f309e35-0453-4e15-841f-bcbb549a7709" name="Tooga">
+<property name="Card Number" value="Tokens - 37/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="de39d8bb-de78-44d8-b95a-eca2f36e53da" name="Treant">
+<property name="Card Number" value="Tokens - 38/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a954bd7c-c142-4fc6-95ea-05724dad8c6a" name="Treant (Ferocity)">
+<property name="Card Number" value="Tokens - 39/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity" />
+<property name="Rarity" value="T" />
+</card>
+<card id="8ceb68ff-736a-4bdf-b0ea-6df8c44d4af2" name="Warlock">
+<property name="Card Number" value="Tokens - 40/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="5" />
+<property name="Faction" value="Token" />
+<property name="Class" value="Warlock" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="ea216d9a-96a6-4b39-bfbc-e153047b2da8" name="Wisp">
+<property name="Card Number" value="Tokens - 41/41" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a24cba01-e8ea-49dc-b7b4-906d9f0899b7" name="Dwarf">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="6c6b6395-3f4f-46c0-99df-8fdc80ca975c" name="Bear">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="c6ca71f9-bac2-4ca6-9ba6-a060ec296516" name="Draenei Survivor">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="2f4b68a9-1aa3-4170-bae0-c2677e3e5c6d" name="Earth Elemental">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="ca08c83c-81fa-4217-8d10-562e34df5ef0" name="Fire Elemental">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="c5f0c6a6-debc-4649-8209-1644f3cede47" name="Misha">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="a16e869e-005c-4411-ac44-1bbbeb8072d3" name="Tooga">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="18b41e40-ab9b-4276-b875-66fc9b0d4fb4" name="Treant">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="956d602b-9c07-441b-b658-1d3368919e5b" name="Mechanical Yeti">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card>
+<card id="8cc8c9d3-93c2-4900-88da-58017c681b76" name="Abyssal">
+<property name="Card Number" value="" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Token" />
+<property name="Class" value="" />
+<property name="Rules" value="" />
+<property name="Rarity" value="T" />
+</card><card id="860debbf-24f2-0be7-2b15-d8d590336dd3" name="Firesworn">
+<property name="Card Number" value="Token - 54/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="When Firesworn is dealt fatal damage, it deals 1 fire damage to the source of that damage." />
+<property name="Rarity" value="F" />
+</card><card id="87a2508a-19d6-13df-a800-3142c4649f8d" name="Son of Flame">
+<property name="Card Number" value="Token - 55/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="Ferocity; Son of Flame can't be dealt fire damage. When the last Son of Flame leaves play, if Ragnaros is Submerged, flip Ragnaros." />
+<property name="Rarity" value="F" />
+</card><card id="20795365-481d-7199-0a1c-42dc9bc515e0" name="Flamewaker">
+<property name="Card Number" value="Token - 56/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="3" />
+<property name="Health" value="2" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="1, Destroy Flamewalker > Destroy target equipment." />
+<property name="Rarity" value="F" />
+</card><card id="84ebe3f0-0622-1f92-e832-45a79bd6dccd" name="Flamewaker Priest">
+<property name="Card Number" value="Token - 57/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="5" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="[Activate] > Flamewalker Priest heals 4 damage from target hero or ally. Use only on your turn." />
+<property name="Rarity" value="F" />
+</card><card id="438e2ff5-2a05-0e10-88c3-23b11cb88bbd" name="Flamewaker Elite">
+<property name="Card Number" value="Token - 58/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector" />
+<property name="Rarity" value="F" />
+</card><card id="dd3f00de-778c-02ee-437c-45f482a68f6e" name="Core Rager">
+<property name="Card Number" value="Token - 59/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="5" />
+<property name="Health" value="5" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector; At the end of your turn, ready Core Rager." />
+<property name="Rarity" value="F" />
+</card><card id="26c29c29-3d5b-be1b-a7ad-1af81a933e48" name="Flamewaker Healer">
+<property name="Card Number" value="Token - 60/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="3" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="[Activate] > Flamewalker Healer deals 1 shadow damage to each hero and ally in target opponent's party." />
+<property name="Rarity" value="F" />
+</card><card id="8d515f78-dbc6-67dc-2d5f-544e559189c3" name="Lava Spawn">
+<property name="Card Number" value="Token - 61/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="At the start of your turn, put a Lava Spawn into play." />
+<property name="Rarity" value="F" />
+</card><card id="35bec1ad-2ac0-5d00-fa26-e7dc4381b7f9" name="Flamewaker Protector">
+<property name="Card Number" value="Token - 62/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="0" />
+<property name="Health" value="1" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="[Activate] > Exhaust target ready ally. That ally deals melee damage equal to its ATK to ist controller's hero. Use only on your turn." />
+<property name="Rarity" value="F" />
+</card>
+
+<card id="503d7a0c-1691-4223-9fa9-c9fc9e755596" name="Blighthound">
+<property name="Card Number" value="Token - 62/92" />
+<property name="Type" value="Token Ally" />
+<property name="Cost" value="" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="" />
+<property name="Class" value="" />
+<property name="Rules" value="Protector" />
+<property name="Rarity" value="F" />
+</card>
+</cards>
+</set>

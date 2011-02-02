@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Darkmoon Faire" id="7678d786-a860-431c-8b60-1f7a9ba1f10f" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+    
+    <card id="8785dc58-6980-89c0-4a4d-0caa998d3b42" name="Blastenheimer 5000 Ultra Cannon">
+      <property name="Card Number" value="Darkmoon Faire 1/5" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="7" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="All" />    <property name="Rules" value="Ongoing: 3, [Activate] &gt; You may put an ally card from your hand into play. If you do, destroy it at the start of the next turn." />
+      <property name="Rarity" value="R" />
+    </card>
+    
+    <card id="6c927a7b-7948-b114-3cb6-4e55652802b9" name="Darkmoon Card: Madness">
+      <property name="Card Number" value="Darkmoon Faire 4/5" />
+      <property name="Type" value="Item" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Druid, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior" />    <property name="Rules" value="On your turn: 2, [Activate] &gt; Remove the top card of target opponent's deck from the game. If it's an ability, ally, or equipment card, he destroys a card of that kind he controls." />
+      <property name="Rarity" value="R" />
+    </card>
+    
+    <card id="3c188d11-2335-896b-dcc8-89838dca2cbe" name="Sayge">
+      <property name="Card Number" value="Darkmoon Faire 2/5" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Fortuneteller" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="At the start of your turn, remove the top card of target opponent's deck from the game. If it's an ability, ally, or equipment card, you may play it this game. (Pay costs as normal.)" />
+      <property name="Rarity" value="R" />
+    </card>
+    
+    <card id="d88b8505-9933-eb1b-b836-893b9964c517" name="Silas Darkmoon">
+      <property name="Card Number" value="Darkmoon Faire 3/5" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class" value="Ringleader" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Silas has ATK equal to the combined ATK of all other allies in your party, and health equal to the combined health of all other allies in your party." />
+      <property name="Rarity" value="R" />
+    </card>
+    
+    
+    <card id="78b17807-d175-85d1-66c0-537bad5a90d3" name="The Darkmoon Faire">
+      <property name="Card Number" value="Darkmoon Faire 5/5" />
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="1, [Activate], Discard a card &gt; Draw a card.; At the start of your turn, if you control cards in play with costs 1, 2, 3, 4, 5, 6, 7, and 8, you win the game." />
+      <property name="Rarity" value="R" />
+    </card>
+    
+    
+  </cards>
+</set>

@@ -1,0 +1,2311 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Blood of Gladiators" id="11c87ab0-9df5-4eae-8d3a-a3376de84188" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+	 <packaging>
+    <pack name="Booster" id="cd0ae77f-5851-4556-bccf-f7cfa57f7b2c">
+  	<options>
+   	 <option probability="0.125">
+      <pick qty="1" key="Rarity" value="E" />
+  	 </option>
+  	 <option probability="0.875">
+      <pick qty="1" key="Rarity" value="R" />
+  	 </option>
+  	</options>
+     <pick qty="4" key="Rarity" value="U" />
+     <pick qty="13" key="Rarity" value="C" />
+     <pick qty="1" key="Type" value="Hero" />
+    </pack>
+	<pack name="Heroes" id="0d8b83ca-8c14-4243-af3a-ea4b623b4ea9">
+      <pick qty="unlimited" key="Type" value="Hero" />
+    </pack>
+  </packaging>
+<cards>
+<card id="26cf57e5-138d-4209-a188-dbd1846b0e5b" name="Bronson Greatwhisker">
+<property name="Card Number" value="Gladiators - 1/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="29" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="5, Flip Bronson > The next time target ally would be dealt damage this turn, prevent it, and your hero heals 1 damage from that ally for each damage prevented this way." />
+<property name="Rarity" value="H" />
+</card>
+<card id="c90b0844-3137-4e97-b703-0901097a497b" name="Chloe Mithrilbolt">
+<property name="Card Number" value="Gladiators - 2/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="30" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Chloe > When Chloe protects this turn, ready her." />
+<property name="Rarity" value="H" />
+</card>
+<card id="c1966c03-f4aa-4622-b1d3-22eb8576d5a8" name="Feera Quickshot">
+<property name="Card Number" value="Gladiators - 3/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Feera > You pay (2) less the next time you strike with a Ranged weapon this turn." />
+<property name="Rarity" value="H" />
+</card>
+<card id="6c0b942d-1e42-40d3-b248-e222dcf0150f" name="Gwon Strongbark">
+<property name="Card Number" value="Gladiators - 4/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="27" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="4, Flip Gwon > Ally tokens in your party have +2 ATK this turn." />
+<property name="Rarity" value="H" />
+</card>
+<card id="43ef4986-d591-4e09-bb0f-37abe90d9175" name="Gyro of the Ring">
+<property name="Card Number" value="Gladiators - 5/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="27" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: 2, Flip Gyro > If Gyro has stealth, destroy target exhausted ally." />
+<property name="Rarity" value="H" />
+</card>
+<card id="ec11808a-7521-4a08-b882-8478cb723b4d" name="Kalatine Carmichael">
+<property name="Card Number" value="Gladiators - 6/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="26" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Priest" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Kalatine > The next time Kalatine would be dealt damage this turn, prevent it." />
+<property name="Rarity" value="H" />
+</card>
+<card id="94e74033-7d53-4d06-8980-8c1a37309e8d" name="Kristoff Manchester">
+<property name="Card Number" value="Gladiators - 7/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Kristoff > When Kristoff deals damage with an attachment this turn, he heals that much from himself." />
+<property name="Rarity" value="H" />
+</card>
+<card id="71fba9fa-3f18-43a1-b1b2-1d20137a1d4b" name="Nicholas Merrick">
+<property name="Card Number" value="Gladiators - 8/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="25" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: 3, Flip Nicholas > Nicholas deals 2 fire damage to each opposing ally." />
+<property name="Rarity" value="H" />
+</card>
+<card id="458a57ef-4b2b-4fc8-a098-023da720d74c" name="Statia the Preserver">
+<property name="Card Number" value="Gladiators - 9/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Statia > Prevent all damage that would be dealt to target Totem this turn." />
+<property name="Rarity" value="H" />
+</card>
+<card id="702ec35d-583b-4a44-84f1-867dc76502b6" name="Andarius the Damned">
+<property name="Card Number" value="Gladiators - 10/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Andarius > Put an attached ability you control into its owner's hand." />
+<property name="Rarity" value="H" />
+</card>
+<card id="7626ed22-ae56-42e9-82ba-e06b5c256a64" name="Bonewall Simms">
+<property name="Card Number" value="Gladiators - 11/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="30" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="2, Flip Bonewall > Target hero or ally is a protector this turn." />
+<property name="Rarity" value="H" />
+</card>
+<card id="e4389010-028a-4565-8466-f35af09d58d9" name="Brahu Starsear">
+<property name="Card Number" value="Gladiators - 12/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: 4, Flip Brahu > Put two Treant ally tokens into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="H" />
+</card>
+<card id="def08631-5ee3-4c30-8d58-ae99f5844991" name="Cerripha Sunstreak">
+<property name="Card Number" value="Gladiators - 13/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="25" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Cerripha > Cerripha deals 3 fire damage to target hero." />
+<property name="Rarity" value="H" />
+</card>
+<card id="d2f883b5-9e6f-4f76-8c6c-be41ca0f1b1b" name="Savitir Skullsmasher">
+<property name="Card Number" value="Gladiators - 14/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="27" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Savitir > If Savitir has stealth, destroy target exhausted equipment." />
+<property name="Rarity" value="H" />
+</card>
+<card id="d3164973-791b-4275-b7d1-85edd96c0b4f" name="Sharpeye Yan'ja">
+<property name="Card Number" value="Gladiators - 15/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="28" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="On your turn: 2, Flip Yan'ja > Yan'ja deals ranged damage to target ally equal to 1 plus the combined ATK of your Ranged weapons." />
+<property name="Rarity" value="H" />
+</card>
+<card id="0af00a2f-051e-4278-a259-dd9bb54b183a" name="Thoros the Savior">
+<property name="Card Number" value="Gladiators - 16/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="29" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="4, Flip Thoros > Thoros heals 2 damage from target hero or ally. Draw a card." />
+<property name="Rarity" value="H" />
+</card>
+<card id="1ed52d18-9db0-474d-927b-6b89561b9220" name="Tribemother Torra">
+<property name="Card Number" value="Gladiators - 17/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="29" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Torra > Target up to three heroes and/or allies. Torra heals 3, 2, and 1 damage from them, respectively." />
+<property name="Rarity" value="H" />
+</card>
+<card id="6f7a8f38-33eb-4837-88de-62f99776a99b" name="Witch Doctor Koo'zar">
+<property name="Card Number" value="Gladiators - 18/208" />
+<property name="Type" value="Hero" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="26" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Priest" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Flip Koo'zar > Ready up to three target resources." />
+<property name="Rarity" value="H" />
+</card>
+<card id="2985add5-c4be-47a0-89e1-fbc22bad0d8f" name="Friends in High Places">
+<property name="Card Number" value="Gladiators - 19/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Put two Treant ally tokens into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="C" />
+</card>
+<card id="296cb489-2c3a-4dd4-b936-69e7d27d43b6" name="Nature's Reach">
+<property name="Card Number" value="Gladiators - 20/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Balance Hero Required; Ongoing: Ally tokens in your party have +1 ATK / +1 health.; 3, [Activate] > Put a Treant ally token into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="R" />
+</card>
+<card id="77f2368c-e89d-4565-8f0b-767147d60c1c" name="Reforestation">
+<property name="Card Number" value="Gladiators - 21/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Destroy target ability or equipment. Put three Treant ally tokens into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="U" />
+</card>
+<card id="d9a34192-de98-4e20-ab26-1cb26113e2a9" name="Sowing of Seeds, The">
+<property name="Card Number" value="Gladiators - 22/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Your hero deals 1 nature damage to target hero or ally. For each damage dealt this way, put a Treant ally token into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="U" />
+</card>
+<card id="332e8bc6-f791-40bc-b89d-9496c9a1508f" name="Starshot">
+<property name="Card Number" value="Gladiators - 23/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Your hero deals 3 arcane damage to target ally.; Draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="518b80ba-a15f-4875-9c9e-0b6518789155" name="Tiger's Fury">
+<property name="Card Number" value="Gladiators - 24/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Ongoing: 1 > Your hero has an additional +1 ATK while attacking in cat form this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="1580cf44-b783-486b-91d3-ce57c3e42df9" name="Utopia">
+<property name="Card Number" value="Gladiators - 25/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="7" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid" />    <property name="Rules" value="Destroy all tokens. Put each other ability, ally, and equipment into its owner's resource row face down, then exhaust them." />
+<property name="Rarity" value="R" />
+</card>
+<card id="66403e52-6722-4819-a3b1-ec1cd93bdfb7" name="Aim of Eagles, The">
+<property name="Card Number" value="Gladiators - 26/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Your hero deals 1 ranged damage to target hero or ally. Ready one of your resources for each damage dealt this way." />
+<property name="Rarity" value="U" />
+</card>
+<card id="54010819-e3c4-4139-89b7-e83c9d3e41f0" name="Bolton">
+<property name="Card Number" value="Gladiators - 27/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="2" />
+<property name="Health" value="1" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Long-Range (Defenders deal no combat damage to this character.)" />
+<property name="Rarity" value="U" />
+</card>
+<card id="c35af23b-9a12-48f1-b8f1-9264fdd5aa16" name="Clutch Shot">
+<property name="Card Number" value="Gladiators - 28/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Target ally has +2 ATK this turn. A second target ally has -2 ATK this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="677aad99-df45-4a57-9097-4d94fa76721c" name="Improvised Weaponry">
+<property name="Card Number" value="Gladiators - 29/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Attach to target Melee weapon.; Ongoing: Attached weapon loses Melee(1), has Ranged(1), becomes a [Ranged] weapon, and has When you strike with this weapon, your hero has long-range this combat." />
+<property name="Rarity" value="R" />
+</card>
+<card id="02314afd-35ef-4c7f-807f-39860cd2f6d2" name="Quickdraw">
+<property name="Card Number" value="Gladiators - 30/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Your hero deals 2 ranged damage to target ally, or 6 if that ally entered play this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="2152c517-361c-47e4-96f9-f1b68308a6b4" name="Scatter Shot">
+<property name="Card Number" value="Gladiators - 31/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Marksmanship Hero Required; Your hero deals ranged damage to target hero or ally equal to 1 plus the combined ATK of your Ranged weapons. If a hero is dealt damage this way, its controller can't play cards this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="4139de38-3441-4c6f-b3dc-8c2f20c993d6" name="Volley">
+<property name="Card Number" value="Gladiators - 32/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Ongoing: At the end of your turn, your hero deals 1 arcane damage to each of up to three target heroes and/or allies.; When your hero is dealt damage, destroy Volley." />
+<property name="Rarity" value="R" />
+</card>
+<card id="fb3ee089-bb30-4745-877e-375b9eb9bc95" name="Blizzard">
+<property name="Card Number" value="Gladiators - 33/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Ongoing: At the start of each opponent's turn, your hero deals 1 frost damage to each hero and ally in that opponent's party. A character dealt damage this way can't attack this turn.; When a card leaves your hand, destroy Blizzard." />
+<property name="Rarity" value="R" />
+</card>
+<card id="8b7deaf8-4404-4465-a50a-094c8b1aa7cf" name="Combustion">
+<property name="Card Number" value="Gladiators - 34/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Fire Hero Required; Your hero deals X fire damage to each hero and ally, where X is target ally's health." />
+<property name="Rarity" value="R" />
+</card>
+<card id="467c938c-de46-4e2f-b69d-df71675e0211" name="Heartburn">
+<property name="Card Number" value="Gladiators - 35/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Your hero deals 4 fire damage to target hero or ally and 1 fire damage to each other hero and ally in that character's party." />
+<property name="Rarity" value="C" />
+</card>
+<card id="757050dc-2912-4c04-af3c-8e4ce23bd374" name="Mana Ruby">
+<property name="Card Number" value="Gladiators - 36/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Ongoing: 2, Destroy Mana Ruby > Draw cards until you reach your maximum hand size." />
+<property name="Rarity" value="R" />
+</card>
+<card id="a33a7932-50c3-437c-9af1-cda9218ba96e" name="Meltdown">
+<property name="Card Number" value="Gladiators - 37/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="X" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Choose one: Your hero deals X fire damage to target ally; or destroy target weapon with cost X." />
+<property name="Rarity" value="U" />
+</card>
+<card id="f612a2ab-b094-4f8b-89f4-1c2ebb4c8ebe" name="Sear">
+<property name="Card Number" value="Gladiators - 38/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Your hero deals 2 fire damage to target ally, or 6 if that ally was dealt damage this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="b43d9ab7-f55a-45cb-acd6-1d3dd139c643" name="Taste of Arcana, The">
+<property name="Card Number" value="Gladiators - 39/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage" />    <property name="Rules" value="Your hero deals 1 arcane damage to target hero or ally. If you targeted a hero, you may interrupt a card played by its controller unless he pays 1 for each damage dealt this way." />
+<property name="Rarity" value="U" />
+</card>
+<card id="32ad75c3-9a20-4956-bfb0-9007724884a5" name="Atonement">
+<property name="Card Number" value="Gladiators - 40/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Prevent all damage that target hero or ally would deal this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="93d79ab5-016e-4226-b52f-3612ca386e66" name="Divine Favor">
+<property name="Card Number" value="Gladiators - 41/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Holy Hero Required; Ongoing: [Activate], Remove the top X cards of your deck from the game > Your hero heals X damage from target hero or ally." />
+<property name="Rarity" value="R" />
+</card>
+<card id="03f92e44-0e28-49c6-bba8-945d5cc29b32" name="Divine Justice">
+<property name="Card Number" value="Gladiators - 42/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Exhaust target ready opposing ally. If you do, you may have it deal melee damage equal to its ATK to a second target ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="613aeffe-0e78-499b-89db-8c81477772de" name="Glimmer of Hope">
+<property name="Card Number" value="Gladiators - 43/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Interrupt target ability card that's targeting a card in play you control." />
+<property name="Rarity" value="U" />
+</card>
+<card id="dd673a48-0eef-42c7-a9e1-1bbfa401cab2" name="Reckoning of the Light">
+<property name="Card Number" value="Gladiators - 44/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Destroy each ability and equipment with which damage was dealt to your hero this game." />
+<property name="Rarity" value="R" />
+</card>
+<card id="d7f577d9-e657-4fef-ad99-6eb33478622e" name="Rewards of Faith, The">
+<property name="Card Number" value="Gladiators - 45/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Your hero deals 1 unpreventable holy damage to target hero or ally. For each damage dealt this way, prevent the next 1 damage that would be dealt to a second hero or ally this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="b391d18f-1a4b-43b8-b9e3-099bd2af46f2" name="Sacred Moment">
+<property name="Card Number" value="Gladiators - 46/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="Cards in play can't ready until after your next turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="a4ef40b5-ed03-42e3-b2b6-d12ad406cd3d" name="Darkest Before the Light">
+<property name="Card Number" value="Gladiators - 47/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="8" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Your hero heals all damage from each friendly hero and ally." />
+<property name="Rarity" value="R" />
+</card>
+<card id="ccfbf953-24f9-4d3c-a2f0-3bd8164dba7f" name="Disperse Magic">
+<property name="Card Number" value="Gladiators - 48/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Ongoing: Destroy Disperse Magic > Destroy target ability." />
+<property name="Rarity" value="C" />
+</card>
+<card id="48ab914f-071b-4c01-bb18-adab91ebdfbe" name="Focused Will">
+<property name="Card Number" value="Gladiators - 49/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="7" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Discipline Hero Required; Ongoing: At the start of your turn, switch all damage on your hero with the damage on target opposing hero." />
+<property name="Rarity" value="R" />
+</card>
+<card id="1825f055-a59e-47de-a729-cbeb80e8bd29" name="Horrify">
+<property name="Card Number" value="Gladiators - 50/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Target player destroys an ally in his party. If he does, your hero heals damage from itself equal to that ally's cost." />
+<property name="Rarity" value="C" />
+</card>
+<card id="e6d38800-cdac-45a7-9047-984d68b4f816" name="Omens of Terror, The">
+<property name="Card Number" value="Gladiators - 51/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Your hero deals 1 shadow damage to target hero or ally. Its controller reveals a card in his hand for each damage dealt this way. Choose a revealed card, and he discards it." />
+<property name="Rarity" value="U" />
+</card>
+<card id="ab652ee0-9d0c-4d9c-b0c1-ed7ec498c604" name="Power Word: Restore">
+<property name="Card Number" value="Gladiators - 52/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Attach to target hero, and you may turn it face up.; Ongoing: At the start of your turn, your hero heals 1 damage from attached hero." />
+<property name="Rarity" value="U" />
+</card>
+<card id="3a09fc80-37a9-473b-a9f9-42cd365278f6" name="Splinter Mind">
+<property name="Card Number" value="Gladiators - 53/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Priest" />    <property name="Rules" value="Attach to target ally.; Ongoing: You control attached ally.; At the start of your turn, your hero deals 1 shadow damage to attached ally." />
+<property name="Rarity" value="R" />
+</card>
+<card id="6b43ea1e-443b-4b50-9337-b2816f991020" name="Deadliness">
+<property name="Card Number" value="Gladiators - 54/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Subtlety Hero Required; Choose one or more: Destroy target exhausted ally; destroy target exhausted equipment; destroy target exhausted resource." />
+<property name="Rarity" value="R" />
+</card>
+<card id="62820c23-4d67-41ed-9c0b-4c5d31fcc620" name="Depths of Shadows, The">
+<property name="Card Number" value="Gladiators - 55/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="6" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Your hero deals 1 melee damage to target hero or ally. Its controller destroys one of his resources for each damage dealt this way." />
+<property name="Rarity" value="U" />
+</card>
+<card id="cbe8715c-2574-4039-a911-ef07fe488e6d" name="Intuition">
+<property name="Card Number" value="Gladiators - 56/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Remove target attacker from combat. You may ready it." />
+<property name="Rarity" value="C" />
+</card>
+<card id="b12fb04b-dcd1-4552-b218-816def2b7874" name="Slash and Dash">
+<property name="Card Number" value="Gladiators - 57/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Ongoing: When Slash and Dash enters play, you may destroy target exhauste ally.; Your hero has stealth. (Can't protect against it.); When your hero deals damage, destroy Slash and Dash." />
+<property name="Rarity" value="C" />
+</card>
+<card id="9647e3b1-abc2-45aa-8802-ac3e55e02c6f" name="Stab in the Dark">
+<property name="Card Number" value="Gladiators - 58/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Look at target opponent's hand and choose an ally card. He discards that card." />
+<property name="Rarity" value="U" />
+</card>
+<card id="40b7b35b-ee77-4958-96e9-11693e68ded8" name="Surgical Strikes">
+<property name="Card Number" value="Gladiators - 59/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Ongoing: When a hero or ally in your party deals combat damage to a defending hero, its controller discards a card." />
+<property name="Rarity" value="R" />
+</card>
+<card id="80bb9738-2958-4ed0-a880-640eaa334468" name="Yoink!">
+<property name="Card Number" value="Gladiators - 60/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Attach to target equipment.; Ongoing: You control attached equipment." />
+<property name="Rarity" value="R" />
+</card>
+<card id="d6bb3d04-b055-441b-adab-4a5069439938" name="Crash of Tides, The">
+<property name="Card Number" value="Gladiators - 61/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Your hero deals 1 nature damage to target hero or ally and heals 1 damage from a second target hero or ally for each damage dealt this way." />
+<property name="Rarity" value="U" />
+</card>
+<card id="2bcd5ce1-5a58-44e2-8f5e-d8efd61d2267" name="Echo Totem">
+<property name="Card Number" value="Gladiators - 62/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="1" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Ongoing: At the start of your turn, you may remove a non-ongoing ability card in your graveyard from the game. If you do, you can play that card without paying its cost this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="bfed7839-43de-4fb2-9492-9703bafecaf9" name="Fork Lightning">
+<property name="Card Number" value="Gladiators - 63/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Your hero deals 5 nature damage to target hero and 5 nature damage to target ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="0f4b7e4f-f249-4183-b96a-be43a9d393d2" name="Greater Chain Heal">
+<property name="Card Number" value="Gladiators - 64/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Target up to five heroes and/or allies. Your hero heals 5, 4, 3, 2, and 1 damage from them, respectively." />
+<property name="Rarity" value="U" />
+</card>
+<card id="8bcaf602-b75d-45ca-a32d-923d0ad996e5" name="Strength of Earth Totem">
+<property name="Card Number" value="Gladiators - 65/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="1" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Ongoing: Allies in your party have +1 ATK.; (Totems can be attacked or targeted like allies.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="abfec0c9-86fc-4dde-8d3f-1e132a39b7b2" name="Tidal Mastery">
+<property name="Card Number" value="Gladiators - 66/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="6" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Restoration Hero Required; Ongoing: Exhaust four of your Totems > Your hero deals 10 nature damage to target hero or ally." />
+<property name="Rarity" value="R" />
+</card>
+<card id="a0d89fc6-1453-4199-a78e-a09c03025bfd" name="Tremor Shock">
+<property name="Card Number" value="Gladiators - 67/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman" />    <property name="Rules" value="Your hero deals 1 frost damage and 1 nature damage to target hero or ally. An ally dealt damage this way can't attack this turn. If a hero was dealt damage this way, you may interrupt an ability card played by its controller." />
+<property name="Rarity" value="R" />
+</card>
+<card id="c26c46af-3678-44ed-891e-759b2b0954af" name="Curse of Endless Suffering">
+<property name="Card Number" value="Gladiators - 68/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Attach to target hero or ally.; Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached character.; 3 > Search your deck for a card named Curse of Endless Suffering and attach it to attac" />
+<property name="Rarity" value="C" />
+</card>
+<card id="c6d15453-05c7-41d7-baa9-a60320430d91" name="Curse of Midnight">
+<property name="Card Number" value="Gladiators - 69/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Attach to target hero, and you may turn it face down.; Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached hero." />
+<property name="Rarity" value="U" />
+</card>
+<card id="9d188708-da4f-42a8-9692-c29eca03eaf1" name="Dark Justice">
+<property name="Card Number" value="Gladiators - 70/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Remove target ally from the game and put damage on your hero equal to that ally's ATK." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ecf5dab2-1c3b-483c-a08a-ac8c5fe6640c" name="Grim Reach">
+<property name="Card Number" value="Gladiators - 71/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Affliction Hero Required; Opposing heroes and allies have -1 health this turn for each ongoing ability you control." />
+<property name="Rarity" value="R" />
+</card>
+<card id="3ed37147-0618-4e91-8680-8f0c13462454" name="Kreedom">
+<property name="Card Number" value="Gladiators - 72/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="2" />
+<property name="Health" value="4" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="Demon" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="At the start of your turn, Kreedom deals 1 shadow damage to each opposing hero and ally for each ability you control attached to that character." />
+<property name="Rarity" value="R" />
+</card>
+<card id="e31a6da9-14d2-43b7-9210-b6a73cf46c07" name="Promises of Darkness, The">
+<property name="Card Number" value="Gladiators - 73/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Your hero deals 1 shadow damage to target hero or ally. For each damage dealt this way, put 1 damage on your hero and draw a card." />
+<property name="Rarity" value="U" />
+</card>
+<card id="443869dd-5203-474e-98e9-729f71b82a41" name="Ritual of Summoning">
+<property name="Card Number" value="Gladiators - 74/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="8" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="Ongoing: On your turn: Exhaust your hero and two allies in your party > Put an ally card from your collection into play." />
+<property name="Rarity" value="R" />
+</card>
+<card id="4e0776b2-1e50-42a2-8813-c57c505be021" name="Benefits of Practice, The">
+<property name="Card Number" value="Gladiators - 75/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Your hero deals 1 melee damage to target hero or ally. You may choose on of your weapons. If you do, put a +1 ATK counter on it for each damage dealt this way." />
+<property name="Rarity" value="U" />
+</card>
+<card id="b0042905-d822-41c8-9547-408daa5702c5" name="Cowering Shot">
+<property name="Card Number" value="Gladiators - 76/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Target ally has -3 ATK / -3 health this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ebb1ff17-0be9-4bda-8096-888a916635f9" name="Defiance">
+<property name="Card Number" value="Gladiators - 77/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Protection Hero Required; Ongoing: Only one character can attack on each opponent's turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="1d9719ee-f0ea-4eed-a7a5-3f96de7d52b8" name="Final Sacrifice, A">
+<property name="Card Number" value="Gladiators - 78/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Target hero or ally in your party has +3 ATK / +3 health this turn. At the start of the next turn, destroy it." />
+<property name="Rarity" value="C" />
+</card>
+<card id="f66c6d9c-5fe2-4fb8-894f-bfdb23ab3833" name="Flawless Advance, A">
+<property name="Card Number" value="Gladiators - 79/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Ongoing: When an ally with cost equal to the number of resources you control enters your party, put a a strength counter on A Flawless Advance.; Allies in your party have +1 ATK / +1 health for each strength counter." />
+<property name="Rarity" value="R" />
+</card>
+<card id="b3a8f09a-a884-4dea-a90e-6b48364a3520" name="Pulverize">
+<property name="Card Number" value="Gladiators - 80/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Choose one: Destroy target damaged ally; or destroy target ability or equipment with one or more counters." />
+<property name="Rarity" value="U" />
+</card>
+<card id="97296859-1d30-49fd-9d28-4a6a516b406d" name="Shield Wall">
+<property name="Card Number" value="Gladiators - 81/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warrior" />    <property name="Rules" value="Put three Wall armor tokens into play with 1 DEF." />
+<property name="Rarity" value="R" />
+</card>
+<card id="f22eee34-8ab3-4a15-aeca-36bc4f829f64" name="Blessing of the Heavens">
+<property name="Card Number" value="Gladiators - 82/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Paladin" />    <property name="Rules" value="Attach to target ally.; Ongoing: Attached ally has +2 ATK / +2 health.; When attached ally is destroyed, you may put Blessing of the Heavens from its owner's graveyard into his hand." />
+<property name="Rarity" value="C" />
+</card>
+<card id="14385d26-ed7c-4601-8914-8837f308299b" name="Burly Bellow">
+<property name="Card Number" value="Gladiators - 83/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Warrior" />    <property name="Rules" value="Opposing allies have -5 ATK this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="be9233e5-948e-4885-9b00-9ccfd0ea88cc" name="Disappear">
+<property name="Card Number" value="Gladiators - 84/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Priest" />    <property name="Rules" value="Your hero is elusive this turn. (It can't be attacked.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="6d88b5d6-bf2d-4dac-90c1-650e33fb78a8" name="Double Time">
+<property name="Card Number" value="Gladiators - 85/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Shaman, Warrior" />    <property name="Rules" value="Ready target equipment." />
+<property name="Rarity" value="C" />
+</card>
+<card id="3e6623d5-4343-4e81-9221-44f2aa9f8dae" name="Optimize">
+<property name="Card Number" value="Gladiators - 86/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Priest" />    <property name="Rules" value="Ongoing: [Activate] > You may ready or exhaust target resource." />
+<property name="Rarity" value="C" />
+</card>
+<card id="aee32935-ac92-4cbf-9a0e-e3c544a9dfc3" name="Phase Hound">
+<property name="Card Number" value="Gladiators - 87/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="5" />
+<property name="Health" value="5" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="Demon" />
+<property name="Class Restriction" value="Hunter, Warlock" />    <property name="Rules" value="Stealth (Can't protect against this character.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="478c2aa5-bc82-4850-be8f-bf4346fb52d6" name="Poof!">
+<property name="Card Number" value="Gladiators - 88/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Rogue" />    <property name="Rules" value="Target ally's controller removes it from the game. At the start of the next turn, he puts it into his party." />
+<property name="Rarity" value="C" />
+</card>
+<card id="f4dd2a6c-ce77-46e8-aa39-c99ec0710141" name="Recall from the Brink">
+<property name="Card Number" value="Gladiators - 89/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman" />    <property name="Rules" value="Put target ally or weapon card from your graveyard into play if its cost is less than or equal to the number of resources you control." />
+<property name="Rarity" value="C" />
+</card>
+<card id="c6333841-9f62-49de-a5dc-b8a220cecbc3" name="Victimize">
+<property name="Card Number" value="Gladiators - 90/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="5" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue, Warlock" />    <property name="Rules" value="Target player discards two cards and you draw two cards." />
+<property name="Rarity" value="C" />
+</card>
+<card id="888e40cb-3456-404d-9640-3ae6f06f8c7f" name="Center of Attention">
+<property name="Card Number" value="Gladiators - 91/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="Attach to target ally.; Ongoing: Attached ally is AWESOME! (At the start of your turn, each player may compliment this ally. If he does, he draws a card.)" />
+<property name="Rarity" value="R" />
+</card>
+<card id="a454b536-d446-4eef-a198-9ae1c1b31ef6" name="Foam Sword Rack">
+<property name="Card Number" value="Gladiators - 92/208" />
+<property name="Type" value="Ability" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="Ongoing: 1 > Your hero deals 1/2 melee damage to target hero. Any player can use this power." />
+<property name="Rarity" value="R" />
+</card>
+<card id="2fc53441-9e6a-4078-8a8d-b00f09fd2746" name="Anduin Wrynn">
+<property name="Card Number" value="Gladiators - 93/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="0" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="King" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Other friendly Humans can protect Andiun.; On your turn: [Activate] > Search your deck for a Human ally card and put it into play." />
+<property name="Rarity" value="E" />
+</card>
+<card id="b9411cbd-f723-4f3c-a4eb-5bd26fef8afa" name="Chillhands Spigotgulp">
+<property name="Card Number" value="Gladiators - 94/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="If you would draw a card, you may skip drawing it instead.; When you skip drawing a card this way, target ally can't attack this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="794d1c78-c10b-47bd-88e4-956a0d884f0e" name="Cracklehands Spigotgulp">
+<property name="Card Number" value="Gladiators - 95/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="2" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="If you would draw a card, you may skip drawing it instead.; When you skip drawing a card this way, Cracklehands deals 2 arcane damage to target ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="75ba392c-e537-4809-9a7a-c62147ceff0b" name="Elder Achillia">
+<property name="Card Number" value="Gladiators - 96/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="95e14087-5bed-4383-a179-dcf28ffad9a5" name="Elder Tomas">
+<property name="Card Number" value="Gladiators - 97/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.); [Activate] > Ready another target ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ff5f917a-037e-41eb-b6d6-d4fb26e3c8ab" name="Elder Valdar of the Exodar">
+<property name="Card Number" value="Gladiators - 98/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="6" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="33ab863c-d47e-4310-8d84-34a02caf2286" name="Elder Zeez">
+<property name="Card Number" value="Gladiators - 99/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="7" />
+<property name="ATK" value="7" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Elusive (Can't be attacked.); Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="5d35d0ab-d345-4394-b8b9-86f977ba6a8b" name="Gladiator Katianna">
+<property name="Card Number" value="Gladiators - 100/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="3" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Priest" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party are elusive." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ea9bdbae-31ce-4ed2-a054-8a18429c93e3" name="Gladiator Keward">
+<property name="Card Number" value="Gladiators - 101/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party are protectors." />
+<property name="Rarity" value="C" />
+</card>
+<card id="31f6ee7d-f9b7-4c94-94e8-b0ba993b4558" name="Gladiator Kinivus">
+<property name="Card Number" value="Gladiators - 102/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="2" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an opposing card or effect causes you to discard an Arena ally card, you may put it from your graveyard into hand." />
+<property name="Rarity" value="C" />
+</card>
+<card id="83a99850-d220-4cc4-aefe-5efc1de68612" name="Gladiator Lanthus">
+<property name="Card Number" value="Gladiators - 103/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="2" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party have [Activate] > Exhaust target ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="6ebd3464-d657-4c1d-8eb0-f20decb6b07b" name="Gladiator Loraala">
+<property name="Card Number" value="Gladiators - 104/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party have [Activate] > This ally deals 3 fire damage to target hero." />
+<property name="Rarity" value="C" />
+</card>
+<card id="73f0f5ff-34ca-42be-81b8-d5af81cc20ed" name="Gladiator Magnus">
+<property name="Card Number" value="Gladiators - 105/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Destroy an Arena ally in your party > Turn target resource face down." />
+<property name="Rarity" value="C" />
+</card>
+<card id="22b5fc5e-39a1-4a40-8bd5-4b28219ca1d2" name="Gladiator Meganna">
+<property name="Card Number" value="Gladiators - 106/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="4" />
+<property name="Health" value="5" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party have stealth." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ce180015-3440-4317-8af9-f3fc4be9fc4e" name="Gladiator Ryno">
+<property name="Card Number" value="Gladiators - 107/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When Ryno or another Arena ally enters your party, put a Felhunter Demon ally token into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="C" />
+</card>
+<card id="8b382798-97c3-4c1f-b53d-c3549b033792" name="Gladiator Zophos">
+<property name="Card Number" value="Gladiators - 108/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="8" />
+<property name="ATK" value="8" />
+<property name="Health" value="6" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an Arena ally in your party is dealt damage, it deals 3 unpreventable holy damage to its source." />
+<property name="Rarity" value="C" />
+</card>
+<card id="1c6289ed-9b41-40ec-9d91-bce1497ef926" name="Huntress Xenia">
+<property name="Card Number" value="Gladiators - 109/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="4" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.); At the start of each opponent's turn, target ally is a protector this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="0f5c101a-8cd3-4502-92ed-0dad9d73c4fe" name="Kristina Soulcinder">
+<property name="Card Number" value="Gladiators - 110/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="0" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="At the start of your turn, target ally has +2 ATK / -2 health this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="cf9c3cba-c371-4a89-a774-582f367c1ee0" name="Kurdoc Greybeard">
+<property name="Card Number" value="Gladiators - 111/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="1" />
+<property name="Health" value="5" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Exhaust your hero > Target attacking ally has -3 ATK this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="8c9ae9d0-cb0c-4846-9ab1-de6bee90951e" name="Mikael the Blunt">
+<property name="Card Number" value="Gladiators - 112/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an opposing hero or ally readies, Mikael deals 2 ranged damage to it." />
+<property name="Rarity" value="U" />
+</card>
+<card id="7ed97b74-8fcf-4020-b8ff-68e16c55f3e6" name="Miranda McMiserson">
+<property name="Card Number" value="Gladiators - 113/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Elusive; [Activate] > Name a card, then reveal the top card of your deck. If it has that name, draw it. Otherwise, put it on the bottom of your deck." />
+<property name="Rarity" value="R" />
+</card>
+<card id="b7066992-0b17-477e-9b8f-8565b5a10683" name="Ossus the Ancient">
+<property name="Card Number" value="Gladiators - 114/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="5" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Draenei Hero Required; Inspiring Presence; Prevent all combat damage that would be dealt." />
+<property name="Rarity" value="R" />
+</card>
+<card id="7e426a57-1cb7-43de-a5bb-86e6c291435e" name="Pappy Ironbane">
+<property name="Card Number" value="Gladiators - 115/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="7" />
+<property name="ATK" value="2" />
+<property name="Health" value="7" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; At the end of your turn, you may destroy target ability or equipment." />
+<property name="Rarity" value="U" />
+</card>
+<card id="be864942-1c69-4ea3-a2fe-6e0581e59b76" name="Quickhands Spigotgulp">
+<property name="Card Number" value="Gladiators - 116/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; If you would draw a card, you may skip drawing it instead.; When you skip drawing a card this way, opposing allies have -1 ATK / -1 health this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="da9ddd78-3874-4768-88ea-c4a41e71486c" name="Trakas">
+<property name="Card Number" value="Gladiators - 117/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="3, Destroy Trakas > Destroy target ally or equipment." />
+<property name="Rarity" value="C" />
+</card>
+<card id="5cccd063-fd10-4f75-9cab-53ac423fa3a3" name="Tyrus Lionheart">
+<property name="Card Number" value="Gladiators - 118/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Tyrus has +4 ATK while defending." />
+<property name="Rarity" value="C" />
+</card>
+<card id="2c2e7a4a-62f7-4993-b0a0-b51a098d7875" name="Wynnd the Spry">
+<property name="Card Number" value="Gladiators - 119/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="2" />
+<property name="Health" value="4" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Elusive (Can't be attacked.); Wynnd has +1 ATK for each exhausted opposing resource." />
+<property name="Rarity" value="C" />
+</card>
+<card id="57a565b0-cc0f-4267-9c10-890b24185ec9" name="Aknot Whetstone">
+<property name="Card Number" value="Gladiators - 120/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="0" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Hardiness (If this ally would be dealt damage, prevent 1 of it.)2, Destroy another ally in your party > Destroy target weapon." />
+<property name="Rarity" value="C" />
+</card>
+<card id="4f19b413-2972-47f6-9994-d4ee4edabecf" name="Canissa the Shadow">
+<property name="Card Number" value="Gladiators - 121/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arcane Torrent (When this ally enters play, target opposing card in play loses and can't have powers this turn.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="68d9c05b-c1c1-4bc9-81bc-fc38e2a78f5c" name="Edward Hack Robinson">
+<property name="Card Number" value="Gladiators - 122/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="4" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Remove an ally card in your graveyard from the game > Edward is a protector this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a504fcea-8645-4681-82b8-7e95673dedec" name="Furious Kalla">
+<property name="Card Number" value="Gladiators - 123/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="4" />
+<property name="Health" value="2" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Hardiness (If this ally would be dealt damage, prevent 1 of it.); When Kalla attacks, you may put a Totem card from your hand into play." />
+<property name="Rarity" value="U" />
+</card>
+<card id="dd961249-173f-4e01-8b5e-1663fece22ce" name="Gladiator Addisyn">
+<property name="Card Number" value="Gladiators - 124/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As Addisyn enters play, choose arcane, fire, frost, nature, or shadow.; Arena allies in your party have the chosen resistance." />
+<property name="Rarity" value="C" />
+</card>
+<card id="c3b256c4-ed37-4d81-a740-999c91e9add1" name="Gladiator Boum">
+<property name="Card Number" value="Gladiators - 125/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="2" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party have ferocity." />
+<property name="Rarity" value="C" />
+</card>
+<card id="e891cf5c-04fe-4e4b-98f3-6895b8e916d8" name="Gladiator Dorn">
+<property name="Card Number" value="Gladiators - 126/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="2" />
+<property name="Health" value="1" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an Arena ally in your party attacks, it heals 1 damage from target hero or ally." />
+<property name="Rarity" value="C" />
+</card>
+<card id="0be6170b-3f0d-4cf2-9724-ee33850d6d57" name="Gladiator Emek">
+<property name="Card Number" value="Gladiators - 127/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Priest" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an Arena ally in your party is destroyed, you may discard a card. If you do, target player discards a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="99f9e89e-eef1-43de-a609-ba8f91312186" name="Gladiator Kaniya">
+<property name="Card Number" value="Gladiators - 128/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party are protectors." />
+<property name="Rarity" value="C" />
+</card>
+<card id="bdf28449-9a57-41b8-80b6-bd50eef65c1f" name="Gladiator Kileana">
+<property name="Card Number" value="Gladiators - 129/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="5" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When Kileana or another Arena ally enters your party, it may deal 1 fire damage to each hero and ally other than itself." />
+<property name="Rarity" value="C" />
+</card>
+<card id="739581cc-5dbf-45b6-b32c-b7a0d32595d7" name="Gladiator Sepirion">
+<property name="Card Number" value="Gladiators - 130/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="7" />
+<property name="ATK" value="3" />
+<property name="Health" value="7" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When each Arena ally in your party attacks for the first time each turn, you may pay 1. If you do, ready it." />
+<property name="Rarity" value="C" />
+</card>
+<card id="f7761fcd-12d0-41d6-aea7-1fe5dbd9db62" name="Gladiator Skumm">
+<property name="Card Number" value="Gladiators - 131/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When an Arena ally in your party is dealt damage, you may turn target resource face down." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a6a974a4-8b95-4bec-a1a6-abffb19b8951" name="Gladiator Zi'mo">
+<property name="Card Number" value="Gladiators - 132/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="1" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arena allies in your party have +2 ATK." />
+<property name="Rarity" value="C" />
+</card>
+<card id="c2dffbd3-33fe-4e90-8317-6f53a486266d" name="Grismare">
+<property name="Card Number" value="Gladiators - 133/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="8" />
+<property name="ATK" value="6" />
+<property name="Health" value="6" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="1, Destroy an ally token in your party > Grismare deals nature damage equal to that token's ATK to target hero or ally." />
+<property name="Rarity" value="U" />
+</card>
+<card id="d208e47b-b7ef-4d07-a53e-dc00eb150916" name="Hex Doctor No'jin">
+<property name="Card Number" value="Gladiators - 134/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="0" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="No'jin has +3 ATK while you have fewer resources than an opponent." />
+<property name="Rarity" value="C" />
+</card>
+<card id="e4fb6e2c-038a-4486-a43e-b08bda0f37f7" name="Karina of Silvermoon">
+<property name="Card Number" value="Gladiators - 135/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Arcane Torrent (When this ally enters play, target opposing card in play loses and can't have powers this turn.); At the start of your turn, you may put Karina into her owner's hand." />
+<property name="Rarity" value="C" />
+</card>
+<card id="ab9f3be8-16ba-45e4-966e-b60320a9c14d" name="Karta Foultongue">
+<property name="Card Number" value="Gladiators - 136/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warrior" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Hardiness (If this ally would be dealt damage, prevent 1 of it.); 1 > This turn, target ally must attack if able and can attack only Karta if able." />
+<property name="Rarity" value="C" />
+</card>
+<card id="d319e946-5198-4c2c-baac-acf6068dbccc" name="Kazamon Steelskin">
+<property name="Card Number" value="Gladiators - 137/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="5" />
+<property name="Health" value="1" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Orc Hero Required; Hardiness Hardiness Hardiness Hardiness Hardiness;  Hardiness Hardiness Hardiness Hardiness Hardiness; Hardiness Hardiness Hardiness Hardiness Hardiness; Hardiness Hardiness Hardiness Hardiness Har" />
+<property name="Rarity" value="R" />
+</card>
+<card id="3cce0580-8841-48f5-8cad-1b87c9831ba9" name="Kino the Cold">
+<property name="Card Number" value="Gladiators - 138/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="2" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Hardiness (If this ally would be dealt damage, prevent 1 of it.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="3fc246ab-7e17-414a-bed7-66c326207d82" name="Melissa Gerrard">
+<property name="Card Number" value="Gladiators - 139/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When Melissa attacks, target hero or ally has -1 health this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="e4c74c3c-fd89-4712-971d-a6d6dff3f5ed" name="Naliss the Silencer">
+<property name="Card Number" value="Gladiators - 140/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="6" />
+<property name="Health" value="7" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Blood Elf Hero Required; Arcane Torrent; 1 > Target opposing card in play loses and can't have powers this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="83d0f22e-eaa7-4dbb-9a7d-2875c03758d6" name="Nea Sunmark">
+<property name="Card Number" value="Gladiators - 141/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="3" />
+<property name="Health" value="3" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Priest" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Ferocity (Can attack immediately.); Arcane Torrent (When this ally enters play, target opposing card in play loses and can't have powers this turn.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="819d9ea9-7d0f-4ae8-a48b-5b32f1c69214" name="Rorga Trueshot">
+<property name="Card Number" value="Gladiators - 142/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Ferocity (Can attack immediately.); Hardiness (If this ally would be dealt damage, prevent 1 of it.)" />
+<property name="Rarity" value="C" />
+</card>
+<card id="73e32ab0-de9b-4fba-8835-f12051a3c903" name="Thomas Slash Robinson">
+<property name="Card Number" value="Gladiators - 143/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="4" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Mage" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Remove an ally card in your graveyard from the game > Thomas has ferocity this turn." />
+<property name="Rarity" value="C" />
+</card>
+<card id="4a464c85-ae2d-4671-819b-4dd244d2a4d8" name="Tor'gor Darkfire">
+<property name="Card Number" value="Gladiators - 144/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="4" />
+<property name="Health" value="5" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Hardiness (If this ally would be dealt damage, prevent 1 of it.); Destroy another ally in your party > Tor'gor heals all damage from himself." />
+<property name="Rarity" value="U" />
+</card>
+<card id="da889009-fad6-450b-bd51-ccce27496692" name="Vol'jin">
+<property name="Card Number" value="Gladiators - 145/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="7" />
+<property name="ATK" value="0" />
+<property name="Health" value="7" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Shadow Hunter" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Vol'jin has +X ATK, where X is the combined damage on Trolls in your party." />
+<property name="Rarity" value="E" />
+</card>
+<card id="ba934ca5-a9fc-4b73-95e6-54f12b0603d2" name="Voltrinnia">
+<property name="Card Number" value="Gladiators - 146/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="3" />
+<property name="Health" value="5" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="Paladin" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Arcane Torrent; At the start of each opponent's turn, target ally in his party loses and can't have powers this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="2ed48739-36da-48fd-b21f-e21c655e906d" name="Broll Bearmantle">
+<property name="Card Number" value="Gladiators - 147/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="0" />
+<property name="Health" value="0" />
+<property name="Faction" value="Allliance/Horde" />
+<property name="Class" value="Druid" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Broll has +1 ATK / +1 health for each Arena card in play you control." />
+<property name="Rarity" value="E" />
+</card>
+<card id="c7a76fe5-339c-42c3-8be0-93e9b5b4a775" name="Lo'Gosh">
+<property name="Card Number" value="Gladiators - 148/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="4" />
+<property name="Health" value="4" />
+<property name="Faction" value="Allliance/Horde" />
+<property name="Class" value="Warlock" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Opposing heroes and allies have -1 ATK / -1 health while in combat with Lo'Gosh for each Arena ally in your party." />
+<property name="Rarity" value="E" />
+</card>
+<card id="f9f19faf-ce52-43db-b2d0-164419c981f4" name="Rehgar Earthfury">
+<property name="Card Number" value="Gladiators - 149/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="5" />
+<property name="Faction" value="Allliance/Horde" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="[Alliance] allies in your party have +1 health.; [Horde] allies in your party have +1 ATK.; When Rehgar attacks, gain control of target ally." />
+<property name="Rarity" value="E" />
+</card>
+<card id="f9bb6bcf-136a-4116-b80a-214077e5f1c8" name="Valeera Sanguinar">
+<property name="Card Number" value="Gladiators - 150/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="3" />
+<property name="Faction" value="Allliance/Horde" />
+<property name="Class" value="Rogue" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="You may discard an Arena card rather than pay Valeera's cost." />
+<property name="Rarity" value="E" />
+</card>
+<card id="2babfc75-7461-48c7-9c73-c80635815a28" name="Krixel Pinchwhistle">
+<property name="Card Number" value="Gladiators - 151/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="4" />
+<property name="ATK" value="1" />
+<property name="Health" value="7" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="[Activate] > Ready all of your other Arena cards." />
+<property name="Rarity" value="R" />
+</card>
+<card id="f81eb93b-eef9-4b25-a188-1a944458aa36" name="Mogor">
+<property name="Card Number" value="Gladiators - 152/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="5" />
+<property name="ATK" value="5" />
+<property name="Health" value="5" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="Shaman" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When Mogor is destroyed, you may pay 3. If you do, his owner puts him from his graveyard into his party." />
+<property name="Rarity" value="R" />
+</card>
+<card id="1a049fd1-827d-4f65-9a97-f8ebd5f56177" name="Sandbox Tiger">
+<property name="Card Number" value="Gladiators - 153/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="1" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Sandbox Tiger has +1 ATK / +1 health for each Loot card in play you control." />
+<property name="Rarity" value="U" />
+</card>
+<card id="3c62f023-cdf2-4579-9de9-8841ce9d4a96" name="Short John Mithril">
+<property name="Card Number" value="Gladiators - 154/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="2" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When John enters play, search your deck for an equipment card and reveal it. If it's an Arena card, put it into hand. Otherwise, put it on top of your deck." />
+<property name="Rarity" value="R" />
+</card>
+<card id="d1b95029-4b43-46d0-9e28-031f577860ce" name="Skarr the Unbreakable">
+<property name="Card Number" value="Gladiators - 155/208" />
+<property name="Type" value="Ally" />
+<property name="Cost" value="6" />
+<property name="ATK" value="5" />
+<property name="Health" value="7" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Protector; Prevent all damage that Arena allies would deal to Skarr." />
+<property name="Rarity" value="R" />
+</card>
+<card id="256eb882-66ea-4a36-9d31-221fb0b4cd04" name="Amice of Brilliant Light">
+<property name="Card Number" value="Gladiators - 156/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="At the start of your turn, your hero heals 1 damage from itself." />
+<property name="Rarity" value="U" />
+</card>
+<card id="fa422be1-0513-44c1-b9fd-3ccbcf8720a8" name="Antonidas's Aegis of Rapt Concentration">
+<property name="Card Number" value="Gladiators - 157/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman" />    <property name="Rules" value="Your ability cards can't be interrupted.; Your abilities are untargetable." />
+<property name="Rarity" value="R" />
+</card>
+<card id="31dde7a9-59ee-4517-a371-ceee48a68c4a" name="Bloodsea Brigand's Vest">
+<property name="Card Number" value="Gladiators - 158/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="2, Destroy Bloodsea Brigand's Vest > Put the top two cards of your deck into your resource row face down and exhausted." />
+<property name="Rarity" value="U" />
+</card>
+<card id="b3b004a6-ff31-4206-aeff-0fbab2bde733" name="Cloak of the Shrouded Mists">
+<property name="Card Number" value="Gladiators - 159/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Hunter, Rogue, Warrior" />    <property name="Rules" value="[Activate] > The next time your hero would be dealt non-combat damage this turn, prevent it." />
+<property name="Rarity" value="R" />
+</card>
+<card id="c8ed4feb-c33d-44f3-bcca-9423d988d74b" name="Cowl of the Guiltless">
+<property name="Card Number" value="Gladiators - 160/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="1" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Rogue" />    <property name="Rules" value="When you play an ability, target hero or ally has stealth this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="ddf99b44-aff1-4edf-855f-e1c266e547c4" name="Cuffs of Devastation">
+<property name="Card Number" value="Gladiators - 161/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="When Cuffs of Devastation enters play, your hero deals 4 arcane damage to target opposing ally." />
+<property name="Rarity" value="U" />
+</card>
+<card id="da0529e4-03bc-4c79-aa1f-53af911ff3b7" name="Fists of Mukoa">
+<property name="Card Number" value="Gladiators - 162/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="While you have no weapons, your hero has +1 ATK while attacking." />
+<property name="Rarity" value="U" />
+</card>
+<card id="2e4bb3b4-6c23-4e4f-851d-d1c1e8a27c70" name="Gladiator's Aegis">
+<property name="Card Number" value="Gladiators - 163/208" />
+<property name="Type" value="Armor Set" />
+<property name="Cost" value="9" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin" />    <property name="Rules" value="If an ally in your party would be dealt non-fatal damage, prevent it.; [Activate] > Exhaust target hero or ally, and it can't ready during its controller's next ready step. Draw a card." />
+<property name="Rarity" value="E" />
+</card>
+<card id="94421cfb-b0ae-4d23-9dff-1a8801e7c16f" name="Merciless Gladiator's Pursiut">
+<property name="Card Number" value="Gladiators - 164/208" />
+<property name="Type" value="Armor Set" />
+<property name="Cost" value="8" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="At the start of your turn, you may put a Bear ally token into play with 4 [Melee] ATK / 4 health, Pet(1), and This ally can protect your hero.; [Activate] > Your hero deals 2 ranged damage to e" />
+<property name="Rarity" value="E" />
+</card>
+<card id="1f9a1c63-4449-4957-b113-a9627d94d73b" name="Quickstrider Moccasins">
+<property name="Card Number" value="Gladiators - 165/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="4" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Shaman" />    <property name="Rules" value="[Activate] > Ready another target card in play." />
+<property name="Rarity" value="R" />
+</card>
+<card id="6db66e05-6aaf-4148-9c91-ac5937642337" name="Slayer's Waistguard">
+<property name="Card Number" value="Gladiators - 166/208" />
+<property name="Type" value="Armor" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="You pay 3 less to strike with weapons while your hero is defending." />
+<property name="Rarity" value="U" />
+</card>
+<card id="a2937ae7-7dd4-4adc-8090-58402061be55" name="Vengeful Gladiator's Felshroud">
+<property name="Card Number" value="Gladiators - 167/208" />
+<property name="Type" value="Armor Set" />
+<property name="Cost" value="7" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Warlock" />    <property name="Rules" value="On your turn, you can play ability cards that are removed from the game.; [Activate] > Put target opposing ally into its owner's hand." />
+<property name="Rarity" value="E" />
+</card>
+<card id="98443c02-e7c0-4e62-8538-bebcd656199f" name="Band of Vile Aggression">
+<property name="Card Number" value="Gladiators - 168/208" />
+<property name="Type" value="Item" />
+<property name="Cost" value="2" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Hunter, Rogue" />    <property name="Rules" value="5, [Activate] > Destroy target resource." />
+<property name="Rarity" value="R" />
+</card>
+<card id="f6928824-ada4-42d6-8e33-b578d2182b95" name="Seal of Danzalar, The">
+<property name="Card Number" value="Gladiators - 169/208" />
+<property name="Type" value="Item" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="At the start of your turn, your hero deals shadow damage to target hero equal to the number of cards in your hand minus the number of cards in that hero's controller's hand." />
+<property name="Rarity" value="R" />
+</card>
+<card id="656585ff-fc37-4761-813a-f5a2c5a4f095" name="Talisman of the Alliance">
+<property name="Card Number" value="Gladiators - 170/208" />
+<property name="Type" value="Item" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="[Activate], Destroy Talisman of the Alliance > Destroy all abilities and equipment that have or share the lowest cost among abilities and equipment in play." />
+<property name="Rarity" value="U" />
+</card>
+<card id="86415793-539d-4343-840e-81be1aaa9a82" name="Talisman of the Horde">
+<property name="Card Number" value="Gladiators - 171/208" />
+<property name="Type" value="Item" />
+<property name="Cost" value="3" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="[Activate], Destroy Talisman of the Horde > Destroy all abilities and equipment that have or share the highest cost among abilities and equipment in play." />
+<property name="Rarity" value="U" />
+</card>
+<card id="c545dfe5-98d9-4741-a568-d3f666d4f988" name="Battle Mage's Baton">
+<property name="Card Number" value="Gladiators - 172/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="6" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Mage, Priest, Warlock" />    <property name="Rules" value="X, Exhaust your hero > Destroy target ability, ally, or equipment with cost X." />
+<property name="Rarity" value="R" />
+</card>
+<card id="a5bbc94d-e92b-49f6-973c-c10d1d544c38" name="Boggspine Knuckles">
+<property name="Card Number" value="Gladiators - 173/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="6" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue, Shaman, Warrior" />    <property name="Rules" value="Your hero has dual wield.; Boggspine Knuckles has +3 ATK while while your hero has more damage than an opposing hero." />
+<property name="Rarity" value="U" />
+</card>
+<card id="9481f327-a111-4068-bdba-ec3abbf6fe00" name="Boundless Agony">
+<property name="Card Number" value="Gladiators - 174/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="2" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue" />    <property name="Rules" value="Heroes and allies can't be healed.; Damage that would be dealt is unpreventable." />
+<property name="Rarity" value="R" />
+</card>
+<card id="4f83ff63-a014-46a2-a4fe-49cc6987907b" name="Decapitator, The">
+<property name="Card Number" value="Gladiators - 175/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="3" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman, Warrior" />    <property name="Rules" value="0 >The Decapitator has thrown this turn. (When you strike with this weapon, your hero has long-range this combat. At the end of this turn, put this weapon into its owner's hand.)" />
+<property name="Rarity" value="R" />
+</card>
+<card id="75f2f992-b017-4e45-84fc-4e383c6b45b9" name="Emerald Ripper">
+<property name="Card Number" value="Gladiators - 176/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter, Rogue" />    <property name="Rules" value="Your hero has dual wield. ; 3 > Emerald Ripper has +X ATK this turn, where X is its ATK." />
+<property name="Rarity" value="R" />
+</card>
+<card id="a0a7d781-d003-4ef1-b2f8-8462d2eeadde" name="Gladiator's Salvation">
+<property name="Card Number" value="Gladiators - 177/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="X, Exhaust your hero > Prevent the next X damage that would be dealt to target hero or ally this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="c99b2d22-6e1c-4867-a64d-2f9a4adec0b0" name="Gorehowl">
+<property name="Card Number" value="Gladiators - 178/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="10" />
+<property name="ATK" value="15" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman, Warrior" />    <property name="Rules" value="" />
+<property name="Rarity" value="E" />
+</card>
+<card id="79dfb6ae-a1e0-4825-80ae-6c830f145f79" name="King's Defender">
+<property name="Card Number" value="Gladiators - 179/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="4" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="Your hero is a protector." />
+<property name="Rarity" value="U" />
+</card>
+<card id="f7d7e244-7f0a-438b-bf7f-82404cccb7a9" name="Merciless Gladiator's Crossbow of the Phoenix">
+<property name="Card Number" value="Gladiators - 180/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="0" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Hunter" />    <property name="Rules" value="Merciless Gladiator's Crossbow of the Phoenix has +X ATK, where X is the combined ATK of your pets.; When you stike with this weapon, your hero has long-range this combat." />
+<property name="Rarity" value="R" />
+</card>
+<card id="18f0a15b-ca6c-4781-b173-3ab6e8d3de91" name="Mogor's Anointing Club">
+<property name="Card Number" value="Gladiators - 181/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Paladin, Priest, Shaman" />    <property name="Rules" value="On your turn: [Activate], Destroy an ally in your party > Put an ally card with lower cost than that ally from your graveyard into play." />
+<property name="Rarity" value="R" />
+</card>
+<card id="5e4cb33c-c1b4-47f1-b277-5a202d1b4369" name="Nethershard">
+<property name="Card Number" value="Gladiators - 182/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Druid, Mage, Priest, Shaman, Warlock" />    <property name="Rules" value="On your turn: 2, Exhaust your hero > Target opponent removes a card in his hand from the game." />
+<property name="Rarity" value="R" />
+</card>
+<card id="068d02f1-ced5-4afc-a0f3-155557a8f08e" name="Seth's Graphite Fishing Pole">
+<property name="Card Number" value="Gladiators - 183/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="6" />
+<property name="ATK" value="0" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="All" />    <property name="Rules" value="[Activate] > Put the card tenth from the top of your deck into hand." />
+<property name="Rarity" value="R" />
+</card>
+<card id="27066938-6483-4425-945b-fe6053131a6d" name="Shuriken of Negation">
+<property name="Card Number" value="Gladiators - 184/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="4" />
+<property name="ATK" value="2" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Rogue, Warrior" />    <property name="Rules" value="When Shuriken of Negation enters play, you may interrupt target ability card.; Thrown (When you stike with this weapon, your hero has long-range this combat. At the end of this turn, put this weapon into its owner's hand.)" />
+<property name="Rarity" value="R" />
+</card>
+<card id="30f3d8b8-6041-43e2-a435-2a65d2c72570" name="Tempest of Chaos">
+<property name="Card Number" value="Gladiators - 185/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="3" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Warlock" />    <property name="Rules" value="At the start of your turn, target a random opposing hero or ally. Put a chaos counter on Tempest of Chaos, and then your hero deals 1 fire damage to that character for each chaos counter." />
+<property name="Rarity" value="R" />
+</card>
+<card id="0dc7f88e-2274-41f5-abb9-61d000059b25" name="Twinblade of the Phoenix">
+<property name="Card Number" value="Gladiators - 186/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="4" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Warrior" />    <property name="Rules" value="You can play Twinblade of the Phoenix from your graveyard." />
+<property name="Rarity" value="R" />
+</card>
+<card id="4b68d30d-85f0-4ad3-80f7-ca3332c292da" name="Vengeful Gladiator's Piercing Touch">
+<property name="Card Number" value="Gladiators - 187/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="2" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="1, Remove an ability card in your graveyard from the game > Vengeful Gladiator's Piercing Touch has +1 ATK this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="2f9627d1-426b-4907-99e4-1b670261327b" name="Wand of the Forgotten Star">
+<property name="Card Number" value="Gladiators - 188/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="1" />
+<property name="ATK" value="1" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Mage, Priest, Warlock" />    <property name="Rules" value="When combat damage is dealt with Wand of the Forgotten Star to a hero, that hero's controller puts that many cards from the top of his deck into his graveyard." />
+<property name="Rarity" value="U" />
+</card>
+<card id="26adbeb2-7378-4df2-8ece-ff9e3df752ea" name="World Breaker">
+<property name="Card Number" value="Gladiators - 189/208" />
+<property name="Type" value="Weapon" />
+<property name="Cost" value="5" />
+<property name="ATK" value="4" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="Paladin, Shaman, Warrior" />    <property name="Rules" value="On your turn: 6, [Activate], Destroy World Breaker > Destroy all resources." />
+<property name="Rarity" value="R" />
+</card>
+<card id="ee5f1fa3-5849-4045-9b5e-a8b14c341663" name="Arena Grandmaster">
+<property name="Card Number" value="Gladiators - 190/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Pay 4 to complete this quest.; Reward: If an ally is in your party and the combined ATK of allies in your party is greater than the combined ATK of allies in an opponent's party, draw two cards." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a8af5980-d469-449d-a431-380c6497e63d" name="Challenge, The">
+<property name="Card Number" value="Gladiators - 191/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Pay 5 to complete this quest.; Reward: Put the top card of your deck into your resource row face down and exhausted, then draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a8e8f66a-dcb1-4302-adb7-59f388e1a0b8" name="Mark V Is Alive!">
+<property name="Card Number" value="Gladiators - 192/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="On your turn, pay 5 to complete this quest.; Reward: Put a Mechanical ally token named Mark V into play with 0 [Melee] ATK / 1 health and At the start of your turn, Mark V deals 5 melee damage to target hero or ally." />
+<property name="Rarity" value="R" />
+</card>
+<card id="4421f446-ac6f-42d2-92d9-00474a7083ff" name="Question of Gluttony, A">
+<property name="Card Number" value="Gladiators - 193/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="You pay 1 less to complete this quest for each card in your hand.; Pay 7 to complete this card.; Reward: Draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="d35dbfd3-0a12-406c-a0a9-01f8bc988ae0" name="Ring of Blood: The Blue Brothers, The">
+<property name="Card Number" value="Gladiators - 194/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this quest face up, choose an opponent, and he may put two Broken Arena ally tokens into play with 1 [Melee] ATK / 1 health.; Pay 3 to complete this quest.; Reward: Draw two cards." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a213a900-4758-4ba1-8e8a-78f88b61eef6" name="Ring of Blood: Brokentoe, The">
+<property name="Card Number" value="Gladiators - 195/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to play this face up, discard a card.; Pay 3 to complete this quest.; Reward: Draw two cards." />
+<property name="Rarity" value="C" />
+</card>
+<card id="a3ca29f2-2cd0-404e-88ee-df882da0f758" name="Ring of Blood: The Final Challenge, The">
+<property name="Card Number" value="Gladiators - 196/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this quest face up, put 2 damage on your hero.; Pay 2 to complete this quest.; Reward: Draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="2d3bec56-4e42-4e4d-a988-05df31871245" name="Ring of Blood: Rokdar the Sundered Lord, The">
+<property name="Card Number" value="Gladiators - 197/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this quest face up, remove 2 damage from an opposing hero.; Pay (2) to complete this quest.; Reward: Draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="45b22d0b-f660-46dd-aced-3e82739f40d3" name="Ring of Blood: Skra'gath, The">
+<property name="Card Number" value="Gladiators - 198/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this quest face up, choose an opponent, and he may draw a card.; Pay 5 to complete this quest.; Reward: Draw three cards." />
+<property name="Rarity" value="C" />
+</card>
+<card id="9dbca5b5-d64a-403d-afca-38c0ba7a8a02" name="Ring of Blood: The Warmaul Champion, The">
+<property name="Card Number" value="Gladiators - 199/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this quest face up, put the top three cards of your deck into your graveyard.; Pay 3 to complete this quest.; Reward: Draw a card." />
+<property name="Rarity" value="C" />
+</card>
+<card id="20cced33-0cba-40bb-86a1-534b76e04412" name="Uncatalogued Species">
+<property name="Card Number" value="Gladiators - 200/208" />
+<property name="Type" value="Quest" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Pay 1 to complete this quest.; Reward: Name a standard race, then reveal the top four cards of your deck. Put a revealed ally card of that race into hand and the rest on the bottom of your deck." />
+<property name="Rarity" value="C" />
+</card>
+<card id="e56bb726-19db-4b64-9935-b2f4c4d2f6c3" name="Gurubashi Arena">
+<property name="Card Number" value="Gladiators - 201/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="[Activate] > Target ally in your party is an Arena ally this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="0cfabf64-b028-4974-9efa-520c7a6790bb" name="Ring of Blood, The">
+<property name="Card Number" value="Gladiators - 202/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="As a cost to place this location face up, reveal an Arena card from your hand.; [Activate] > You pay 2 less to complete your next quest this turn." />
+<property name="Rarity" value="U" />
+</card>
+<card id="3fc6b69b-1a5d-4194-b16a-762b131b7918" name="Circle of Blood, The">
+<property name="Card Number" value="Gladiators - 203/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When a hero or ally in your party deals damage, add an arena counter.; [Activate], Remove three arena counters > Put an Arena Gladiator ally token into play with 1 [Melee] ATK / 1 health." />
+<property name="Rarity" value="C" />
+</card>
+<card id="656f5464-eeae-46d3-883d-6b16bbdecd16" name="Ring of Trials">
+<property name="Card Number" value="Gladiators - 204/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When a hero or ally in your party deals damage, add an arena counter.; [Activate], Remove three arena counters > Target player chooses an ally in his party, and the you choose an ally in your par" />
+<property name="Rarity" value="C" />
+</card>
+<card id="b53e3908-10ac-49e5-b116-7b3376c1f4d4" name="Ruins of Lordaeron, The">
+<property name="Card Number" value="Gladiators - 205/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Neutral" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="When a hero or ally in your party deals damage, add an arena counter.; [Activate], Remove three arena counters > Put up to three target cards from one player's graveyard on the bottom of his deck" />
+<property name="Rarity" value="C" />
+</card>
+<card id="ed9780c3-31df-480f-b3aa-b03c028f5ba8" name="Exodar, The">
+<property name="Card Number" value="Gladiators - 206/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Alliance" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Draenei Hero Required; 1, [Activate] > Draenei in your party have +1 ATK this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="57269366-812f-4981-bc69-ccea1c3f0391" name="Orgrimmar">
+<property name="Card Number" value="Gladiators - 207/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Orc Hero Required; [Activate] > Target Orc in your party has ferocity this turn." />
+<property name="Rarity" value="R" />
+</card>
+<card id="6da4d5c3-680e-48c2-b8b5-5dc4add61d62" name="Silvermoon City">
+<property name="Card Number" value="Gladiators - 208/208" />
+<property name="Type" value="Location" />
+<property name="Cost" value="" />
+<property name="ATK" value="" />
+<property name="Health" value="" />
+<property name="Faction" value="Horde" />
+<property name="Class" value="" />
+<property name="Class Restriction" value="" />    <property name="Rules" value="Blood Elf Hero Required; As Silvermoon City enters play, choose arcane, fire, frost, nature, or shadow.; [Activate] > Target Blood Elf in your party has the chosen resistance this" />
+<property name="Rarity" value="R" />
+</card>
+</cards>
+</set>

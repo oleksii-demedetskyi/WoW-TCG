@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="DeathKnight Starter Deck" id="391cce0c-8414-2c94-83d3-8e680828d692" gameId="d7e6fd4f-5252-4C4C-4A4A-a645c4d8e45f" gameVersion="1.0" version="1.1">
+  <cards>
+    <card id="1ba64cfb-b102-baac-da6f-13d7112f0782" name="Ahkara">
+      <property name="Card Number" value="13/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When Ahkara enters play, put a Ghoul ally token into play with 3 [Melee] ATK / 3 health." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="6d0f9ecb-6507-db06-6dd4-82099721a142" name="Betrayal">
+      <property name="Card Number" value="24/27" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="On your turn, destroy an ally in your party and pay 1 to complete this quest. Reward: Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="cca614d9-f1cd-8ecf-781c-39564dbeec94" name="Blood Boil">
+      <property name="Card Number" value="3/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Destroy and number of Diseases you control. Your hero deals 2 shadow damage to each opposing ally for each Disease destroyed this way." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6a25e923-ab21-61d1-ed78-eeacea87b53f" name="Blood Presence">
+      <property name="Card Number" value="4/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: If your hero would deal damage, it deals that much +1 instead. When your hero deals damage, it heals 1 damage from itself." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="97fe44e5-ba79-8ee1-21ab-7c55b721f5e9" name="Blood Strike">
+      <property name="Card Number" value="5/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Your hero deals 2 melee damage to target ally. That ally has -1 health this turn for each Disease you control." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="d73a795a-7594-d697-3ecc-d7b261eae84e" name="Brumdor Dreadforge">
+      <property name="Card Number" value="14/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="1, Destroy on of your equipment --&gt; Draw a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="8d3e75bc-64de-a1e7-853a-610e74db166c" name="Darkness Calling">
+      <property name="Card Number" value="25/27" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 3 to complete this quest. Reward: Draw two cards, then discard a card." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="915515b1-6e5b-e06d-f359-a8629659589b" name="Death Coil">
+      <property name="Card Number" value="6/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Your hero deals 3 shadow damage to target hero or ally. Ready a Ghoul in your party." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a2a8ee79-5d3a-7601-21e3-38a238d3dce8" name="Death Grip">
+      <property name="Card Number" value="7/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: Exhaust --&gt; This turn, target opposing hero or ally must attack if able and can attack only your hero if able." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="83ded1d8-5427-b733-6ed3-7e29511392de" name="Frost Presence">
+      <property name="Card Number" value="8/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: Opposing cards and effects must target your hero if able. Your hero has +10 health and is a protector." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6dc6d52a-c73f-dae4-0a87-358572abcc55" name="Ghoul">
+      <property name="Card Number" value="27/27" />
+      <property name="Type" value="Ally Token" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Rarity" value="Token" />
+    </card>
+    <card id="a1ab1786-5ea0-b114-51e9-55d40ea8aac5" name="Greathelm of the Scourge Champion">
+      <property name="Card Number" value="21/27" />
+      <property name="Type" value="Armor" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="When Greathelm of the Scourge Champion is destroyed, you may put it from its owner's graveyard into his hand at the start of the next turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="a10b1294-85ad-4d14-e789-1842640b8c7e" name="Greatsword of the Ebon Blade">
+      <property name="Card Number" value="22/27" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="5" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="When Greatsword of the Ebon Blade enters play, at the start of the next turn, destroy it unless you pay 3." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="959151fe-d8da-2caa-caed-3dcec5c2bd44" name="Grogmar Deathgore">
+      <property name="Card Number" value="17/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Grogmar has ferocity while you have a weapon." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="aa29d5d3-b571-999c-3176-ae653fea8da4" name="Hazardous Materials">
+      <property name="Card Number" value="26/27" />
+      <property name="Type" value="Quest" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Pay 3 to complete this quest. Reward: Choose one: Put a +1 ATK counter on one of your weapons; or draw a card. If your hero is a Death Knight, you may choose both." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="7a707e43-0267-95b9-b6ad-452bdb59f711" name="Icy Touch">
+      <property name="Card Number" value="9/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Attach to target hero. Ongoing: At the start of your turn, your hero deals 1 frost damage to attached hero. Allies in attached hero's party have -1 ATK." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="016d52a6-c64d-39ea-a139-3a4142c09aa9" name="Mind Freeze">
+      <property name="Card Number" value="10/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Interrupt target ability or ally card. If you do, exhaust all of its controller's resources." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="597a6b56-4b81-298d-e7bc-651a4bcbdd6e" name="Plague Strike">
+      <property name="Card Number" value="11/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Attach to target hero. Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached hero. When damage is dealt this way, target ally in attached hero's party has -1 health this turn." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="04cb844a-06a6-9c5a-9966-acd8786db18c" name="Raise Dead">
+      <property name="Card Number" value="12/27" />
+      <property name="Type" value="Ability" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="Death Knight" />    <property name="Rules" value="Ongoing: At the end of your turn, if no Ghouls are in your party, you may remove target ally card in a graveyard from the game. If you do, put a Ghoul ally token into play with 3 [Melee] ATK / 3 health." />
+      <property name="Rarity" value="R" />
+    </card>
+    <card id="79cdc016-ea38-8f4c-7729-90fd1857717d" name="Randolphe Mortimer">
+      <property name="Card Number" value="1/27" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Randolphe --&gt; Each opposing hero and ally has -1 ATK this turn for each damage on it." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="8ab582bb-a2a3-3154-8635-985935c7d3b2" name="Rantuko Grimtouch">
+      <property name="Card Number" value="18/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="Health" value="2" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When Rantuko readies, he deals 1 shadow damage to each opposing ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="d25c5e66-cdfc-614e-5864-63572b6fbc4c" name="Runed Soulblade">
+      <property name="Card Number" value="23/27" />
+      <property name="Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Faction" value="Neutral" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When Runed Soulblade enters play, you may destroy an ally in your party. If you do, your hero deals X shadow damage to target ally, where X was the ATK of that ally you destroyed." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="6d99c7e6-c937-96b4-b123-3147f97365b1" name="Saeryn Dusksorrow">
+      <property name="Card Number" value="2/27" />
+      <property name="Type" value="Hero" />
+      <property name="Health" value="29" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="3, Flip Saeryn -&gt; Put target weapon card from your graveyard into hand." />
+      <property name="Rarity" value="U" />
+    </card>
+    <card id="cd6885de-2d50-d2e7-8109-8ca8d47647f5" name="Tal'zin">
+      <property name="Card Number" value="19/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector When you strike with a weapon, you may ready Tal'zin." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="44ac0061-cb07-4837-e960-1274c5dde31b" name="Valeos Chillheart">
+      <property name="Card Number" value="15/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="4" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Protector Each ally in combat with Valeos has -1 ATK for each damage on that ally." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="72c56ef5-1954-1bc8-5a21-e41ea9e79bb6" name="Vanessa Fairgraves">
+      <property name="Card Number" value="20/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="Health" value="3" />
+      <property name="Faction" value="Horde" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="When Vanessa is destroyed, put a Ghoul ally token into play with 3 [Melee] ATK / 3 health." />
+      <property name="Rarity" value="C" />
+    </card>
+    <card id="a01cfe4f-b939-10d6-3404-f31acb6d3d61" name="Wanda Darkfizz">
+      <property name="Card Number" value="16/27" />
+      <property name="Type" value="Ally" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="Health" value="1" />
+      <property name="Faction" value="Alliance" />
+      <property name="Class" value="Death Knight" />
+      <property name="Class Restriction" value="" />    <property name="Rules" value="Wanda is elusive and untargetable while you have a weapon." />
+      <property name="Rarity" value="C" />
+    </card>
+  </cards>
+</set>
