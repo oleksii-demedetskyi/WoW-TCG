@@ -5,8 +5,9 @@ using System.Text;
 
 namespace WoWTCG
 {
-	public class Ability : Card
+	public class Hero : Card
 	{
-		public String Cost { get; internal set; }
+		public String Health { get; internal set; }
+		public String Class { get; internal set; }
 	}
 }

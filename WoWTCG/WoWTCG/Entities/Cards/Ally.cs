@@ -5,83 +5,11 @@ using System.Text;
 
 namespace WoWTCG
 {
-	public class Ally : Card, IDamageDealer, ICharacter
+	public class Ally : Card
 	{
-		private int _attack;
-		private int _health;
-		private List<Card> _attachedCards;
-		private Class _class;
-		private Race _race;
-		private AtkType _atkType;
-
-		public event EventHandler Dead;
-
-		#region IDamageDealer Members
-
-		public AtkType DamageType
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		public int Count
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		#endregion
-
-		#region ICharacter Members
-
-		public int Health
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		public int DamageCount
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		public int CurrentHealth
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		#endregion
+		public String Health { get; internal set; }
+		public String ATK { get; internal set; }
+		public String Cost { get; internal set; }
+		public String Class { get; internal set; }
 	}
 }

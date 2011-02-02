@@ -5,37 +5,10 @@ using System.Text;
 
 namespace WoWTCG
 {
-	public class Weapon : Equipment, IDamageDealer
+	public class Weapon : Equipment
 	{
-		private int _attack;
-		private int _strikeCost;
-
-		#region IDamageDealer Members
-
-		public AtkType DamageType
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		public int Count
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		#endregion
+		public String Cost { get; internal set; }
+		public String ATK { get; internal set; }
+		public String StrikeCost { get; internal set; }
 	}
 }

@@ -14,8 +14,8 @@
     <AssociationLine Name="_hero" Type="WoWTCG.Hero" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="9.125" Y="5.344" />
-        <Point X="9.125" Y="12.639" />
-        <Point X="10" Y="12.639" />
+        <Point X="9.125" Y="11.804" />
+        <Point X="10" Y="11.804" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="_graveyard" Type="WoWTCG.Graveyard" FixedFromPoint="true" FixedToPoint="true">
@@ -71,32 +71,6 @@
       <HashCode>AAAAAAAAAAAAAgAAAAAAAABAAAAAIAAAAAAACAAAEAA=</HashCode>
       <FileName>Entities\Zones\Deck.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_cards" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="WoWTCG.Card">
-    <Position X="14.75" Y="7.25" Width="1.5" />
-    <AssociationLine Name="_powers" Type="WoWTCG.Power" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="16.25" Y="9.619" />
-        <Point X="22" Y="9.619" />
-        <Point X="22" Y="8.75" />
-        <Point X="22.625" Y="8.75" />
-        <Point X="22.625" Y="9" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.891" Y="0.193" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <TypeIdentifier>
-      <HashCode>CAAAIAAABCAAAAEAAAAAAAAAAAAAAAAAAABAAABAAAA=</HashCode>
-      <FileName>Entities\Cards\Card.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_powers" />
-    </ShowAsCollectionAssociation>
-    <Lollipop Position="0.971" />
   </Class>
   <Class Name="WoWTCG.Board">
     <Position X="6.75" Y="0.5" Width="1.5" />
@@ -128,96 +102,49 @@
   </Class>
   <Class Name="WoWTCG.HandZone">
     <Position X="13" Y="4.75" Width="1.5" />
-    <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="13.75" Y="6.497" />
-        <Point X="13.75" Y="7.623" />
-        <Point X="14.75" Y="7.623" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAIBIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Zones\HandZone.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_cards" />
-    </ShowAsCollectionAssociation>
     <Lollipop Orientation="Bottom" Position="0.1" />
   </Class>
   <Class Name="WoWTCG.Graveyard">
     <Position X="16.5" Y="4.75" Width="1.5" />
-    <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="17.25" Y="6.305" />
-        <Point X="17.25" Y="7.808" />
-        <Point X="16.25" Y="7.808" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Zones\Graveyard.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_cards" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.InPlayZone">
     <Position X="14.75" Y="4.75" Width="1.5" />
-    <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedToPoint="true">
-      <Path>
-        <Point X="15.25" Y="6.305" />
-        <Point X="15.25" Y="7.25" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.12" Y="0.091" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Entities\Zones\InPlayZone.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_cards" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.RemovedFromGame">
     <Position X="18.25" Y="4.75" Width="1.5" />
-    <AssociationLine Name="_cards" Type="WoWTCG.Card" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="19" Y="5.853" />
-        <Point X="19" Y="8.738" />
-        <Point X="16.25" Y="8.738" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.11" Y="0.102" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Zones\RemovedFromGame.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_cards" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.Hero">
     <Position X="10" Y="11" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAEAAAAAIAAAAAQAAAAAAAAAACAACAAAABA=</HashCode>
-      <FileName>Entities\Cards\Equip\Hero.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Cards\Hero.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.Ally">
     <Position X="12.75" Y="11" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAEAAEAAAAAIAAAAAQgAAAAAAAAACAACAAAAFg=</HashCode>
+      <HashCode>gAAACAAAAAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Ally.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.Equipment">
     <Position X="14.75" Y="11" Width="1.5" />
@@ -229,30 +156,28 @@
   <Class Name="WoWTCG.Ability">
     <Position X="16.75" Y="11" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Ability.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.Weapon">
     <Position X="13" Y="17" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>gAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Equip\Weapon.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="WoWTCG.Armor">
     <Position X="14.75" Y="17" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Equip\Armor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WoWTCG.Item">
     <Position X="16.5" Y="17" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Cards\Equip\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -265,7 +190,7 @@
     <Lollipop Position="0.1" />
   </Class>
   <Class Name="WoWTCG.Power">
-    <Position X="22.25" Y="9" Width="1.5" />
+    <Position X="22.25" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Props\Power.cs</FileName>
@@ -292,9 +217,32 @@
   <Class Name="WoWTCG.CardFactory">
     <Position X="1.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgBAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAgBAAAAABAAAAABAIAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>CardFactory.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="WoWTCG.Card">
+    <Position X="14.75" Y="7" Width="1.5" />
+    <AssociationLine Name="_powers" Type="WoWTCG.Power" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.25" Y="8.526" />
+        <Point X="16.407" Y="8.526" Type="JumpStart" />
+        <Point X="16.573" Y="8.526" Type="JumpEnd" />
+        <Point X="22.75" Y="8.526" />
+        <Point X="22.75" Y="8.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.891" Y="0.193" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>KgAAABAABAAAAAEAAAAAAAQAAAAAQEAIQABAAABAABA=</HashCode>
+      <FileName>Entities\Cards\Card.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_powers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.971" />
   </Class>
   <Interface Name="WoWTCG.IDamageDealer">
     <Position X="20" Y="5.75" Width="1.5" />

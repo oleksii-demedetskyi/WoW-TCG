@@ -7,5 +7,6 @@ namespace WoWTCG
 {
 	public class Item : Equipment
 	{
+		public String Cost { get; internal set; }
 	}
 }
