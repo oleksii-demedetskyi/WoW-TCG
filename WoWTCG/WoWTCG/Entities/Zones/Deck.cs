@@ -9,15 +9,14 @@ namespace WoWTCG
 	{
 		private Queue<Card> _cards;
 
-		public Deck(Queue<Card> cards)
+		public Deck(IEnumerable<Card> cards)
 		{
-			_cards = cards;
+			_cards = new Queue<Card>(cards);
 		}
 
 		public void Shuffle()
 		{
-			// shuffle cards
-			throw new NotImplementedException("Need to shuffle");
+			_cards = new Queue<Card>(_cards.OrderBy(x => Guid.NewGuid()));
 		}
 
 		public HandZone GetHand()

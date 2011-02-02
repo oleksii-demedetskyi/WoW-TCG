@@ -62,7 +62,7 @@
     <Compile Include="Props\Fraction.cs" />
     <Compile Include="Entities\Zones\Graveyard.cs" />
     <Compile Include="Entities\Zones\HandZone.cs" />
-    <Compile Include="Entities\Cards\Equip\Hero.cs" />
+    <Compile Include="Entities\Cards\Hero.cs" />
     <Compile Include="Entities\Cards\IDamageDealer.cs" />
     <Compile Include="Entities\Zones\InPlayZone.cs" />
     <Compile Include="Entities\Cards\Equip\Item.cs" />
@@ -75,18 +75,70 @@
     <Compile Include="Entities\Zones\RemovedFromGame.cs" />
     <Compile Include="Entities\Cards\Token.cs" />
     <Compile Include="Entities\Cards\Equip\Weapon.cs" />
+    <Compile Include="Decks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Decks.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sets.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sets.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libriary.xml" />
+    <Content Include="libriary.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\decks.xml" />
+    <None Include="Resources\Wrathgate.xml" />
+    <None Include="Resources\WoW_Tokens.xml" />
+    <None Include="Resources\WoW_TDP.xml" />
+    <None Include="Resources\WoW_SoB.xml" />
+    <None Include="Resources\WoW_MoL.xml" />
+    <None Include="Resources\WoW_HoA.xml" />
+    <None Include="Resources\WoW_HfI.xml" />
+    <None Include="Resources\WoW_FoO.xml" />
+    <None Include="Resources\WoW_DoW.xml" />
+    <None Include="Resources\WoW_BoG.xml" />
+    <None Include="Resources\ScourgeWar.xml" />
+    <None Include="Resources\Onyxia_Treasure.xml" />
+    <None Include="Resources\Onyxia_Raid.xml" />
+    <None Include="Resources\NaxxramasTreasure.xml" />
+    <None Include="Resources\MC_Treasure.xml" />
+    <None Include="Resources\MC_Raid.xml" />
+    <None Include="Resources\Magtheridons_Lair_Raid.xml" />
+    <None Include="Resources\Magtheridons_Lair_Loot.xml" />
+    <None Include="Resources\Icecrown.xml" />
+    <None Include="Resources\Fow_Bc.xml" />
+    <None Include="Resources\FOH.xml" />
+    <None Include="Resources\DeathKnightStarter.xml" />
+    <None Include="Resources\darkmoon_faire.xml" />
+    <None Include="Resources\CR_AGM_WoLK.xml" />
+    <None Include="Resources\Blacktemple.xml" />
+    <None Include="Resources\badge_of_justice_css.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBParser\DBParser.fsproj">
       <Project>{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}</Project>
       <Name>DBParser</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Decks.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Decks.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sets.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sets.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

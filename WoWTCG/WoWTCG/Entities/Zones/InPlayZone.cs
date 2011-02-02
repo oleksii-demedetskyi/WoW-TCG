@@ -7,7 +7,7 @@ namespace WoWTCG
 {
 	public class InPlayZone : iGameZone
 	{
-		private List<Card> _cards;
+		private List<Card> _cards = new List<Card>();
 
 		#region iGameZone Members
 

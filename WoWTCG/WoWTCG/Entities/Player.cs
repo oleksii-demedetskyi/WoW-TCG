@@ -58,6 +58,7 @@ namespace WoWTCG
 
 		public void Start()
 		{
+			_deck.Shuffle();
 			_hand = _deck.GetHand();
 
 			// Mulligan
