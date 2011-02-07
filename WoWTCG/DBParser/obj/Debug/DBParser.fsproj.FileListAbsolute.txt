@@ -1,9 +1,0 @@
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\DBParser.XML
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\DBParser.dll
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\DBParser.pdb
-E:\Coding\WoW TCG\WoWTCG\DBParser\obj\Debug\ResolveAssemblyReference.cache
-E:\Coding\WoW TCG\WoWTCG\DBParser\obj\Debug\DBParser.dll
-E:\Coding\WoW TCG\WoWTCG\DBParser\obj\Debug\DBParser.pdb
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\HtmlAgilityPack.dll
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\HtmlAgilityPack.pdb
-E:\Coding\WoW TCG\WoWTCG\DBParser\bin\Debug\HtmlAgilityPack.xml
