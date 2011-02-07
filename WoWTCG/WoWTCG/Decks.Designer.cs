@@ -61,18 +61,29 @@ namespace WoWTCG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;ArrayOfProgram.FullCard xmlns=&quot;http://schemas.datacontract.org/2004/07/&quot; xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Program.FullCard&gt;&lt;ATK&gt;4&lt;/ATK&gt;&lt;ATKType&gt;Melee&lt;/ATKType&gt;&lt;Artist&gt;UDON&lt;/Artist&gt;&lt;Class&gt;Rogue&lt;/Class&gt;&lt;Cost&gt;4&lt;/Cost&gt;&lt;DEF/&gt;&lt;Faction&gt;Horde&lt;/Faction&gt;&lt;Flavor/&gt;&lt;Health&gt;3&lt;/Health&gt;&lt;ImagePath&gt;images/medium/acid_hands_mcgillicutty.jpg&lt;/ImagePath&gt;&lt;LargeImagePath/&gt;&lt;Name&gt;&quot;Acid Hands&quot; McGillicutty&lt;/Name&gt;&lt;Notes/&gt;&lt;Number&gt;172&lt;/Number&gt;&lt;Professions/&gt;&lt;Race&gt;Undead&lt;/Race&gt;&lt;Rarity&gt;C&lt;/Rarity&gt;&lt;RelatedLinks&gt;Array of [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string cards_full {
+            get {
+                return ResourceManager.GetString("cards_full", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
-        ///&lt;deck id=&quot;0001&quot;&gt;
-        ///	&lt;card name=&quot;General Lightsbane&quot; count=&quot;1&quot; /&gt;
-        ///	&lt;card name=&quot;Banshee Soulclaimer&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Crypt Fiend&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Malefic Necromancer&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Marauding Geist&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Plague Eruptor&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Ymirheim Chosen Warrior&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;Arctic Blast&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;A Hero&apos;s Burden&quot; count=&quot;4&quot; /&gt;
-        ///	&lt;card name=&quot;That&apos;s Abominable [rest of string was truncated]&quot;;.
+        ///
+        ///&lt;decks&gt;
+        ///	&lt;deck id=&quot;0001&quot;&gt;
+        ///		&lt;card name=&quot;General Lightsbane&quot; count=&quot;1&quot; /&gt;
+        ///		&lt;card name=&quot;Banshee Soulclaimer&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Crypt Fiend&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Malefic Necromancer&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Marauding Geist&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Plague Eruptor&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Ymirheim Chosen Warrior&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;Arctic Blast&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card name=&quot;A Hero&apos;s Burden&quot; count=&quot;4&quot; /&gt;
+        ///		&lt;card n [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string decks {
             get {

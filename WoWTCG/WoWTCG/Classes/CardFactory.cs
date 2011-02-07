@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using Parser;
-
+using WoWTCGDBDriver;
 namespace WoWTCG
 {
 	public class CardFactory
@@ -19,9 +18,11 @@ namespace WoWTCG
 			_libriary = ParseLib();
 		}
 
+
+
 		private IEnumerable<Card> LoadSets()
 		{
-			foreach (var item in SetParser.ParseSet(Sets.Icecrown))
+			foreach (var item in Accessor.CardsFromString(Decks.cards_full))
 			{
 				yield return Card.Create(item);
 			}

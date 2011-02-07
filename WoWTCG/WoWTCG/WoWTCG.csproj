@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WoWTCG</RootNamespace>
     <AssemblyName>WoWTCG</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -33,10 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FSharp.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\..\..\HAP\HtmlAgilityPack.dll</HintPath>
+    <Reference Include="CompleteCard">
+      <HintPath>C:\Users\DAloG\Documents\Visual Studio 2010\Projects\TCGDBGrabber\CompleteCard\bin\Release\CompleteCard.exe</HintPath>
     </Reference>
+    <Reference Include="FSharp.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,100 +46,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardFactory.cs" />
-    <Compile Include="Entities\Cards\Ability.cs" />
-    <Compile Include="Entities\Cards\Ally.cs" />
-    <Compile Include="Entities\Cards\Equip\Armor.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Entities\Cards\ICharacter.cs" />
-    <Compile Include="Entities\Zones\iGameZone.cs" />
-    <Compile Include="IExhaustble.cs" />
-    <Compile Include="Props\AtkType.cs" />
-    <Compile Include="Entities\Board.cs" />
-    <Compile Include="Entities\Cards\Card.cs" />
-    <Compile Include="Props\Class.cs" />
-    <Compile Include="Entities\Zones\Deck.cs" />
-    <Compile Include="Entities\Cards\Equip\Equipment.cs" />
-    <Compile Include="Props\Fraction.cs" />
-    <Compile Include="Entities\Zones\Graveyard.cs" />
-    <Compile Include="Entities\Zones\HandZone.cs" />
-    <Compile Include="Entities\Cards\Hero.cs" />
-    <Compile Include="Entities\Cards\IDamageDealer.cs" />
-    <Compile Include="Entities\Zones\InPlayZone.cs" />
-    <Compile Include="Entities\Cards\Equip\Item.cs" />
-    <Compile Include="Entities\Player.cs" />
-    <Compile Include="Props\Power.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\CardFactory.cs" />
+    <Compile Include="Classes\Entities\Cards\Ability.cs" />
+    <Compile Include="Classes\Entities\Cards\Ally.cs" />
+    <Compile Include="Classes\Entities\Cards\Equip\Armor.cs" />
+    <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Entities\Cards\ICharacter.cs" />
+    <Compile Include="Classes\Entities\Zones\iGameZone.cs" />
+    <Compile Include="Classes\IExhaustble.cs" />
+    <Compile Include="Classes\Props\AtkType.cs" />
+    <Compile Include="Classes\Entities\Board.cs" />
+    <Compile Include="Classes\Entities\Cards\Card.cs" />
+    <Compile Include="Classes\Props\Class.cs" />
+    <Compile Include="Classes\Entities\Zones\Deck.cs" />
+    <Compile Include="Classes\Entities\Cards\Equip\Equipment.cs" />
+    <Compile Include="Classes\Props\Fraction.cs" />
+    <Compile Include="Classes\Entities\Zones\Graveyard.cs" />
+    <Compile Include="Classes\Entities\Zones\HandZone.cs" />
+    <Compile Include="Classes\Entities\Cards\Hero.cs" />
+    <Compile Include="Classes\Entities\Cards\IDamageDealer.cs" />
+    <Compile Include="Classes\Entities\Zones\InPlayZone.cs" />
+    <Compile Include="Classes\Entities\Cards\Equip\Item.cs" />
+    <Compile Include="Classes\Entities\Player.cs" />
+    <Compile Include="Classes\Props\Power.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Entities\Cards\Quest.cs" />
-    <Compile Include="Props\Race.cs" />
-    <Compile Include="Entities\Zones\RemovedFromGame.cs" />
-    <Compile Include="Entities\Cards\Token.cs" />
-    <Compile Include="Entities\Cards\Equip\Weapon.cs" />
+    <Compile Include="Classes\Entities\Cards\Quest.cs" />
+    <Compile Include="Classes\Props\Race.cs" />
+    <Compile Include="Classes\Entities\Zones\RemovedFromGame.cs" />
+    <Compile Include="Classes\Entities\Cards\Token.cs" />
+    <Compile Include="Classes\Entities\Cards\Equip\Weapon.cs" />
     <Compile Include="Decks.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Decks.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sets.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Sets.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="app.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libriary.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="Resources\decks.xml" />
-    <None Include="Resources\Wrathgate.xml" />
-    <None Include="Resources\WoW_Tokens.xml" />
-    <None Include="Resources\WoW_TDP.xml" />
-    <None Include="Resources\WoW_SoB.xml" />
-    <None Include="Resources\WoW_MoL.xml" />
-    <None Include="Resources\WoW_HoA.xml" />
-    <None Include="Resources\WoW_HfI.xml" />
-    <None Include="Resources\WoW_FoO.xml" />
-    <None Include="Resources\WoW_DoW.xml" />
-    <None Include="Resources\WoW_BoG.xml" />
-    <None Include="Resources\ScourgeWar.xml" />
-    <None Include="Resources\Onyxia_Treasure.xml" />
-    <None Include="Resources\Onyxia_Raid.xml" />
-    <None Include="Resources\NaxxramasTreasure.xml" />
-    <None Include="Resources\MC_Treasure.xml" />
-    <None Include="Resources\MC_Raid.xml" />
-    <None Include="Resources\Magtheridons_Lair_Raid.xml" />
-    <None Include="Resources\Magtheridons_Lair_Loot.xml" />
-    <None Include="Resources\Icecrown.xml" />
-    <None Include="Resources\Fow_Bc.xml" />
-    <None Include="Resources\FOH.xml" />
-    <None Include="Resources\DeathKnightStarter.xml" />
-    <None Include="Resources\darkmoon_faire.xml" />
-    <None Include="Resources\CR_AGM_WoLK.xml" />
-    <None Include="Resources\Blacktemple.xml" />
-    <None Include="Resources\badge_of_justice_css.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DBParser\DBParser.fsproj">
-      <Project>{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}</Project>
-      <Name>DBParser</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
+    <None Include="Resources\cards_full.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Decks.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Decks.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sets.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Sets.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBDriver\DBDriver.fsproj">
+      <Project>{FD057F61-9748-40B1-BFAE-448136939BF6}</Project>
+      <Name>DBDriver</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,6 +7,6 @@ namespace WoWTCG
 {
 	public class Ability : Card
 	{
-		public String Cost { get; internal set; }
+		public String Cost { get { return _fullCard.Cost; } }
 	}
 }

@@ -7,8 +7,7 @@ namespace WoWTCG
 {
 	public class Weapon : Equipment
 	{
-		public String Cost { get; internal set; }
-		public String ATK { get; internal set; }
-		public String StrikeCost { get; internal set; }
+		public String ATK { get { return _fullCard.ATK; } }
+		public String StrikeCost { get { return _fullCard.StrikeCost; } }
 	}
 }

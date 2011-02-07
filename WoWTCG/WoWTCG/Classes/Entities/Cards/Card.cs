@@ -9,99 +9,39 @@ namespace WoWTCG
 	{
 		private List<Power> _powers;
 		private bool _exhausted;
-		private System.Xml.XmlNode _node;
+		internal global::Program.FullCard _fullCard;
 
-		public string CardNumber { get; protected set; }
-		public string Rarity { get; protected set; }
-		public string Faction { get; protected set; }
-		public string ClassRestriction { get; protected set; }
-		public string Rules { get; protected set; }
-		public string Name { get; protected set; }
+		public string CardNumber { get { return _fullCard.Number; } }
+		public string Rarity { get { return _fullCard.Rarity; } }
+		public string Faction { get { return _fullCard.Faction; } }
+		public string ClassRestriction { get { return _fullCard.RequireClass; } }
+		public string Rules { get { return _fullCard.Rules; } }
+		public string Name { get { return _fullCard.Name; } }
 
 		public Card Clone()
 		{
-			return Card.Create(_node);
+			return Card.Create(_fullCard);
 		}
 
-		public static Card Create(System.Xml.XmlNode item)
+		public static Card Create(global::Program.FullCard item)
 		{
-			Func<System.Xml.XmlNode,string,string> propValue = (node,name) => 
-				{
-					var property = node.SelectSingleNode("property[@name='" + name + "']");
-					if (property == null) return null;
-
-					return property.Attributes["value"].Value;
-				};
-
 			Card card = null;
-			switch (propValue(item,"Type"))
+			switch (item.Type)
 			{
-				case "Hero":
-					card = new Hero()
-					{
-						Health = propValue(item, "Health"),
-						Class = propValue(item, "Class")
-					};
-					break;
-
+				case "Hero": card = new Hero(); break;
 				case "Master Hero":
-				case "Ally":
-					card = new Ally()
-					{
-						Cost = propValue(item, "Cost"),
-						ATK = propValue(item, "ATK"),
-						Health = propValue(item, "Health"),
-						Class = propValue(item, "Class")
-					};
-					break;
-
+				case "Ally": card = new Ally(); break;
 				case "Location":
-				case "Quest":
-					card = new Quest();
-					break;
-
-				case "Ability":
-					card = new Ability()
-					{
-						Cost = propValue(item, "Cost")
-					};
-					break;
-
-				case "Weapon":
-					card = new Weapon() {
-						Cost = propValue(item, "Cost"),
-						ATK = propValue(item, "ATK"),
-						StrikeCost = propValue(item, "Strike Cost") // TODO
-					};
-					break;
-
-				case "Armor":
-					card = new Armor()
-					{
-						Cost = propValue(item, "Cost"),
-						DEF = propValue(item, "DEF") // TODO
-					};
-					break;
-
-				case "Item":
-					card = new Item()
-					{
-						Cost = propValue(item, "Cost")
-					};
-					break;
+				case "Quest":card = new Quest();break;
+				case "Ability": card = new Ability(); break;
+				case "Weapon": card = new Weapon();break;
+				case "Armor": card = new Armor(); break;
+				case "Item": card = new Item(); break;
 
 				default:
 					throw new ArgumentOutOfRangeException("Type","Unknown card type");
 			}
-
-			card.Name = item.Attributes["name"].Value;
-			card.CardNumber = propValue(item, "Card Number");
-			card.Rarity = propValue(item, "Rarity");
-			card.Faction = propValue(item, "Faction");
-			card.ClassRestriction = propValue(item, "Class Restriction");
-			card.Rules = propValue(item, "Rules");
-
-			card._node = item;
+			card._fullCard = item;
 			return card;
 		}
 
