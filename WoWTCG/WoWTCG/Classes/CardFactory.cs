@@ -8,7 +8,7 @@ namespace WoWTCG
 {
 	public class CardFactory
 	{
-		private Dictionary<Hero, Deck> _libriary;
+		private Dictionary<Card, Deck> _libriary;
 		private IEnumerable<Card> _cards;
 
 
@@ -28,9 +28,9 @@ namespace WoWTCG
 			}
 		}
 
-		private Dictionary<Hero, Deck> ParseLib()
+		private Dictionary<Card, Deck> ParseLib()
 		{
-			var lib = new Dictionary<Hero, Deck>();
+			var lib = new Dictionary<Card, Deck>();
 
 			var doc = new XmlDocument(); doc.LoadXml(Decks.decks);
 			var root = doc.DocumentElement;
@@ -38,8 +38,8 @@ namespace WoWTCG
 			foreach (XmlNode deckNode in root.SelectNodes("deck"))
 			{
 				var cards = ParseDeck(deckNode);
-				var hero = cards.OfType<Hero>().Single();
-				var deck = new Deck(cards.Where(x=>!x.GetType().Equals(hero.GetType())));
+				var hero = cards.Where(x => x.Type == "Hero").Single();
+				var deck = new Deck(cards.Where(x=>x.Type != "Hero"));
 
 				lib.Add(hero, deck);
 			}

@@ -8,13 +8,13 @@ namespace WoWTCG
 	public class Player
 	{
 		private Deck _deck;
-		private Hero _hero;
+		private Card _hero;
 		private Graveyard _graveyard;
 		private HandZone _hand;
 		private RemovedFromGame _rfg;
 		private InPlayZone _inPlay;
 
-		public Player(Deck deck, Hero hero)
+		public Player(Deck deck, Card hero)
 		{
 			_hero = hero;
 			_deck = deck;
@@ -24,7 +24,7 @@ namespace WoWTCG
 			_rfg = new RemovedFromGame();
 		}
 
-		public Hero Hero
+		public Card Hero
 		{
 			get
 			{

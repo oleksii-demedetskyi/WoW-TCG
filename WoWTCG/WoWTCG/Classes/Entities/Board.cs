@@ -24,9 +24,7 @@ namespace WoWTCG
 			_player2.Start();
 
 			var rand = new Random();
-			if (rand.Next() % 2 == 0) {
-				CurrentPlayer = _player1;
-			}
+			CurrentPlayer = (rand.Next() % 2 == 0) ?_player1 : _player2;
 
 			MakeTurn();
 		}
