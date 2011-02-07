@@ -80,7 +80,7 @@ namespace WoWTCG
 			_hand.Add(_deck.Draw()); // Draw step
 			
 			/* ACTION phase */
-			Act(); // play-non instant; place a resource; propose a combat;
+			//Act(); // play-non instant; place a resource; propose a combat;
 
 			/*END pahse*/
 			// TODO: Triggered events add to the chain. Player has priority

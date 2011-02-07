@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWTCG", "WoWTCG\WoWTCG.csp
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DBParser", "DBParser\DBParser.fsproj", "{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gui", "gui\gui.csproj", "{51A51D36-41C8-4086-A27A-035A1A1FAAFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FEB84C37-9DE5-461F-850F-B9CDCF6CDA0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Debug|x86.ActiveCfg = Debug|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Debug|x86.Build.0 = Debug|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Release|Any CPU.ActiveCfg = Release|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Release|x86.ActiveCfg = Release|x86
+		{51A51D36-41C8-4086-A27A-035A1A1FAAFE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

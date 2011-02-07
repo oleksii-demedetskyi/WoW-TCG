@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<decks>
+	<deck id="0001">
+		<card name="General Lightsbane" count="1" />
+		<card name="Banshee Soulclaimer" count="4" />
+		<card name="Crypt Fiend" count="4" />
+		<card name="Malefic Necromancer" count="4" />
+		<card name="Marauding Geist" count="4" />
+		<card name="Plague Eruptor" count="4" />
+		<card name="Ymirheim Chosen Warrior" count="4" />
+		<card name="Arctic Blast" count="4" />
+		<card name="A Hero's Burden" count="4" />
+		<card name="That's Abominable!" count="4" />
+		<card name="The Skybreaker" count="4" />
+	</deck> 
+</decks>
