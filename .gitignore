@@ -1,7 +1,8 @@
 
 /WoWTCG/WoWTCG/obj
 /WoWTCG/WoWTCG/bin
-/WoWTCG/DBParser/obj
-/WoWTCG/DBParser/bin
-/WoWTCG/qui/obj
+/WoWTCG/gui/obj
 /WoWTCG/gui/bin
+
+/WoWTCG/DBDriver/obj
+/WoWTCG/DBDriver/bin
